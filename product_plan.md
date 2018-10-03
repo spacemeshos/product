@@ -39,7 +39,7 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading programs state
 
 ### Use cases
-- [Available here](https://github.com/spacemeshos/go-spacemesh/wiki/MVP2)
+- [Available here](MVP2.md)
 
 ---
 
