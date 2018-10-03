@@ -4,6 +4,8 @@ Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mv
 
 Our longer-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
+---
+
 ## Spacemesh 0.1 (MVP1)
 
 The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between anyone and to award Spacemesh coins to validators who run full Spacemesh nodes on the Spacemesh mainent. The full node implements the Spacemesh consensus protocol and other protocols to support this use case.
@@ -68,8 +70,8 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 - `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
 
 ### Use cases
-- App publisher adds support for managing user state in their App
-- User can manage their app's off-chain state using the `Spacemesh Wallet`
+1. App publisher adds support for managing user state in their App
+2. User can manage their app's off-chain state using the `Spacemesh Wallet`
 
 ----
 
