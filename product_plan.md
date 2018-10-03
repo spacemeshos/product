@@ -70,6 +70,12 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 - Application and user can manage user's app state off-chain using the Spacemesh SDK and the Spacemesh Wallet
 
 ----
+
+## Open Issues for Discussion
+
+- Support for anon transactions
+
+----
 ## Resources and additional specifications
 
 - [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api)
