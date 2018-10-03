@@ -68,7 +68,8 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 - `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
 
 ### Use cases
-- Application and user can manage user's app state off-chain using the Spacemesh SDK and the Spacemesh Wallet
+- App publisher adds support for managing user state in their App
+- User can manage their app's off-chain state using the `Spacemesh Wallet`
 
 ----
 
