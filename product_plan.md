@@ -15,11 +15,11 @@ The main goal of this release is to provide a basic working version of a permiss
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - Reference implementation of the Spacemesh full node in go-lang.
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET)
 3. [Spacemesh App](https://github.com/spacemeshos/app) - Wallet and Dashboard
-4. `Spacemesh Gateway` - Foundation nodes providing the `Spacemesh API` over https-json
+4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json and
 5. [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api) - The common API provided by gateways and full nodes
-6. [Spacemesh Tap](tap.md) - get `Spacemesh Coins` on testnets
+6. [Spacemesh Tap](tap.md) - Allows users to get `Spacemesh Coins` on testnets
 
-### Use cases
+### Main use cases
 - [Available here](mvp1.md)
 
 ---
