@@ -67,6 +67,7 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 - `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
 
 ### Use cases
+- TBR
 
 ----
 ## Resources and additional specifications
