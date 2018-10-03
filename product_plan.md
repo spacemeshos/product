@@ -20,7 +20,7 @@ The main goal of this release is to provide a basic working version of a permiss
 6. [Spacemesh Tap](https://github.com/spacemeshos/go-spacemesh/wiki/tap) - get `Spacemesh Coins` on testnets
 
 ### Use cases
-- [Available here](https://github.com/spacemeshos/go-spacemesh/wiki/MVP1)
+- [Available here](mvp1.md)
 
 ---
 
