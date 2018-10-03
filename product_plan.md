@@ -17,7 +17,7 @@ The main goal of this release is to provide a basic working version of a permiss
 3. [Spacemesh App](https://github.com/spacemeshos/app) - Wallet and Dashboard
 4. `Spacemesh Gateway` - Foundation nodes providing the `Spacemesh API` over https-json
 5. [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api) - The common API provided by gateways and full nodes
-6. [Spacemesh Tap](https://github.com/spacemeshos/go-spacemesh/wiki/tap) - get `Spacemesh Coins` on testnets
+6. [Spacemesh Tap](tap.md) - get `Spacemesh Coins` on testnets
 
 ### Use cases
 - [Available here](mvp1.md)
