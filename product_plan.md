@@ -74,7 +74,7 @@ These use cases will be implemented by the `Spacemesh SDK` and the `Spacemesh br
 
 ### Use cases
 1. App publisher adds support for managing user state in their App
-2. User can manage their app's off-chain state using the `Spacemesh Wallet`
+2. User can manage their app's off-chain state using the `Spacemesh Wallet` or directly in a `Spacemesh powered app`
 
 ----
 
