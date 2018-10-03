@@ -48,8 +48,9 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 ## Release 0.3
 
 ### Main new features
-- `Payment channels` - many-to-many micro transactions support
-- The `Spacemesh SDK` - an SDK for building Spacemesh apps
+- `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
+- `Spacemesh SDK` - an SDK for building Spacemesh apps
+- 'Spacemesh browser extension' - providing the `Spacemesh API` to html5/javascript apps which run in the browser.
 
 ### Release new components
 - `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
@@ -80,7 +81,7 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 - Support for anon transactions
 
 ----
-## Resources and additional specifications
+## Additional Resources and  specifications
 
 - [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api)
 
