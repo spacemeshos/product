@@ -64,10 +64,10 @@ This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API
 
 ### Release features and components
 - `Generalized state channels` - offload app state from the blockmesh
-- `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
+- `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
 
 ### Use cases
-- TBR
+- Application and user can manage user's app state off-chain using the Spacemesh SDK and the Spacemesh Wallet
 
 ----
 ## Resources and additional specifications
