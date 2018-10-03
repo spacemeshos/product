@@ -54,7 +54,8 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 - `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
 
 ### Use cases
-1. Add `Spacemesh Coins` or token features your app.
+1. App publisher adds `Spacemesh Coins` features to its app
+2. App publisher adds token-based functionality to its app
 
 This use case will be implemented using the `Spacemesh SDK` and a 'Spacemesh API Provider' such as the `Spacemesh Browser Extension` for web apps.
 
