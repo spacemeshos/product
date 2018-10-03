@@ -6,7 +6,7 @@ Our longer-term high-level product plan is to implement, test and roll-out addit
 
 ## Spacemesh 0.1 (MVP1)
 
-The main use case case of MVP1 is to support [Spacemesh Coin]() cryptocurrency transactions between anyone and to award Spacemesh coins to validators who run full Spacemesh nodes on the Spacemesh mainent. The full node implements the Spacemesh consensus protocol and other protocols to support this use case.
+The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between anyone and to award Spacemesh coins to validators who run full Spacemesh nodes on the Spacemesh mainent. The full node implements the Spacemesh consensus protocol and other protocols to support this use case.
 
 The main goal of this release is to provide a basic working version of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake.
 
