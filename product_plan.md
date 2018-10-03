@@ -12,7 +12,7 @@ The main goal of this release is to provide a basic working version of a permiss
 
 ### Release main software components
 
-1. [Spacemesh full p2p node](https://github.com/spacemeshos/go-spacemesh)
+1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - Reference implementation of the Spacemesh full node in go-lang.
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET)
 3. [Spacemesh App](https://github.com/spacemeshos/app) - Wallet and Dashboard
 4. `Spacemesh Gateway` - Foundation nodes providing the `Spacemesh API` over https-json
