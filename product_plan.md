@@ -17,10 +17,15 @@ The main goal of this release is to provide a basic working version of a permiss
 ### Release main software components
 
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - Reference implementation of the Spacemesh full node in go-lang for all major PC OSes
+
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
+
 3. [Spacemesh App](https://github.com/spacemeshos/app) - Wallet and Dashboard
+
 4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json
+
 5. [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api) - The common API provided by gateways and full nodes
+
 6. [Spacemesh Tap](tap.md) - Allows users to get `Spacemesh Coins` on testnets for testing purposes
 
 ### Main use cases
@@ -48,15 +53,24 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 
 ## Release 0.3
 
-### Main new features
-- `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
-- `Spacemesh SDK` - an SDK for building Spacemesh apps
-- 'Spacemesh Browser Extension' - provides the `Spacemesh API` to html5/javascript apps which run in a web browser.
+### Release Highlights
+This release enables developer to build `Spacemesh Powered Apps`. Apps the interact with the Spacemesh global computer. e.g. users can execute app-related transactions and read apps related smart contracts state.
 
-### Release new components
-- `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
-- `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
-- `Spacemesh Browser Extension` - A standard browser extension enables web apps to interact with the Spacemesh computer in supporting web browsers such as Chrome, Firefox and Brave.
+In addition support for many-to-many payments and app micropayments with both `Spacemesh Coins` and tokens is added to the platform.
+
+### Main new features
+1. `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
+
+2. `Spacemesh SDK` - an SDK for building Spacemesh apps
+
+3. `Spacemesh Browser Extension` - provides the `Spacemesh API` to html5/javascript apps which run in a web browser.
+
+### Main new components
+1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
+
+2. `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
+
+3. `Spacemesh Browser Extension` - A standard browser extension enables web apps to interact with the Spacemesh computer in supporting web browsers such as Chrome, Firefox and Brave.
 
 ### Use cases
 1. App publisher adds `Spacemesh Coins` features to its web app
