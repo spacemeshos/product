@@ -85,22 +85,27 @@ In addition support for many-to-many payments and app micropayments with both `S
 
 ## Release 1.0
 
+### Release Highlights
+This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload users app state from the Spacemesh blockmesh to achieve greater scale and faster performance.
+
 ### Release features and components
-- `Generalized state channels` - offload app state from the blockmesh
-- `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
+1. `Generalized state channels` - offload app state from the blockmesh
+
+2. `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
 
 ### Use cases
-1. App publisher adds support for managing user state in their App
-2. User can manage their app's off-chain state using the `Spacemesh Wallet` or directly in a `Spacemesh powered app`
+1. App publisher adds support for managing user state in their App using the `Spacemesh SDK` and `Spacemesh Browser Extension`
+
+2. User manage their app's off-chain state directly in a `Spacemesh powered app` or using the `Spacemesh Wallet`
 
 ----
 
-## Open Issues for Discussion
+## Discussion Items
 
 - Support for anon transactions
 
 ----
-## Additional Resources and  specifications
+## Additional resources and specifications
 
 - [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api)
 
