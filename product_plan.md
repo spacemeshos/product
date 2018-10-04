@@ -1,3 +1,5 @@
+# Spacemesh Product Plan
+
 ## Overview
 
 Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and mainnets for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).
@@ -86,7 +88,7 @@ In addition support for many-to-many payments and app micropayments with both `S
 ## Release 1.0
 
 ### Release Highlights
-This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload users app state from the Spacemesh blockmesh to achieve greater scale and faster performance.
+This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload some or all of users app state from the Spacemesh blockmesh or from the cloud, to achieve greater scale and faster performance while not sacrificing security and users data privacy.
 
 ### Release features and components
 1. `Generalized state channels` - offload app state from the blockmesh
