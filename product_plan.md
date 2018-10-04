@@ -30,16 +30,15 @@ The main goal of this release is to provide a basic working version of a permiss
 
 ## Release 0.2 (MVP2)
 
-The main goal of this release is to add smart contracts capabilities to the Spacemesh platforms.
-
-The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+### Release Highlights
+The main goal of this release is to add smart contracts capabilities to the Spacemesh platforms. The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
 
 In additional to MVP1 functionality, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with smart contracts using smart contract transactions.
 
 We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
 
 ### Release features and components
-1. Spacemesh smart contracts dev tools
+1. Spacemesh smart contracts dev tools to support devs workflow
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading programs state
 
 ### Use cases
@@ -52,19 +51,21 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 ### Main new features
 - `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
 - `Spacemesh SDK` - an SDK for building Spacemesh apps
-- 'Spacemesh browser extension' - providing the `Spacemesh API` to html5/javascript apps which run in the browser.
+- 'Spacemesh Browser Extension' - provides the `Spacemesh API` to html5/javascript apps which run in a web browser.
 
 ### Release new components
 - `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
 - `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
+- `Spacemesh Browser Extension` - A standard browser extension enables web apps to interact with the Spacemesh computer in supporting web browsers such as Chrome, Firefox and Brave.
 
 ### Use cases
-1. App publisher adds `Spacemesh Coins` features to its app
-2. App publisher adds token-based functionality to its app
-3. User install the Spacemesh Browser Extension to enable Spacemesh powered apps
-4. User uses `Spacemesh powered apps` and sign transactions using the `Spacemesh browser extension`
+1. App publisher adds `Spacemesh Coins` features to its web app
 
-These use cases will be implemented by the `Spacemesh SDK` and the `Spacemesh browser extension`.
+2. App publisher adds token-based functionality to its web app
+
+3. User installs the `Spacemesh Browser Extension` to enable `Spacemesh powered apps`
+
+4. User uses `Spacemesh powered apps` and sign transactions using the `Spacemesh browser extension`
 
 ----
 
