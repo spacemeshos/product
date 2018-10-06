@@ -64,28 +64,41 @@ This release enables developer to build `Spacemesh Powered Apps`. Apps the inter
 
 In addition support for many-to-many payments and app micropayments with both `Spacemesh Coins` and tokens is added to the platform.
 
+We also introduce an improved user experience for working with dapps on any platform without having to ship a browser extension for web based dapps.
+
 ### Main new features
 1. `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
 
 2. `Spacemesh SDK` - an SDK for building Spacemesh apps
 
-3. `Spacemesh Browser Extension` - provides the `Spacemesh API` to html5/javascript apps which run in a web browser.
+3. A unified workflow for signing transactions in any dapp on any platform using a mobile native `Spacemesh Wallet App`
 
 ### New components
 1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
 
 2. `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
 
-3. `Spacemesh Browser Extension` - A standard browser extension enables web apps to interact with the Spacemesh computer in supporting web browsers such as Chrome, Firefox and Brave.
+3. `Spacemesh Wallet app` - a mobile native for Android and iOS that enables users to log-in to their wallet using the device's bio authentication capabilities and to sign transactions initiated on any dapp with the wallet
+
+4. `Spacemesh Web Service` - a web service that is used in the new transaction signing workflow
 
 ### Use cases
 1. App publisher adds `Spacemesh Coins` features to its web app
 
 2. App publisher adds token-based functionality to its web app
 
-3. User installs the `Spacemesh Browser Extension` to enable `Spacemesh powered apps`
+3. User installs the `Spacemesh Wallet App` on his mobile device and uses his device bio auth capabilities (finger thumb detection, face detection, etc...) to log into the App
 
-4. User uses `Spacemesh powered apps` and sign transactions using the `Spacemesh browser extension`
+4. User uses a `Spacemesh powered apps` on any Internet enabled platofrm and signs transactions using his `Spacemesh Wallet App`
+
+  - User provides his public wallet address to a `Spacemesh Powered App`
+  - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
+  - The `Spacemesh Web service` pushes a notification to the user's mobile wallet
+  - User recieves the notificaiton on his mobile device and taps to review it 
+  - `Spacemesh Wallet App` is opened, user signs-in to it using a bio auth method, and the app presents the transaction detils
+  - User reviews and authorizes the transaction
+  - The `Spacemesh Wallet App` sends the signed transaction to the `Spacemesh Web Service`
+  - The `Spacemesh Powered App` receives the signed transaction and executes it (onchain or offchain)
 
 ----
 
