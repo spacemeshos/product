@@ -65,23 +65,23 @@ In addition support for many-to-many payments and app micropayments with both `S
 
 2. `Spacemesh SDK` - an SDK for building Spacemesh apps
 
-3. `Spacemesh Browser Extension` - provides the `Spacemesh API` to html5/javascript apps which run in a web browser.
+3. A workflow to sign transactions in any dapp using a mobile native `Spacemesh Wallet App`
 
 ### Main new components
 1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
 
 2. `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
 
-3. `Spacemesh Browser Extension` - A standard browser extension enables web apps to interact with the Spacemesh computer in supporting web browsers such as Chrome, Firefox and Brave.
+3. `Spacemesh Wallet app` - a mobile native for Android and iOS that supports bio authentication for user sign-in and a workflow to sign transactions in dapps.
 
 ### Use cases
 1. App publisher adds `Spacemesh Coins` features to its web app
 
 2. App publisher adds token-based functionality to its web app
 
-3. User installs the `Spacemesh Browser Extension` to enable `Spacemesh powered apps`
+3. User installs the `Spacemesh Wallet App` on his mobile device and uses his device bio auth capabilities (finger thumb detection, face detection, etc...) to log into the App.
 
-4. User uses `Spacemesh powered apps` and sign transactions using the `Spacemesh browser extension`
+4. User uses a `Spacemesh powered apps` and sign transactions using his `Spacemesh Wallet App`. 
 
 ----
 
@@ -89,6 +89,8 @@ In addition support for many-to-many payments and app micropayments with both `S
 
 ### Release Highlights
 This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload some or all of users app state from the Spacemesh blockmesh or from the cloud, to achieve greater scale and faster performance while not sacrificing security and users data privacy.
+
+We'd also like to improve the user experience working with wallets and the `Spacemesh Wallet`.
 
 ### Release features and components
 1. `Generalized state channels` - offload app state from the blockmesh
