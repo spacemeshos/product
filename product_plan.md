@@ -70,7 +70,7 @@ We also introduce an improved user experience for working with dapps on any plat
 
 2. `Spacemesh SDK` - an SDK for building Spacemesh apps
 
-3. A unified workflow for signing transactions in any dapp on any platform using a mobile native `Spacemesh Wallet App`
+3. `Spacemesh Wallet App` - mobile native distribution supporting a unified workflow for signing transactions in any dapp on any platform
 
 ### New components
 1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
