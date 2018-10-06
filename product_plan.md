@@ -36,7 +36,6 @@ The main goal of this release is to provide a basic working version of a permiss
 6. [Spacemesh Tap](tap.md) - Allows users to get `Spacemesh Coins` on testnets for testing purposes
 
 
-
 ---
 
 ## Release 0.2 (MVP2)
@@ -89,7 +88,7 @@ We also introduce an improved user experience for working with dapps on any plat
 
 3. User installs the `Spacemesh Wallet App` on his mobile device and uses his device bio auth capabilities (finger thumb detection, face detection, etc...) to log into the App
 
-4. User uses a `Spacemesh powered apps` on any Internet enabled platofrm and signs transactions using his `Spacemesh Wallet App`
+4. User uses a `Spacemesh powered apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
 
   - User provides his public wallet address to a `Spacemesh Powered App`
   - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
@@ -140,4 +139,4 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 - All releases be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent
 - Once we are satisfied with the level of security and robustness of a release, we will release it to mainent
 
-As we are a developers first org and an open source projects, all product plans and specifications are in our [github repos](https://github.com/spacemeshos). So please head over to github using the links above to learn more about the use cases, the roadmap and more details product plans.
+As we are a developers first org and an open source projects, all product plans and specifications are in our [github repos](https://github.com/spacemeshos). So please head over to Github using the links above to learn more about the use cases, the roadmap and more details product plans.
