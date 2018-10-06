@@ -94,8 +94,8 @@ We also introduce an improved user experience for working with dapps on any plat
   - User provides his public wallet address to a `Spacemesh Powered App`
   - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
   - The `Spacemesh Web service` pushes a notification to the user's mobile wallet
-  - User recieves the notificaiton on his mobile device and taps to review it 
-  - `Spacemesh Wallet App` is opened, user signs-in to it using a bio auth method, and the app presents the transaction detils
+  - User receives the notification on his mobile device and taps to review it
+  - `Spacemesh Wallet App` is opened, user signs-in to it using a bio auth method, and the app presents the transaction details
   - User reviews and authorizes the transaction
   - The `Spacemesh Wallet App` sends the signed transaction to the `Spacemesh Web Service`
   - The `Spacemesh Powered App` receives the signed transaction and executes it (onchain or offchain)
