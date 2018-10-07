@@ -30,6 +30,21 @@ Our main goal is to create a simple, minimalistic, functional crypto currency po
 Transactions are signed by user in the wallet app
 1. Transfer coins between any two accounts. On-chain accounts should be created on demand on first transaction to an account.
 
+2. Simple user data transactions
+User can store binary data on the blockmesh and anyone may read it.
+
+write(key: bytes32, value: bytes)
+- Write a value in user's db
+- key is a 32 bytes binary data
+- Gas cost is based on sizeof(value)
+- Can only be called by the user
+
+delete(key)
+- Deletes a value previously written by user
+- Gas credit is based on sizeof(value)
+- Can only be called by the user
+- Exception if value is not store
+
 ## Spacemesh API methods
 1. Read canonical account on-chain meta-data (e.g. nonce) and balance
 2. Get the confirmed transactions for a layer (transactions that modified the state, not just entered the blockmesh)
@@ -39,6 +54,7 @@ Transactions are signed by user in the wallet app
 6. Get layer data based on layer number
 7. Get account ids (requires user confirmation for Spacemesh Wallet or Spacemesh Browser Extension)
 8. Get latest layer number
+9. read(userId, key) - Read a value previously written by userId for a key from the blockmesh
 
 ## Network testing highlights
 Part of the goals of the testnet is to perform various tests required to finalize the platform for a mainent release.
