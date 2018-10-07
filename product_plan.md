@@ -2,9 +2,9 @@
 
 ## Overview
 
-Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
-
 Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and mainnets for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).I
+
+Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
 Incremental product releases, starting with `Spacemesh 0.1` are deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
 
@@ -136,6 +136,4 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 
 ### Testnets & Mainnet
 - All releases be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent
-- Once we are satisfied with the level of security and robustness of a release, we will release it to mainent
-
-As we are a developers-first org and an open source project, all product plans and specifications are in our [github repos](https://github.com/spacemeshos). So please head over to Github using the links above to learn more about the use cases, the roadmap and more details product plans.
+- Once we are satisfied with the level of security and robustness of a release, we will release it to mainent.
