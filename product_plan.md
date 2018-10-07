@@ -138,4 +138,4 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 - All releases be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent
 - Once we are satisfied with the level of security and robustness of a release, we will release it to mainent
 
-As we are a developers first org and an open source projects, all product plans and specifications are in our [github repos](https://github.com/spacemeshos). So please head over to Github using the links above to learn more about the use cases, the roadmap and more details product plans.
+As we are a developers-first org and an open source project, all product plans and specifications are in our [github repos](https://github.com/spacemeshos). So please head over to Github using the links above to learn more about the use cases, the roadmap and more details product plans.
