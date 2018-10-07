@@ -35,7 +35,6 @@ The main goal of this release is to provide a basic working version of a permiss
 
 6. [Spacemesh Tap](tap.md) - Allows users to get `Spacemesh Coins` on testnets for testing purposes
 
-
 ---
 
 ## Release 0.2 (MVP2)
