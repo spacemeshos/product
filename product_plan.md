@@ -23,6 +23,7 @@ The main goal of this release is to provide a basic working version of a permiss
 ### Use cases
 - [Available here](mvp1.md)
 
+### Main Components
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for all major PC OSes
 
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
@@ -35,20 +36,25 @@ The main goal of this release is to provide a basic working version of a permiss
 
 6. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes
 
+7. `Spacemesh Wallet` - for desktop, web and mobile. This release supports basic Spacemesh Coins transactions, creation of Spacemesh user accounts and creation of coinbase accounts for validators
+
 ---
 
 ## Release 0.2 (MVP2)
 
 ### Release Highlights
-The main goal of this release is to add smart contracts capabilities to the Spacemesh platforms. The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+The main goal of this release is to add smart contracts capabilities to the Spacemesh platform. The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
 
-In additional to MVP1 functionality, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with smart contracts using smart contract transactions.
+In additional to MVP1 features and improvements to these features, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
 
 We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
 
 ### Release features and components
-1. Spacemesh smart contracts dev tools to support devs workflow
-2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading programs state
+1. Spacemesh smart contracts dev tools to support various devs workflow
+
+2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading smart contracts blockmesh state
+
+3. `Spacemesh Wallet` updates to supports interacting with smart contracts - reading smart contract state and executing smart contract transactions
 
 ### Use cases
 - [Available here](mvp2.md)
@@ -58,25 +64,23 @@ We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the mai
 ## Release 0.3
 
 ### Release Highlights
-This release enables developer to build `Spacemesh Powered Apps`. Apps the interact with the Spacemesh global computer. e.g. users can execute app-related transactions and read apps related smart contracts state.
+This release enables developer to build `Spacemesh Powered Apps` - apps the interact with the Spacemesh global computer. Users will be able to execute app-related transactions and read apps related smart contracts state.
 
-In addition support for many-to-many payments and app micropayments with both `Spacemesh Coins` and tokens is added to the platform.
+In addition, support for many-to-many payments and app micropayments with both `Spacemesh Coins` and tokens is added to the platform.
 
-We also introduce an improved user experience for working with dapps on any platform without having to ship a browser extension for web based dapps.
+The release also includes an improved user experience for working with dapps on any platform without having to ship a browser extension for web based dapps.
 
 ### Main new features
 1. `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
 
-2. `Spacemesh SDK` - an SDK for building Spacemesh apps
+2. `Spacemesh SDK` - an SDK for developers building `Spacemesh Powered Apps`
 
-3. `Spacemesh Wallet App` - mobile native distribution supporting a unified workflow for signing transactions in any dapp on any platform
-
-### New components
+### New Features
 1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
 
 2. `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
 
-3. `Spacemesh Wallet app` - a mobile native for Android and iOS that enables users to log-in to their wallet using the device's bio authentication capabilities and to sign transactions initiated on any dapp with the wallet
+3. `Spacemesh Wallet app` - App update enables users to log-in to their wallet using the device's bio authentication capabilities and to sign transactions initiated by a `Spacemesh Powered App` and on any platform with the wallet
 
 4. `Spacemesh Web Service` - a web service that is used in the new transaction signing workflow
 
@@ -85,9 +89,7 @@ We also introduce an improved user experience for working with dapps on any plat
 
 2. App publisher adds token-based functionality to its web app
 
-3. User installs the `Spacemesh Wallet App` on his mobile device and uses his device bio auth capabilities (finger thumb detection, face detection, etc...) to log into the App
-
-4. User uses a `Spacemesh powered apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
+4. User uses a `Spacemesh Powered Apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
 
   - User provides his public wallet address to a `Spacemesh Powered App`
   - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
