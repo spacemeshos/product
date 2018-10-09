@@ -2,11 +2,11 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and mainnets for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).I
+Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and a mainnet for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
-Incremental product releases, starting with `Spacemesh 0.1` are deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
+Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
 
 ---
 
