@@ -14,7 +14,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ### Release Highlights
 
-The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between anyone and to award `Spacemesh coins` to validators who run full Spacemesh nodes with their PCs on the Spacemesh mainent. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
+The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to validators who run full Spacemesh mainent nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
 
 The main goal of this release is to provide a basic working version of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
@@ -23,17 +23,17 @@ The main goal of this release is to provide a basic working version of a permiss
 ### Use cases
 - [Available here](mvp1.md)
 
-1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - Reference implementation of the Spacemesh full node in go-lang for all major PC OSes
+1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for all major PC OSes
 
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
 
-3. [Spacemesh App](https://github.com/spacemeshos/app) - Spacemesh Wallet and Network Dashboard
+3. [Spacemesh App](https://github.com/spacemeshos/app) - A desktop and mobile app which includes the Spacemesh Wallet and the Spacemesh Network Dashboard
 
-4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json
+4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json for wallets and dashboards
 
 5. [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api) - The common API provided by gateways and full nodes
 
-6. [Spacemesh Tap](tap.md) - Allows users to get `Spacemesh Coins` on testnets for testing purposes
+6. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes
 
 ---
 
