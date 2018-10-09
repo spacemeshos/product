@@ -8,6 +8,12 @@ Our long-term high-level product plan is to implement, test and roll-out additio
 
 Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
 
+## TL'DR
+
+Here's a nice chart which visually summarizes the plan: 
+
+https://docs.google.com/spreadsheets/d/1TEsFf_zu6Ksc9f0JYaWV77FlHvWLajoYtyCbZKU5UD8/edit?usp=sharing
+
 ---
 
 ## Spacemesh 0.1 (MVP1)
