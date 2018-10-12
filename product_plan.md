@@ -1,5 +1,14 @@
 # Spacemesh Product Plan
 
+## The main problems that the product is designed to solve
+1. Cryptocurrency fair global distribution
+2. The major issues involved in Proof of Work based consensus mechanisms and ASIC mining
+3. The major issues involved in Proof of Stake based consensus mechanisms
+4. Censorship from participation in a fair, global and open monetary system
+5. Lack of strong cryptocurrency programmability features
+6. Major difficulties that developers are facing in building distributed apps
+7. Usability difficulties users are facing working with distributed apps and cryptocurrencies
+
 ## Overview
 
 Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and a mainnet for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).
