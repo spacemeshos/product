@@ -2,12 +2,11 @@
 
 ## The main problems that the product is designed to solve
 1. Cryptocurrency fair global distribution
-2. The major issues involved in Proof of Work based consensus mechanisms and ASIC mining
-3. The major issues involved in Proof of Stake based consensus mechanisms
-4. Censorship from participation in a fair, global and open monetary system
-5. Lack of strong cryptocurrency programmability features
-6. Major difficulties that developers are facing in building distributed apps
-7. Usability difficulties users are facing working with distributed apps and cryptocurrencies
+2. Cryptocurrency as a global means of payment
+3. Censorship from participating in a fair, global and open monetary system
+4. Distributed apps are too hard to develop and to use by normal people
+5. Major issues involved in Proof of Work based consensus mechanisms and ASIC mining
+6. Major issues involved in Proof of Stake based consensus mechanisms
 
 ## Overview
 
