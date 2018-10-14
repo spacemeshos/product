@@ -30,7 +30,7 @@ https://docs.google.com/spreadsheets/d/1TEsFf_zu6Ksc9f0JYaWV77FlHvWLajoYtyCbZKU5
 
 The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to validators who run full Spacemesh mainent nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
 
-The main goal of this release is to provide a basic working version of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
+The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
 ### Release main software components
 
@@ -57,11 +57,13 @@ The main goal of this release is to provide a basic working version of a permiss
 ## Release 0.2 (MVP2)
 
 ### Release Highlights
-The main goal of this release is to add smart contracts capabilities to the Spacemesh platform. The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+The main goal of this release is to add `smart contracts capabilities` to the Spacemesh platform.
+
+The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
 
 In additional to MVP1 features and improvements to these features, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
 
-We'd like to build a modern wasm-based VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
+We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
 
 ### Release features and components
 1. Spacemesh smart contracts dev tools to support various devs workflow
