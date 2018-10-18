@@ -33,7 +33,7 @@ The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md)
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
 ### Visual Story
-[Story](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_0.1_story.jpg)
+![Story](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_0.1_story.jpg)
 
 ### Release main software components
 
