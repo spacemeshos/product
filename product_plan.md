@@ -86,6 +86,9 @@ In addition, support for many-to-many payments and app micropayments with both `
 
 The release also includes an improved user experience for working with dapps on any platform without having to ship a browser extension for web based dapps.
 
+### Visual Story
+![spacemesh-powered-apps](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_final_product.jpg)
+
 ### Main new features
 1. `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
 
