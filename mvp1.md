@@ -33,13 +33,13 @@ Transactions are signed by user in the wallet app
 2. Simple user data transactions
 User can store binary data on the blockmesh and anyone may read it.
 
-write(key: bytes32, value: bytes)
+`write(key: bytes32, value: bytes)`
 - Write a value in user's db
 - key is a 32 bytes binary data
 - Gas cost is based on sizeof(value)
 - Can only be called by the user
 
-delete(key)
+`delete(key)`
 - Deletes a value previously written by user
 - Gas credit is based on sizeof(value)
 - Can only be called by the user
