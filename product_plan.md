@@ -4,7 +4,7 @@
 1. Cryptocurrency fair global distribution
 2. Cryptocurrency as a global means of payment
 3. Censorship from participating in a fair, global and open monetary system
-4. Distributed apps are too hard to develop and to be used by normal people
+4. Distributed apps are too hard to develop and to be used by everyday people
 5. Issues involved in Proof of Work based consensus mechanisms, mining pools and ASIC mining
 6. Issues involved in Proof of Stake based consensus mechanisms
 
