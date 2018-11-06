@@ -18,9 +18,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ## TL'DR
 
-Here's a nice chart which visually summarizes the plan: 
-
-https://docs.google.com/spreadsheets/d/1TEsFf_zu6Ksc9f0JYaWV77FlHvWLajoYtyCbZKU5UD8/edit?usp=sharing
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/product_plan_chart.png)
 
 ---
 
