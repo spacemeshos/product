@@ -1,3 +1,12 @@
+BLS signature
+	e : G1 x G2 -> Fp12
+	Q in G2 ; fixed global parameter
+	H : {str} -> G1
+	s : secret key
+	sQ ; public key
+	s H(m) ; signature of m
+	verify ; e(sQ, H(m)) = e(Q, s H(m))
+  
 Curve name:: BLS12_381
 
 Curve: 52435875175126190479447740508185965837690552500527637822603658699938581184513
