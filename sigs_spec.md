@@ -18,7 +18,8 @@
 - 16 bytes - kept as chain code - used for key deriviation
 
 # Derived key i (for depth 0 only):
-priv-k(i) = hmac-sha512(priv-key-parent, i, chain-code, const-salt)
+- priv-k(i) = hmac-sha512(priv-key-parent, i, chain-code, const-salt)
+- We only derive private keys as public key can be derived from private
 
 # Curve params
 Curve: 52435875175126190479447740508185965837690552500527637822603658699938581184513
