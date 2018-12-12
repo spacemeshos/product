@@ -1,4 +1,5 @@
-BLS signature
+# BLS signature
+
 	e : G1 x G2 -> Fp12
 	Q in G2 ; fixed global parameter
 	H : {str} -> G1
@@ -7,11 +8,19 @@ BLS signature
 	s H(m) ; signature of m
 	verify ; e(sQ, H(m)) = e(Q, s H(m))
   
-Curve name:: BLS12_381
+- Curve name:: BLS12_381
+- Public key size: 288 bytes
+- Private key size: 48 bytes
 
-Public key size: 288 bytes
-Private key size: 48 bytes
+# Key Deriviation
+12 words mnemonic -> 128 bits random seed -> sha-512(seed) = 64 seed bytes
+- 48 bytes to to first private key
+- 16 bytes - kept as chain code - used for key deriviation
 
+# Derived key i (for depth 0 only):
+priv-k(i) = hmac-sha512(priv-key-parent, i, chain-code, const-salt)
+
+# Curbe params
 Curve: 52435875175126190479447740508185965837690552500527637822603658699938581184513
 Field: 4002409555221667393417789825735904156556882819939007885332058136124031650490837864442687629129015664037894272559787
 
