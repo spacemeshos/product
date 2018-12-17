@@ -1,3 +1,5 @@
+These are temp params for the MVP1 testnet milestone and are likely to change before mainnet.
+
 # BLS signature
 
 	e : G1 x G2 -> Fp12
