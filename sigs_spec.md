@@ -1,3 +1,5 @@
+## ARCHIVED and outdated - do not use.
+
 These are temp params for the MVP1 testnet milestone and are likely to change before mainnet.
 
 # BLS signature
