@@ -1,3 +1,5 @@
+# Spacemesh Project Roadmap
+
 ## Q4 2017
 - Go-spacemesh App scaffolding
 - Core p2p protocol
@@ -12,7 +14,7 @@
 ## Milestone 1 - `Catch a Fire` - Q2 2018
 - Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs 
 
-## Milestone 2 - `Nice & Smooth` - Q4 2018
+## Milestone 2 - `Nice & Smooth` - Q1 2019
 - Publish *White Paper 2* with full protocols specs and security proofs
 
 ## Milestone 3 - `Rings of Saturn` - Q2 2019
