@@ -21,7 +21,7 @@
 - MVP1 code-complete and testnet
 - Packaged node software for all major platforms running on testnet
 
-## Milestone 4 - `Giant Steps` - Q3 2019
+## Milestone 4 - `Giant Steps` - Q4 2019
 - MVP2 - code complete and testing on testnet
 - MVP1 mainnet launch - Spacemesh coin cryptocurrency 
 
