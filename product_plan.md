@@ -18,7 +18,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ## TL;DR
 
-![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_product_pan_chart1.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_product_plan_2019.png)
 
 ---
 
