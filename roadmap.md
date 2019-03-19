@@ -15,7 +15,7 @@
 - Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs 
 
 ## Milestone 2 - `Nice & Smooth` - Q1 2019
-- Publish *White Paper 2* with full protocols specs and security proofs
+- Publish *Light Paper 2* and the Spacemesh protoco eprint with full protocol specs and security proofs
 
 ## Milestone 3 - `Rings of Saturn` - Q2 2019
 - MVP1 code-complete and testnet
