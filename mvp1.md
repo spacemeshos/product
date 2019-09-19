@@ -6,6 +6,22 @@ MVP1 is the product and services we release as part of the Spacemesh Open Testne
 
 MVP1 only supports Spacemesh Coins transactions and does not support smart contracts yet.
 
+# Primary User Story - Desktop Computer Owner - Run a full p2p Node
+1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
+2. Run the installer to install the `Spacemesh App` on desktop
+3. Create a new wallet, awards account and setup mining in the App
+4. Leave App open running 24x7 and participate in the Spacemesh protocol
+5. Earn awards according to the protocol for honest participation and view awards in the awards account transaction log
+6. Get Spacemesh coins from the `Spacemesh Tap` (faucet)
+7. Transfer Spacemesh coins to any account by executing a coin transaction in the App
+
+# Primary User Story - Desktop Computer Owner - Transact with Spacemesh Coins
+1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
+2. Run the installer to install the `Spacemesh App` on desktop
+3. Create a new wallet with one main accounts
+4. Receive coins to the account from another account or from the tap
+5. Send Spacemesh Coins to another account
+
 # Primary User Story - Developer
 1. Build `Spacemesh full p2p node` and `Spacemesh CLI Wallet` directly from source code for Windows 10, OS X or Linux
 2. Configure network so the full node can accept incoming connections
@@ -18,25 +34,16 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 9. Transfer Spacemesh coins to any account by executing a coin transaction in the CLI wallet
 10. View on-chain Spacemesh account balances via the CLI wallet
 
-# Primary User Story - Desktop Computer Owner
-1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
-2. Run the installer to install the `Spacemesh App` on desktop
-3. Create a new wallet, awards account and setup mining in the App
-4. Leave App open running 24x7 and participate in the Spacemesh protocol
-5. Earn awards according to the protocol for honest participation and view awards in the awards account transaction log
-6. Get Spacemesh coins from the `Spacemesh Tap` (faucet)
-7. Transfer Spacemesh coins to any account by executing a coin transaction in the App
-
 # Secondary User Stories
 ## Testing Scenarios
 1. Identify a security issue or another critical issue and get bounty awards based on issue severity and impact
-2. Configure node to submit performance data to team Spacemesh so it identify critical issues and measure network latency
 
 ## Release Highlights
-- Native `Spacemesh full p2p node` packaging for Linux, Windows 10 and OS X
+- Native `Spacemesh full p2p node` for Linux, Windows 10 and OS X implementing the Spacemesh Protocol
 - Basic node config via CLI flags or a config file
 - A native `Spacemesh App` which includes a full p2p node and a wallet
-- A native App installer for Windows 10, OS X and Linux
+- A native `App installer` for Windows 10, OS X and Linux
+- A comprehensive Open Testnet user guide
 - Supporting POET and Spacemesh API Gateway web services
 - Spacemesh Coin Transactions
 - Spacemesh protocol implementation in the full p2p node
@@ -44,3 +51,4 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 - Open Testnet genesis config file network bootstrapping
 - Managed Spacemesh bootstrap full p2p nodes on the cloud
 - Spacemesh Coins Tap in a discord channel
+- Auto-updated for the Spacemesh App to automatically install app and full node updates
