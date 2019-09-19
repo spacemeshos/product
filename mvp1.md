@@ -1,15 +1,20 @@
-# Overview
-Our main goal is to create a simple, minimalistic, functional crypto currency powered by the permissionless `Spacemesh protocol` and to demonstrate the platform's security, distribution, usability and scalability properties on a public open testnet. MVP1 will not support smart contracts yet. Smart contracts is the main focus of MVP2.
+# About MVP1
+
+Our main goal is to create a simple, minimalistic, functional cryptocurrency powered by the permissionless `Spacemesh protocol` and to demonstrate the platform's security, distribution, usability and scalability properties on a public open testnet.
+
+MVP1 is the product and services we release as part of the Spacemesh Open Testnet.
+
+MVP1 only supports Spacemesh Coins transactions and does not support smart contracts yet.
 
 # Primary User Story
-1. Build `Spacemesh Node` and `Spacemesh UI` apps from source code or download a packaged release
-2. Create a new `Spacemesh HD Wallet` and a `Spacemesh user account`
+1. Build `Spacemesh full p2p node` and `Spacemesh CLI Wallet` directly from source code or download a packaged Spacemesh App installer for Windows, OS X or Linux
+2. Create a new `Spacemesh Wallet` with one main `Spacemesh Coins Account`
 3. Start a node and use its REPL to set a coin-base account and perform node POST commitment setup
 4. Run node in a console session and participate in the consensus protocol as validator
 5. Earn validators coin awards according to the protocol for honest participation
 6. Get Spacemesh coins from the `Spacemesh Tap` (faucet)
 7. Transfer Spacemesh coin to any account
-8. View onchain Spacemesh account balances
+8. View on-chain Spacemesh account balances
 
 # Secondary User Stories
 ## Testing Scenarios
