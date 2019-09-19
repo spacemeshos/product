@@ -33,29 +33,14 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 2. Configure node to submit performance data to team Spacemesh so it identify critical issues and measure network latency
 
 ## Release Highlights
-- Native `Spacemesh node` packaging for linux, Windows 10 and OS X
+- Native `Spacemesh full p2p node` packaging for Linux, Windows 10 and OS X
 - Basic node config via CLI flags or a config file
-- A barebones `Spacemesh UI App` with the `Spacemesh wallet app` and the `Spacemesh dashboard app`
-- An implementation of the Spacemesh blockmesh consensus protocol
-- POST setup phase with a GPU-optimized hashing algorithm
-- Ship POET and NIPST supporting services
-- User accounts and balances Merkle tree as the canonical state with native support for Spacemesh Coin (SMC) transactions=
-- Genesis state support for network bootstrapping
-
-## Supported Transactions
-Transactions are signed by user in the wallet app
-1. Transfer coins between any two accounts. On-chain accounts should be created on demand on first transaction to an account.
-
-## Network testing highlights
-Part of the goals of the testnet is to perform various tests required to finalize the platform for a Mainent release.
-- Setup a large-scale swarm on multiple regional cloud data centers
-- Optimize protocol params for the most desirable tradeoffs
-- Simulate various attack vectors
-- Simulate large number of user transactions
-- Validate resistance to double spending and ddos attacks
-
-## Testnet Cloud Services
-The testnet should include the following deployed services
-- Foundation bootstrap nodes
-- POET supporting web service with some redundancy
-- Discord chat channel Tap (faucet)
+- A native `Spacemesh App` which includes a full p2p node and a wallet
+- A native App installer for Windows 10, OS X and Linux
+- Supporting POET and Spacemesh API Gateway web services
+- Spacemesh Coin Transactions
+- Spacemesh protocol implementation in the full p2p node
+- Spacemesh Coins awards to full nodes awards account per the Spacemesh Protocol
+- Open Testnet genesis config file network bootstrapping
+- Managed Spacemesh bootstrap full p2p nodes on the cloud
+- Spacemesh Coins Tap in a discord channel
