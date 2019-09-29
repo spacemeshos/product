@@ -1,6 +1,6 @@
-# Coin Transfer Transactions demonstrate
+# Coin Transfer Transactions States
 
-This document details the states for the open testnet timeframe for coin transfer transactions.
+This document details the possible states of coin transfer transactions for the open testnet timeframe.
 
 |  code | Label | Label Color | Status Text | Metadata | Terminating? | Possible Next State | Notes |   
 |---	|---	|---	|---	|---	|---	|---	|---	|
