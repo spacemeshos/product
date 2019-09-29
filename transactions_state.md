@@ -1,6 +1,12 @@
 # Coin Transfer Transactions States
 
+## Overview
 This document details the possible states of coin transfer transactions for the open testnet timeframe.
+
+## Status
+WIP / Earlty Draft
+
+## Status codes - Summary Table
 
 |  code | Label | Label Color | Status Text | Metadata | Finality | Notes |   
 |---	|---	|---	|---	|---	|--- | :--- |
