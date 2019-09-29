@@ -1,26 +1,24 @@
 # Spacemesh Product Plan
 
-## The main problems that the product is designed to solve
+## The main problems that Spacemesh is designed to solve
 1. Cryptocurrency fair global distribution
 2. Cryptocurrency as a global means of payment
 3. Censorship from participating in a fair, global and open monetary system
-4. Distributed apps are too hard to develop and to use by normal people
-5. Major issues involved in Proof of Work based consensus mechanisms and ASIC mining
-6. Major issues involved in Proof of Stake based consensus mechanisms
+4. Distributed apps are too hard to develop and to be used by everyday people
+5. Issues involved in Proof of Work based consensus mechanisms, mining pools and ASIC mining
+6. Issues involved in Proof of Stake based consensus mechanisms
 
 ## Overview
 
-Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and a mainnet for this products according to the project [roadmap](https://github.com/spacemeshos/go-spacemesh/wiki/Roadmap).
+Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and a mainnet for this products according to the project [roadmap](roadmap.md).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
 Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
 
-## TL'DR
+## TL;DR
 
-Here's a nice chart which visually summarizes the plan: 
-
-https://docs.google.com/spreadsheets/d/1TEsFf_zu6Ksc9f0JYaWV77FlHvWLajoYtyCbZKU5UD8/edit?usp=sharing
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_product_plan_2019.png)
 
 ---
 
