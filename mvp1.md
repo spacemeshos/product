@@ -18,7 +18,7 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 # Primary User Story - Desktop Computer Owner - Transact with Spacemesh Coins
 1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
 2. Run the installer to install the `Spacemesh App` on desktop
-3. Create a new wallet with one main accounts
+3. Create a new wallet with one main accounts and connect to a deployed Spacemesh Gateway
 4. Receive coins to the account from another account or from the tap
 5. Send Spacemesh Coins to another account
 
