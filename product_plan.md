@@ -10,7 +10,7 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release testnets, follow up with 0.x updates and a launch a mainnet for this product according to the project [roadmap](roadmap.md).
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release testnets, follow up with `Spacemesh 0.x` updates and a launch a mainnet for this product according to the project [roadmap](roadmap.md).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
@@ -56,7 +56,6 @@ For additional information about these components read this page in the [Spaceme
 ## Spacemesh 0.x
 0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
-
 ---
 
 ## Spacemesh 1.0
@@ -64,14 +63,14 @@ For additional information about these components read this page in the [Spaceme
 ### Release Highlights
 The main goal of this release is to add `smart contracts capabilities` to the Spacemesh platform.
 
-The main new feature of Spacemesh 1.0 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+The main new feature of Spacemesh 1.0 is smart contracts support enabled by the [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm).
 
 In additional to Spacemesh 0.x features and improvements to these features, Spacemesh 1.0 will enable developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
 
-We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
+We are building modern [wasm-based](https://webassembly.org/) VM and a programming language called `SMESH` as the main smart contracts supported programming languages.
 
 ### Release features and components
-1. Spacemesh smart contracts dev tools to support various devs workflow
+1. Spacemesh smart contracts dev tools to support various devs workflow and the Smesh programming language
 
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading smart contracts blockmesh state
 
@@ -112,7 +111,7 @@ The release also includes an improved user experience for working with dapps on 
 
 2. App publisher adds token-based functionality to its web app
 
-4. User uses a `Spacemesh Powered Apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
+3. User uses a `Spacemesh Powered Apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
 
   - User provides his public wallet address to a `Spacemesh Powered App`
   - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
@@ -146,11 +145,8 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 - [Spacemesh Full Node](https://github.com/spacemeshos/go-spacemesh)
 - [Spacemesh App and Wallet](https://github.com/spacemeshos/smapp)
 - [Spacemesh POET](https://github.com/spacemeshos/poet)
+- [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm)
 - `Spacemesh SDK` - A Javascript npm library to integrate Spacemesh into any app. Uses the Spacemesh Gateway as API provider.
 - `Spacemesh Gateway` - a public https-json web service providing the Spacemesh API to any client that can speak https-json
 - `Spacemesh API Provider` - A software component providing the Spacemesh API over a well defined endpoint.
 - `Spacemesh powered apps` - An apps that allows users to use Spacemesh functionality and to sign Spacemesh transactions.
-
-### Testnets & Mainnet
-- All planned releases will be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent.
-- Once we are satisfied with the level of security and robustness of a release, we will release it to mainent.

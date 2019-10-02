@@ -1,10 +1,11 @@
 # product
 This repo contains the Spacemesh product specifications and designs.
 
-## Available guides
+## Available Resources
 
-- [Spacemesh Product Plan](https://github.com/spacemeshos/product/blob/master/product_plan.md)
-- [Spacemesh Full Node Requirements](https://github.com/spacemeshos/product/wiki/Full-Node-Requirements)
-- [Spacemesh High-level Project Plan](https://github.com/spacemeshos/product/blob/master/roadmap.md)
+- [Product Plan](https://github.com/spacemeshos/product/blob/master/product_plan.md)
+- [Full p2p Node](https://github.com/spacemeshos/go-spacemesh)
+- [Roadmap](https://github.com/spacemeshos/product/blob/master/roadmap.md)
 - [Spacemesh App (full node + wallet)](https://github.com/spacemeshos/smapp)
-- [Spacemesh Testnet Guide](https://testnet.spacemesh.io)
+- [Public Testnet Guide](https://testnet.spacemesh.io)
+- [Spacemesh Coins](spacemesh_coin.md)
