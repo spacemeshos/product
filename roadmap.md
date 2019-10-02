@@ -32,4 +32,4 @@
 ----
 
 ### Spacemesh 0.1
-- [Spec](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh01.md)
+- [Spec](https://github.com/spacemeshos/product/blob/master/spacemesh01.md)
