@@ -36,7 +36,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Release main software components
 
 ### Use cases
-- [Available here](mvp1.md)
+- [Available here](spacemesh01.md)
 
 ### Main Components
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for Windows 10, OS X and Linux.
@@ -50,6 +50,11 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 5. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes.
 
 For additional information about these components read this page in the [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
+
+---
+
+## Spacemesh 0.x
+0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
 
 ---
@@ -73,8 +78,7 @@ We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust
 3. `Spacemesh Wallet` updates to supports interacting with smart contracts - reading smart contract state and executing smart contract transactions
 
 ### Use cases
-- [Available here](mvp2.md)
-
+- Coming soon
 ---
 
 ## Spacemesh 2.0
@@ -137,13 +141,9 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 2. User manage their app's off-chain state directly in a `Spacemesh powered app` or using the `Spacemesh Wallet`
 
 ----
-
-----
 ## Additional resources and specifications
-- [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api)
 - [Spacemesh Full Node](https://github.com/spacemeshos/go-spacemesh)
-- [Spacemesh Wallet](https://github.com/spacemeshos/app/wiki/wallet)
-- [Spacemesh App](https://github.com/spacemeshos/app)
+- [Spacemesh App and Wallet](https://github.com/spacemeshos/smapp)
 - [Spacemesh POET](https://github.com/spacemeshos/poet)
 - `Spacemesh SDK` - A Javascript npm library to integrate Spacemesh into any app. Uses the Spacemesh Gateway as API provider.
 - `Spacemesh Gateway` - a public https-json web service providing the Spacemesh API to any client that can speak https-json
@@ -151,5 +151,5 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 - `Spacemesh powered apps` - An apps that allows users to use Spacemesh functionality and to sign Spacemesh transactions.
 
 ### Testnets & Mainnet
-- All releases be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent
+- All planned releases will be deployed to testnets for testing, bug fixing and audits purposes before going live on the Spacemesh mainent.
 - Once we are satisfied with the level of security and robustness of a release, we will release it to mainent.
