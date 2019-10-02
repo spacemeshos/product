@@ -1,22 +1,22 @@
 # Spacemesh Project Roadmap
 
 ## Q4 2017
-- [+] Go-spacemesh App scaffolding
-- [+] Core p2p protocol
-- [+] Core data structures
-- [+] Initial project specs
-- [+] Support for accounts
-- [+] Node gRPC and Cloud API for Gateway
+- [x] Go-spacemesh App scaffolding
+- [x] Core p2p protocol
+- [x] Core data structures
+- [x] Initial project specs
+- [x] Support for accounts
+- [x] Node gRPC and Cloud API for Gateway
 
 ## Q1 2018
-- [+] Core p2p and node capabilities
+- [x] Core p2p and node capabilities
 
 ## Milestone 1 - `Catch a Fire` - Q2 2018
-- [+] Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs
+- [x] Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs
 
 ## Milestone 2 - `Nice & Smooth` - Q3 2019
-- [+] Publish [Spacemesh Protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/)
-- [+] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local)
+- [x] Publish [Spacemesh Protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/)
+- [x] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local)
 
 ## Milestone 4 - `Rings of Saturn` - Q4 2019
 - [ ] Open Testnet with the Spacemesh 0.1 product for all major platforms
