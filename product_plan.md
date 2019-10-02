@@ -43,7 +43,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
 
-3. [Spacemesh App](https://github.com/spacemeshos/app) - A desktop and mobile app which includes the Spacemesh Wallet and the Spacemesh Network Dashboard
+3. [Spacemesh App](https://github.com/spacemeshos/smapp) - A desktop and mobile app which includes the Spacemesh Wallet and the Spacemesh Network Dashboard
 
 4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json for wallets and dashboards
 
