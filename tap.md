@@ -1,9 +1,9 @@
 # testnet-tap
 
-A Spacemesh Coins tap for open testnet users
+A [Spacemesh Coins](spacemesh_coin.md) tap for open testnet users
 
 ## overview
-A Discord bot and a public API providing a way for nodes to obtain `Spacemesh Coins` on the `Spacemesh testnet`.
+A Discord bot and a public API providing a way for nodes to obtain `Spacemesh Coins` on the `Spacemesh testnet`
 
 ## Basic Use Case
 1. Receive a Spacemesh account public address from a user in a Discord channel
@@ -15,4 +15,4 @@ A Discord bot and a public API providing a way for nodes to obtain `Spacemesh Co
 
 ## Design Notes
 - A similar gitter-channel based implementation is working here for the Kovan testnet: https://gitter.im/kovan-testnet/faucet
-- Implement logic to only execute a request every 7 seconds (tap frequency) and a queue to queue up all verified client requests. Log to server logs each executed tap request. Do not issue coins to the same address more than once every 24 hours.
+- Implement logic to only execute a request every 7 seconds (tap frequency) and a queue to queue up all verified client requests. Log to server logs each executed tap request. Do not issue coins to the same address more than once every 24 hours
