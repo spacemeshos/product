@@ -142,6 +142,7 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 
 ----
 ## Additional resources and specifications
+
 - [Spacemesh Full Node](https://github.com/spacemeshos/go-spacemesh)
 - [Spacemesh App and Wallet](https://github.com/spacemeshos/smapp)
 - [Spacemesh POET](https://github.com/spacemeshos/poet)
