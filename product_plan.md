@@ -10,7 +10,7 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [MVP1](mvp1.md) and to release testnets and a mainnet for this products according to the project [roadmap](roadmap.md).
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release testnets, follow up with 0.x updates and a launch a mainnet for this product according to the project [roadmap](roadmap.md).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
@@ -22,7 +22,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ---
 
-## Spacemesh 0.1 (MVP1)
+## Spacemesh 0.1
 
 ### Release Highlights
 
@@ -54,14 +54,14 @@ For additional information about these components read this page in the [Spaceme
 
 ---
 
-## Release 0.2 (MVP2)
+## Spacemesh 1.0
 
 ### Release Highlights
 The main goal of this release is to add `smart contracts capabilities` to the Spacemesh platform.
 
-The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+The main new feature of Spacemesh 1.0 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
 
-In additional to MVP1 features and improvements to these features, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
+In additional to Spacemesh 0.x features and improvements to these features, Spacemesh 1.0 will enable developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
 
 We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
 
@@ -77,7 +77,7 @@ We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust
 
 ---
 
-## Release 0.3
+## Spacemesh 2.0
 
 ### Release Highlights
 This release enables developer to build `Spacemesh Powered Apps` - apps the interact with the Spacemesh global computer. Users will be able to execute app-related transactions and read apps related smart contracts state.
@@ -121,7 +121,7 @@ The release also includes an improved user experience for working with dapps on 
 
 ----
 
-## Release 1.0
+## Spacemesh 3.0
 
 ### Release Highlights
 This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload some or all of users app state from the Spacemesh blockmesh or from the cloud, to achieve greater scale and faster performance while not sacrificing security and users data privacy.
@@ -137,10 +137,6 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 2. User manage their app's off-chain state directly in a `Spacemesh powered app` or using the `Spacemesh Wallet`
 
 ----
-
-## Discussion Items
-
-- Support for anon transactions
 
 ----
 ## Additional resources and specifications

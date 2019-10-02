@@ -1,4 +1,4 @@
-# Spacemesh Coin Units (Testnet timeframe)
+# Spacemesh Coin Units (Spacemesh 0.x - Testnet timeframe)
 
 ## Basic Units
 - `Spacemesh Cent(LERNER)` - the basic unit of accounting for the native coin. Used mostly by developers in the code.

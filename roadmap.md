@@ -1,41 +1,35 @@
 # Spacemesh Project Roadmap
 
 ## Q4 2017
-- Go-spacemesh App scaffolding
-- Core p2p protocol
-- Core data structures
-- Initial project specs
-- Support for accounts
-- Node gRPC and json-httop API
+- [+] Go-spacemesh App scaffolding
+- [+] Core p2p protocol
+- [+] Core data structures
+- [+] Initial project specs
+- [+] Support for accounts
+- [+] Node gRPC and Cloud API for Gateway
 
 ## Q1 2018
-- Core p2p and node capabilities
+- [+] Core p2p and node capabilities
 
 ## Milestone 1 - `Catch a Fire` - Q2 2018
-- Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs 
+- [+] Published [White Paper 1](https://spacemesh.io/whitepaper1/) with initial protocols tech specs
 
-## Milestone 2 - `Nice & Smooth` - Q1 2019
-- Publish *Light Paper 2* and the Spacemesh protoco eprint with full protocol specs and security proofs
+## Milestone 2 - `Nice & Smooth` - Q3 2019
+- [+] Publish [Spacemesh Protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/)
+- [+] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local)
 
-## Milestone 3 - `Rings of Saturn` - Q2 2019
-- MVP1 code-complete and testnet
-- Packaged node software for all major platforms running on testnet
+## Milestone 4 - `Rings of Saturn` - Q4 2019
+- [ ] Open Testnet with the Spacemesh 0.1 product for all major platforms
 
-## Milestone 4 - `Giant Steps` - Q4 2019
-- MVP2 - code complete and testing on testnet
-- MVP1 mainnet launch - Spacemesh coin cryptocurrency 
+## Milestone 5 - `????` - 2020
+- [ ] Spacemesh 0.x - major updates for Testnet with smart contracts infrastructure and improvements to other features over a period of 10 months
 
-## Milestone 5 - `The Immortal` - Q4 2019
-- MVP2 mainnet deployment
-- Integrated state channels, private transactions, and programability dev focus
+## Milestone 6 - `The Immortal` - Q3/Q4 2020
+- [ ] Spacemesh 0.x Mainnet launch
 
-*Caveat*: we are only going to launch a mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
+*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
 ----
 
-### MVP1
-- [Spec](https://github.com/spacemeshos/go-spacemesh/wiki/MVP1)
-
-### MVP2
-- [Spec](https://github.com/spacemeshos/go-spacemesh/wiki/MVP2)
-                                                                                                                               
+### Spacemesh 0.1
+- [Spec](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh01.md)
