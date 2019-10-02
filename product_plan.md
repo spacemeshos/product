@@ -10,11 +10,11 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [MVP1](mvp1.md) and [MVP2](mvp2.md) and release testnets and a mainnet for this products according to the project [roadmap](roadmap.md).
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release testnets, follow up with 0.x updates and a launch a mainnet for this product according to the project [roadmap](roadmap.md).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
-Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status.
+Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status and have been security audited.
 
 ## TL;DR
 
@@ -22,11 +22,11 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ---
 
-## Spacemesh 0.1 (MVP1)
+## Spacemesh 0.1
 
 ### Release Highlights
 
-The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to validators who run full Spacemesh mainent nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
+The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
 
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
@@ -39,30 +39,29 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [Available here](mvp1.md)
 
 ### Main Components
-1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for all major PC OSes
+1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for Windows 10, OS X and Linux.
 
 2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
 
-3. [Spacemesh App](https://github.com/spacemeshos/smapp) - A desktop and mobile app which includes the Spacemesh Wallet and the Spacemesh Network Dashboard
+3. [Spacemesh App](https://github.com/spacemeshos/smapp) - A desktop app for Windows 10, OS X and Linux which includes a Wallet, a managed full p2p node and mining.
 
-4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` over https-json for wallets and dashboards
+4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions.
 
-5. [Spacemesh API](https://github.com/spacemeshos/go-spacemesh/wiki/spacemesh-api) - The common API provided by gateways and full nodes
+5. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes.
 
-6. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes
+For additional information about these components read this page in the [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
 
-7. `Spacemesh Wallet` - for desktop, web and mobile. This release supports basic Spacemesh Coins transactions, creation of Spacemesh user accounts and creation of coinbase accounts for validators
 
 ---
 
-## Release 0.2 (MVP2)
+## Spacemesh 1.0
 
 ### Release Highlights
 The main goal of this release is to add `smart contracts capabilities` to the Spacemesh platform.
 
-The main new feature of MVP2 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
+The main new feature of Spacemesh 1.0 is [smart contracts](https://github.com/spacemeshos/go-spacemesh/wiki/Smart-Contracts) support.
 
-In additional to MVP1 features and improvements to these features, MVP2 enables developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
+In additional to Spacemesh 0.x features and improvements to these features, Spacemesh 1.0 will enable developers to code, test, deploy and update smart contracts on the Spacemesh global computer and for users to interact with deployed smart contracts using smart contract transactions.
 
 We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust` or `Typescript` as the main smart contracts supported programming languages.
 
@@ -78,7 +77,7 @@ We'd like to build a modern [wasm-based](https://webassembly.org/) VM with `Rust
 
 ---
 
-## Release 0.3
+## Spacemesh 2.0
 
 ### Release Highlights
 This release enables developer to build `Spacemesh Powered Apps` - apps the interact with the Spacemesh global computer. Users will be able to execute app-related transactions and read apps related smart contracts state.
@@ -122,7 +121,7 @@ The release also includes an improved user experience for working with dapps on 
 
 ----
 
-## Release 1.0
+## Spacemesh 3.0
 
 ### Release Highlights
 This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload some or all of users app state from the Spacemesh blockmesh or from the cloud, to achieve greater scale and faster performance while not sacrificing security and users data privacy.
@@ -138,10 +137,6 @@ This 1.0 release extends the payment channels capabilities to generalized state 
 2. User manage their app's off-chain state directly in a `Spacemesh powered app` or using the `Spacemesh Wallet`
 
 ----
-
-## Discussion Items
-
-- Support for anon transactions
 
 ----
 ## Additional resources and specifications

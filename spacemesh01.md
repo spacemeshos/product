@@ -1,10 +1,10 @@
-# About MVP1
+# About Spacemesh 0.1
 
 Our main goal is to create a simple, minimalistic, functional cryptocurrency powered by the permissionless `Spacemesh protocol` and to demonstrate the platform's security, distribution, usability and scalability properties on a public open testnet.
 
-MVP1 is the product and services we release as part of the Spacemesh Open Testnet.
+Spacemesh 0.1 is the product and support services we are releasing as part of the first release of the Spacemesh Open Testnet.
 
-MVP1 only supports Spacemesh Coins transactions and does not support smart contracts yet.
+Spacemesh 0.1 only supports Spacemesh Coins transactions and does not support smart contracts transactions.
 
 # Primary User Story - Desktop Computer Owner - Run a full p2p Node
 1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
@@ -18,7 +18,7 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 # Primary User Story - Desktop Computer Owner - Transact with Spacemesh Coins
 1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
 2. Run the installer to install the `Spacemesh App` on desktop
-3. Create a new wallet with one main accounts
+3. Create a new wallet with one main accounts and connect to a deployed Spacemesh Gateway
 4. Receive coins to the account from another account or from the tap
 5. Send Spacemesh Coins to another account
 
@@ -41,9 +41,9 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 ## Release Highlights
 - Native `Spacemesh full p2p node` for Linux, Windows 10 and OS X implementing the Spacemesh Protocol
 - Basic node config via CLI flags or a config file
-- A native `Spacemesh App` which includes a full p2p node and a wallet
-- A native `App installer` for Windows 10, OS X and Linux
-- A comprehensive Open Testnet user guide
+- A native `Spacemesh App` which includes a full p2p node and a wallet for Windows 10, OS X and Linux
+- A native `App installer` for installing the Spacemesh App
+- A comprehensive Open Testnet user guide. See [Testnet Guide](https://testnet.spacemesh.io)
 - Supporting POET and Spacemesh API Gateway web services
 - Spacemesh Coin Transactions
 - Spacemesh protocol implementation in the full p2p node
@@ -51,4 +51,4 @@ MVP1 only supports Spacemesh Coins transactions and does not support smart contr
 - Open Testnet genesis config file network bootstrapping
 - Managed Spacemesh bootstrap full p2p nodes on the cloud
 - Spacemesh Coins Tap in a discord channel
-- Auto-updated for the Spacemesh App to automatically install app and full node updates
+- Spacemesh auto-updated feature to automatically install app and full node updates
