@@ -26,7 +26,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ### Release Highlights
 
-The main use case case of MVP1 is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
+The main use case case of `Spacemesh 0.1` is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
 
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
@@ -48,6 +48,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions.
 
 5. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes.
+
+6. [Spacemesh POST](https://github.com/spacemeshos/post) - Implement the proofs of space protocol used by Spacemesh.
 
 For additional information about these components read this page in the [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
 
@@ -79,74 +81,3 @@ We are building modern [wasm-based](https://webassembly.org/) VM and a programmi
 ### Use cases
 - Coming soon
 ---
-
-## Spacemesh 2.0
-
-### Release Highlights
-This release enables developer to build `Spacemesh Powered Apps` - apps the interact with the Spacemesh global computer. Users will be able to execute app-related transactions and read apps related smart contracts state.
-
-In addition, support for many-to-many payments and app micropayments with both `Spacemesh Coins` and tokens is added to the platform.
-
-The release also includes an improved user experience for working with dapps on any platform without having to ship a browser extension for web based dapps.
-
-### Visual Story
-![spacemesh-powered-apps](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_final_product.jpg)
-
-### Main new features
-1. `Payment channels` - user-to-user, app-to-user and user-to-app `Spacemesh Coins` and tokens transactions support
-
-2. `Spacemesh SDK` - an SDK for developers building `Spacemesh Powered Apps`
-
-### New Features
-1. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support payment channels
-
-2. `Spacemesh SDK` - A Javascript npm library for node.js server apps and client-side web apps
-
-3. `Spacemesh Wallet app` - App update enables users to log-in to their wallet using the device's bio authentication capabilities and to sign transactions initiated by a `Spacemesh Powered App` and on any platform with the wallet
-
-4. `Spacemesh Web Service` - a web service that is used in the new transaction signing workflow
-
-### Use cases
-1. App publisher adds `Spacemesh Coins` features to its web app
-
-2. App publisher adds token-based functionality to its web app
-
-3. User uses a `Spacemesh Powered Apps` on any Internet enabled platform and signs transactions using his `Spacemesh Wallet App`
-
-  - User provides his public wallet address to a `Spacemesh Powered App`
-  - To preform a transaction (offchain or onchain), the app sends a transaction meta-data to a web service
-  - The `Spacemesh Web service` pushes a notification to the user's mobile wallet
-  - User receives the notification on his mobile device and taps to review it
-  - `Spacemesh Wallet App` is opened, user signs-in to it using a bio auth method, and the app presents the transaction details
-  - User reviews and authorizes the transaction
-  - The `Spacemesh Wallet App` sends the signed transaction to the `Spacemesh Web Service`
-  - The `Spacemesh Powered App` receives the signed transaction and executes it (onchain or offchain)
-
-----
-
-## Spacemesh 3.0
-
-### Release Highlights
-This 1.0 release extends the payment channels capabilities to generalized state channels. This enables apps to offload some or all of users app state from the Spacemesh blockmesh or from the cloud, to achieve greater scale and faster performance while not sacrificing security and users data privacy.
-
-### Release features and components
-1. `Generalized state channels` - offload app state from the blockmesh
-
-2. `Spacemesh full node`, `Spacemesh API`, `Spacemesh Wallet` and `Spacemesh Gateway`, `Spacemesh SDK` updates to support state channels
-
-### Use cases
-1. App publisher adds support for managing user state in their App using the `Spacemesh SDK`
-
-2. User manage their app's off-chain state directly in a `Spacemesh powered app` or using the `Spacemesh Wallet`
-
-----
-## Additional resources and specifications
-
-- [Spacemesh Full Node](https://github.com/spacemeshos/go-spacemesh)
-- [Spacemesh App and Wallet](https://github.com/spacemeshos/smapp)
-- [Spacemesh POET](https://github.com/spacemeshos/poet)
-- [Spacemesh Virtual Machine](https://github.com/spacemeshos/svm)
-- `Spacemesh SDK` - A Javascript npm library to integrate Spacemesh into any app. Uses the Spacemesh Gateway as API provider.
-- `Spacemesh Gateway` - a public https-json web service providing the Spacemesh API to any client that can speak https-json
-- `Spacemesh API Provider` - A software component providing the Spacemesh API over a well defined endpoint.
-- `Spacemesh powered apps` - An apps that allows users to use Spacemesh functionality and to sign Spacemesh transactions.
