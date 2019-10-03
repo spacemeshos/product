@@ -19,7 +19,7 @@
 - [x] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local)
 
 ## Milestone 4 - `Rings of Saturn` - Q4 2019
-- [ ] Open Testnet with the Spacemesh 0.1 product for all major platforms
+- [ ] Open Testnet with the [Spacemesh 0.1 product]() for all major platforms
 
 ## Milestone 5 - `????` - 2020
 - [ ] Spacemesh 0.x - major updates for Testnet with smart contracts infrastructure and improvements to other features over a period of 10 months
@@ -27,7 +27,7 @@
 ## Milestone 6 - `The Immortal` - Q3/Q4 2020
 - [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.x release as the Spacemesh mainnet
 
-*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
+*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation
 
 ----
 
