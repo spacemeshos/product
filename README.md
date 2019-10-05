@@ -1,3 +1,8 @@
+<h1 align="center">
+  <a href="https://spacemesh.io"><img width="400" src="https://spacemesh.io/content/images/2019/05/black_logo_hp.png" alt="Spacemesh logo" /></a>
+  <p align="center">A programmable Cryptocurrency</p>
+</h1>
+
 # product
 This repo contains the Spacemesh product specifications and designs.
 
