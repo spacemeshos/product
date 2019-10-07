@@ -23,6 +23,9 @@
 
 ## Milestone 5 - Spacemesh 0.x Testnet Updates - 2020
 - [ ] Spacemesh 0.x - major updates for Testnet with smart contracts infrastructure and improvements to other features over a period of 10 months
+- [ ] Launch Explorer, Dashboard and Tap
+- [ ] Support wallet-only mode
+- [ ] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App
 
 ## Milestone 6 - Spacemesh 0.x Mainent - Q3/Q4 2020
 - [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.x release as the Spacemesh mainnet
