@@ -8,7 +8,7 @@
 ## Additional Units
 - `Killocent` (KCent)(Gavrad)`. 1 Killocent equals to 10^3 Spacemesh cents
 - `Megacent` (MCent)(Yosher)`. 1 Megacent equals to 10^6 Spacemesh cents
-- `Gigacent` (GCent)(Amog)`. 1 Gigacent equals to 10^9 Spacemesh cents
+- `Gigacent` (GCent)(Almog)`. 1 Gigacent equals to 10^9 Spacemesh cents
 
 ## Rational
 - We'd like to keep the units simple and to a minimum
