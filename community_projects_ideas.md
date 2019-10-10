@@ -1,4 +1,4 @@
-# Community project Ideas
+# Community projects Ideas
 
 ## Bitly-style short codes for users public key exchange
 
