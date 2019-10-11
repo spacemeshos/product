@@ -1,13 +1,14 @@
 # Spacemesh Coin Units (Spacemesh 0.x - Testnet timeframe)
 
 ## Basic Units
-- `Spacemesh Cent(LERNER)` - the basic unit of accounting for the native coin. Used mostly by developers in the code.
-- `Spacemesh Coin (SMC)`. 1 Spacemesh Coin equals 10^18 Spacemesh cents. Used for validation awards and as the name of the native coin of the Spacemesh Testnet.
+- `Spacemesh Coin` (SMC / Shmekel). One Spacemesh Coin equals to 10^18 Spacemesh cents. Used for validation awards and as the name of the native coin of the Spacemesh Testnet.
+- `Spacemesh Silver` (SMS). 1,000 Spacemesh Silvers equal to one Spacemesh Coin.
+- `Spacemesh Cent` (Lerner). The basic unit of accounting for the native coin. Used mostly by developers in the code.
 
 ## Additional Units
-- `Killocents (KCents)(GAVRAD)`. 1 Killocents equals to 10^3 Spacemesh cents
-- `Megacents (MCents)(YOSHER)`. 1 Megacents equals to 10^6 Spacemesh cents
-- `Gigacents (GCents)(ALMOG)`. 1 Gigacents equals to 10^9 Spacemesh cents
+- `Killocent` (KCent)(Gavrad)`. 1 Killocent equals to 10^3 Spacemesh cents
+- `Megacent` (MCent)(Yosher)`. 1 Megacent equals to 10^6 Spacemesh cents
+- `Gigacent` (GCent)(Almog)`. 1 Gigacent equals to 10^9 Spacemesh cents
 
 ## Rational
 - We'd like to keep the units simple and to a minimum

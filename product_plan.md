@@ -34,7 +34,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [Available here](spacemesh01.md)
 
 ### Visual Story
-![Story](https://raw.githubusercontent.com/spacemeshos/product/master/resources/sm_0.1_story.jpg)
+![Story](https://github.com/spacemeshos/product/blob/master/resources/spacemesh0.1_sketch1.png)
 
 ### Release Main Components
 
