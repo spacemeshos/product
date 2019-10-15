@@ -1,6 +1,6 @@
 # Spacemesh Product Plan
 
-## The main problems that Spacemesh is designed to solve
+## The main problems that Spacemesh aims to solve
 1. Cryptocurrency fair global distribution
 2. Cryptocurrency as a global means of payment
 3. Censorship from participating in a fair, global and open monetary system
@@ -10,11 +10,11 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release testnets, follow up with `Spacemesh 0.x` updates and a launch a mainnet for this product according to the project [roadmap](roadmap.md).
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with `Spacemesh 0.x` releases testnet updates and launch a mainnet according to the project [roadmap](roadmap.md).
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
-Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality status and have been security audited.
+Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality level and have been security audited.
 
 ## TL;DR
 
@@ -26,32 +26,32 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ### Release Highlights
 
-The main use case case of `Spacemesh 0.1` is to support [Spacemesh Coin](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the Spacemesh consensus protocol and other protocols to support this use case.
+The main use case case of `Spacemesh 0.1` is to support [Spacemesh Coins](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
 
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
+
+### Use Cases
+- [Available here](spacemesh01.md)
 
 ### Visual Story
 ![Story](https://github.com/spacemeshos/product/blob/master/resources/spacemesh0.1_sketch1.png)
 
-### Release main software components
+### Release Main Components
 
-### Use cases
-- [Available here](spacemesh01.md)
-
-### Main Components
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for Windows 10, OS X and Linux.
 
-2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol
+2. [Spacemesh POET service](https://github.com/spacemeshos/POET) - a public utility used in the Spacemesh proofs of space time protocol.
 
 3. [Spacemesh App](https://github.com/spacemeshos/smapp) - A desktop app for Windows 10, OS X and Linux which includes a Wallet, a managed full p2p node and mining.
 
-4. `Spacemesh Gateway` - Foundation deployed nodes providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions.
+4. `Spacemesh Gateway` - Foundation deployed node(s) providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions. We call this wallet-only app mode.
 
-5. [Spacemesh Tap](tap.md) - Enables users to get `Spacemesh Coins` on testnets for testing purposes.
+5. [Spacemesh Tap](tap.md) - Enables users to get Testnet `Spacemesh Coins` for testing purposes.
 
-6. [Spacemesh POST](https://github.com/spacemeshos/post) - Implement the proofs of space protocol used by Spacemesh.
+6. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
-For additional information about these components read this page in the [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
+### App Users Guide
+[Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
 
 ---
 
