@@ -19,7 +19,7 @@
 - [x] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local)
 
 ## Milestone 4 - Spacemesh 0.1 Testnet Release - Q4 2019
-- [ ] Open Testnet with the [Spacemesh 0.1 product]() for all major platforms
+- [ ] Open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all major platforms
 
 ## Milestone 5 - Spacemesh 0.x Testnet Updates - 2020
 - [ ] Spacemesh 0.x - major updates for Testnet with smart contracts infrastructure and improvements to other features over a period of 10 months
