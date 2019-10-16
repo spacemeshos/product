@@ -12,8 +12,21 @@ Spacemesh 0.1 only supports Spacemesh Coins transactions and does not support sm
 3. Create a new wallet, awards account and setup mining in the App
 4. Leave App open running 24x7 and participate in the Spacemesh protocol
 5. Earn awards according to the protocol for honest participation and view awards in the awards account transaction log
-6. Get Spacemesh coins from the `Spacemesh Tap` (faucet)
-7. Transfer Spacemesh coins to any account by executing a coin transaction in the App
+6. Transfer Spacemesh coins to any account by executing a coin transaction in the App
+
+## Release Highlights
+- A native `Spacemesh App` which includes a full p2p node and a wallet for Windows 10, OS X and Linux
+- A native `App installer` for installing the Spacemesh App
+- A comprehensive Open Testnet user guide. See [Testnet Guide](https://testnet.spacemesh.io)
+- Supporting POET and Spacemesh API Gateway web services
+- Spacemesh Coin Transactions
+- Spacemesh protocol implementation in the full p2p node
+- Spacemesh Coins awards to full nodes awards account per the Spacemesh Protocol
+- Open Testnet genesis config file network bootstrapping
+- Managed Spacemesh bootstrap full p2p nodes on the cloud
+- Spacemesh auto-updated feature to automatically install app and full node updates
+
+# About Spacemesh 0.x
 
 # Primary User Story - Desktop Computer Owner - Transact with Spacemesh Coins
 1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux
@@ -39,16 +52,7 @@ Spacemesh 0.1 only supports Spacemesh Coins transactions and does not support sm
 1. Identify a security issue or another critical issue and get bounty awards based on issue severity and impact
 
 ## Release Highlights
-- Native `Spacemesh full p2p node` for Linux, Windows 10 and OS X implementing the Spacemesh Protocol
 - Basic node config via CLI flags or a config file
-- A native `Spacemesh App` which includes a full p2p node and a wallet for Windows 10, OS X and Linux
-- A native `App installer` for installing the Spacemesh App
-- A comprehensive Open Testnet user guide. See [Testnet Guide](https://testnet.spacemesh.io)
-- Supporting POET and Spacemesh API Gateway web services
-- Spacemesh Coin Transactions
-- Spacemesh protocol implementation in the full p2p node
-- Spacemesh Coins awards to full nodes awards account per the Spacemesh Protocol
-- Open Testnet genesis config file network bootstrapping
-- Managed Spacemesh bootstrap full p2p nodes on the cloud
 - Spacemesh Coins Tap in a discord channel
-- Spacemesh auto-updated feature to automatically install app and full node updates
+- Native `Spacemesh full p2p node` for Linux, Windows 10 and OS X implementing the Spacemesh Protocol
+

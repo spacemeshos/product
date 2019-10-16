@@ -18,7 +18,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ## TL;DR
 
-![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/roadmap2019.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/roadmap2019_1.png)
 
 ---
 
@@ -36,7 +36,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Visual Story
 ![Story](https://github.com/spacemeshos/product/blob/master/resources/spacemesh0.1_sketch1.png)
 
-### Release Main Components
+### Release Highlights
 
 1. [go-spacemesh](https://github.com/spacemeshos/go-spacemesh) - The reference implementation of the Spacemesh full node in go-lang for Windows 10, OS X and Linux.
 
@@ -44,11 +44,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 3. [Spacemesh App](https://github.com/spacemeshos/smapp) - A desktop app for Windows 10, OS X and Linux which includes a Wallet, a managed full p2p node and mining.
 
-4. `Spacemesh Gateway` - Foundation deployed node(s) providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions. We call this wallet-only app mode.
-
-5. [Spacemesh Tap](tap.md) - Enables users to get Testnet `Spacemesh Coins` for testing purposes.
-
-6. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
+4. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
 ### App Users Guide
 [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
@@ -57,6 +53,13 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ## Spacemesh 0.x
 0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
+
+### Release Highlights
+
+1. [Spacemesh Tap](tap.md) - Enables users to get Testnet `Spacemesh Coins` for testing purposes.
+
+2. `Spacemesh Gateway` - Foundation deployed node(s) providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions. We call this wallet-only app mode.
+
 
 ---
 
