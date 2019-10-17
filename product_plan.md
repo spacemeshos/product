@@ -58,8 +58,9 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 1. [Spacemesh Tap](tap.md) - Enables users to get Testnet `Spacemesh Coins` for testing purposes.
 
-2. `Spacemesh Gateway` - Foundation deployed node(s) providing the `Spacemesh API` for wallets and for the app to check coin balance, and execute transactions. We call this wallet-only app mode.
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. 
 
+3. Build and run from source code - Build go-spacemesh and the CLI-wallet from source code and use them to run a Node, get awards and execute transactions.
 
 ---
 
