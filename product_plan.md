@@ -54,13 +54,24 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ## Spacemesh 0.x
 0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
-### Release Highlights
+### Releases Highlights
 
-1. [Spacemesh Tap](tap.md) - Enables users to get Testnet `Spacemesh Coins` for testing purposes.
+1. [Spacemesh Tap](tap.md) - Enables users to get Testnet coins for testing purposes.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. 
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer.
 
-3. Build and run from source code - Build go-spacemesh and the CLI-wallet from source code and use them to run a Node, get awards and execute transactions.
+3. Build and run from source code - Build go-spacemesh and the CLI-wallet from source code and use them to run
+a Node, get awards and execute transactions.
+
+4. Explorer. Explore the Spacemesh canonical ledger and mesh.
+
+5. Dashboard. Network status and data visualizations.
+
+6. Local Testnet.
+
+7. GPU Post generator.
+
+8. Bug fixes and protocol updates.
 
 ---
 
