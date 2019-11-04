@@ -27,7 +27,7 @@
 - [ ] Support wallet-only mode
 - [ ] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App
 
-## Milestone 6 - Spacemesh 0.x Mainent - Q3/Q4 2020
+## Milestone 6 - Spacemesh 0.x Mainnet - Q3/Q4 2020
 - [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.x release as the Spacemesh mainnet
 
 *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation
