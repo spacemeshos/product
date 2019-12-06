@@ -18,5 +18,5 @@ This repo contains the Spacemesh product specifications and designs.
 - [Open Testnet FAQ](https://spacemesh.io/faq/)
 
 ## Spacemesh WIP Resources for Open Testnet Updates (WIPs)
-- [Spacemesh Dashboard Visual Design](Dashboard.pdf)
+- [Spacemesh Dashboard Visual Design](dashboard.md)
 - [Spacemesh Explorer Visual Design](resources/Explorer.pdf)
