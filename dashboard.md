@@ -36,10 +36,10 @@ Main display: Current layer number and current epoch number (1-indexed since gen
 
 ### Transactions
 Main display: total number of transactions processed by the state transition function - e.g. reflected in global state as of the last state transition function (not txs on the mesh in blocks)
-Graph: x-axis: epoch. y-axis: total number of txs procssed by the state transition function up to the end time of that epoch.
+Graph: x-axis: epoch. y-axis: total number of txs processed by the state transition function up to the end time of that epoch.
 
 ### Security 
-Main display: total amount of storage commited to the network based on the ATXs in the previous epoch.
+Main display: total amount of storage committted to the network based on the ATXs in the previous epoch.
 Graph: x-axis: epoch. y-axis: total amount of storage as of the epoch start time (atxs in previous epoch).
 
 ### Decentralization 
