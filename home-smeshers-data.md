@@ -1,11 +1,11 @@
 # November 2019 Stats
 
-The typical desktop user...
-- Is running on Windows 10
-- Has 100GB of free disk space
+The typical desktop gamer...
+- Is running Windows 10
+- Has at least 100GB of free disk space
 - Has an Nvidia GPU
 - Has at least 4 CPU cores at 2.3 Ghz or higher
-- Has at least 4 GB
+- Has at least 4 GB RAM
 
 Source: steam https://store.steampowered.com/hwsurvey
 Population: participated in steam hardware survey
