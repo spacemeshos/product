@@ -26,7 +26,6 @@ Population: participated in steam hardware survey
 - 250GB or more: 56.84%
 - 100GB or more: 80%
 
-
 ## OS
 - Windows: 96.28% 
 - Windows 10: 74%
@@ -38,7 +37,7 @@ Population: participated in steam hardware survey
 - AMD: 15%
 - Intel: 9.83% 
 
-### Most popular Models:  
+## Most popular GPUs:  
 - NVIDIA GeForce GTX 1060: 15%
 - NVIDIA GeForce GTX 1050 Ti: 9.10%
 
