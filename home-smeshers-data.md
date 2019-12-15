@@ -1,4 +1,6 @@
 # November 2019 Stats
+- Data source: steam https://store.steampowered.com/hwsurvey
+- Population: participated in steam hardware survey
 
 The typical desktop gamer...
 - Is running Windows 10
@@ -7,8 +9,6 @@ The typical desktop gamer...
 - Has at least 4 CPU cores at 2.3 Ghz or higher
 - Has at least 4 GB RAM
 
-Source: steam https://store.steampowered.com/hwsurvey
-Population: participated in steam hardware survey
 
 ## Free Disk Space
 
