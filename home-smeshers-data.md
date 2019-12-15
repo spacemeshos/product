@@ -58,5 +58,5 @@ Population: participated in steam hardware survey
 - 16 GB: 37.96%
 
 - 4 GB or more: 96%
-- 8 BB or more: 83%
+- 8 GB or more: 83%
 - 16 GB or more: 43%
