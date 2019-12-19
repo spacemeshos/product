@@ -15,6 +15,6 @@ WIP / Earlty Draft
 |   2	|   Conflicting	| Orange | Another transaction with the same counter is pending. | Conflicting TX ID | Not final. Possible next states: Pending, Processing, Approved |    |   	
 |   3	|   Pending	| White | Waiting for transactions to be added to the mesh... | N/A | Not final. Next possible states: Processing | Submitted to mempool and was not rejected - not in block yet (e.g. was in block, but was not applicable)  	|   	
 |   4	|   Processing	| Blue  	| Transaction is processing but not approved yet. | Layer # (and ID ?)| Not final. Next possible state: Approved, Pending, Insufficient Balance | TX is in at least one block in layer X that was not excluded from hare results (hare didn't complete for layer X yet)	|   	
-|   5	|   Approved	| Green  	| Transaction is approved and will be confirmed with high probability. | Layer # (and ID ?)  	|  Not final. Next possible states: Confirmed, Insufficient Balance 	| TX is in at least one block that was included in HARE results  	|
-|   6	|   Confirmed	| Deep Green  	| Transaction is confirmed. | N/A  	| Final.  	| Played into global state (if conflicting transactions exist - this one was selected)   	|   	
+|   5	|   Confirmed	| Green  	| Transaction is approved and will be confirmed with high probability. | Layer # (and ID ?)  	|  Not final. Next possible states: Confirmed, Insufficient Balance 	| TX is in at least one block that was included in HARE results  	|
+|   6	|   Finalized	| Deep Green  	| Transaction is confirmed. | N/A  	| Final.  	| Played into global state (if conflicting transactions exist - this one was selected)   	|   	
 |   7	|   Reserved	|   	|   	|   	|   	|   	|
