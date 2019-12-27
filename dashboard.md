@@ -1,4 +1,4 @@
-# Dashbaord Spec
+# Dashboard Spec
 
 ## Visual Design - Desktop Class Screens
 ![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/dashboard_visual_design.png)
