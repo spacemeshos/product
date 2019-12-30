@@ -28,10 +28,12 @@ SVM-wallet is contract wallet abstraction implemented in SVM and available for u
 ### Vesting Properties
 This read-only properties are set for a vesting-enabled wallet. All of these properties must be set at wallet instantiation time and can't be changed later by anyone.
 
-1. Vesting start timestamp. e.g. a layer # from genesis.
-2. Vesting start amount. e.g. 3000 coins.
-3. Vesting cycle period. e.g. 1 cal month in num of layers
-4. Vesting periodical amount. e.g. 500 coins.
+1. Vesting start time. e.g. a layer # from genesis.
+2. Vesting start amount. e.g. 3000 coins. The amount that can be withdrawn at the vesting start time.
+3. Vesting period. The time period in which vesting withdrawals can be made starting with the first vesting period after the vesting start timestamp. e.g. 1 cal month in num of layers.
+4. Vesting period amount. e.g. 500 coins. The amount that can be drawn by the end of each vesting period.
+
+For example, key owner of a vesting wallet may withdraw the the `vesting start amount` on or after the `vesting start time`. On or after the time of the `vesting start time` plus the `vesting period` he may withdraw the vesting period amount.
 
 ### Wallet Instantiation
 
