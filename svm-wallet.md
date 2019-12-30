@@ -1,12 +1,13 @@
 # Overview
 SVM-wallet is contract wallet abstraction implemented in SVM and available for users on the Spacemesh platform.
 
-# Core Use Cases
+# Use Cases
 1. Create an on-mesh spending wallet with a single hardware-wallet master key or a multi-sig master key (where zero or more keys can be a hardware-wallet keys).
 2. Set daily spending limit and have them enforced by the wallet.
 3. Recycle a lost spending key using master key.
 4. View vested and unvested coin balance.
 5. Transfer up to the vested wallet balance from the wallet to another account or wallet.
+6. Provide investors and builders with a way to get their coins.
 
 # Requirements
 1. Support for spending key recycling, a hardware wallet and/or multi-sig master key and daily spending limit.
@@ -25,7 +26,7 @@ SVM-wallet is contract wallet abstraction implemented in SVM and available for u
 - Vesting enabled - true or false.
 
 ### Vesting Properties
-This properties are set for a vesting-enabled wallet. All of these properties must be set at wallet instantiation time and can't be changed later by anyone.
+This read-only properties are set for a vesting-enabled wallet. All of these properties must be set at wallet instantiation time and can't be changed later by anyone.
 
 1. Vesting start timestamp. e.g. a layer # from genesis.
 2. Vesting start amount. e.g. 3000 coins.
