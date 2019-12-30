@@ -24,6 +24,8 @@ SVM-wallet is contract wallet abstraction implemented in SVM and available for u
 - Available balance - funds available for withdrawals.
 - Master key(s) - 1 key for single master, n keys for multi-sig. Need to support 2 out of 3 only multi-sig.
 - Vesting enabled - true or false.
+- Daily spending limit.
+- Spending public key(s) - changeable by owner of master key.
 
 ### Vesting Properties
 This read-only properties are set for a vesting-enabled wallet. All of these properties must be set at wallet instantiation time and can't be changed later by anyone.
