@@ -1,4 +1,4 @@
-# About Spacemesh 0.1
+# Spacemesh 0.1
 
 Our main goal is to create a simple, minimalistic, functional cryptocurrency powered by the permissionless `Spacemesh protocol` and to demonstrate the platform's security, distribution, usability and scalability properties on a public open Testnet.
 
@@ -28,8 +28,8 @@ Spacemesh 0.1 only supports Smesh Coins transactions and does not support smart 
 - Spacemesh auto-updated feature to automatically install app and full node updates.
 - A basic working tap on discord - allows users to transact before getting their first reward.
 
-# About Spacemesh 0.2
-All of 0.1 features and in addition support for the following stories.
+# Spacemesh 0.2
+Spacemesh 0.2 includes all 0.1 features plus support for the following stories.
 
 # Primary User Story - Desktop Computer Owner - Transact with Smesh Coins
 1. Download the `Spacemesh App Installer` for Windows 10, OS X or Linux.
@@ -55,3 +55,7 @@ All of 0.1 features and in addition support for the following stories.
 - Basic full node configurable via CLI flags and a config file.
 - Basic CLI wallet.
 - Wallet-only app mode.
+
+# Spacemesh 0.3
+- Variable post size.
+- Smart wallets running on SVM.
