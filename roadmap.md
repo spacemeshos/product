@@ -18,7 +18,7 @@
 - [x] Publish [Spacemesh Protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/).
 - [x] Launch local Testnet for developers. See [Local Testnet](https://testnet.spacemesh.io/#/local).
 
-## Milestone 4 - Spacemesh 0.1 Testnet Release - Q4 2019
+## Milestone 4 - Spacemesh 0.1 Testnet Soft Launch - Q4 2019
 - [ ] Open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all major platforms.
 
 ## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q1 2020
@@ -34,9 +34,9 @@
 - [ ] Fix all critical issues found in audit.
 
 ## Milestone 7 - Spacemesh 0.3.x Mainnet - Q3/Q4 2020
-- [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.3 release as the Spacemesh mainnet
+- [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.3 release as the Spacemesh mainnet.
 
-*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation
+*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
 ----
 
