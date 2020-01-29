@@ -51,7 +51,8 @@
 - [ ] Fix all critical issues found in audit.
 
 ## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q3/Q4 2020
-- [ ] Spacemesh 0.x Mainnet launch - launch a tested 0.3 release as the Spacemesh mainnet.
+### Focus: GENESIS
+- [ ] Launch release candidate for final testing before mainnet genesis.
 
 *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
