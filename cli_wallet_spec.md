@@ -1,0 +1,1 @@
+# CLI WALLET 0.1 SPEC
