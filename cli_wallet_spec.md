@@ -14,8 +14,8 @@
 - Should communicate with the node using the http/jsomn API - not GRPC.
 
 ## CLI Flags 
-- `--api [ip:port]` - full-node http-json api url (defaults to the default node local host http-json api url)
-- `--config <path>` - config file url (overrides default to same dir as wallet executable)
+- `--api <ip:port>` - full-node http-json api url (defaults to the default node local host http-json api url).
+- `--config <path>` - config file url (overrides default to same dir as wallet executable).
   
 ## REPL Commands
 1. `NEW` - Create a new account (key pair) - should be auto persisted to a wallet data file. Becomes current account.
