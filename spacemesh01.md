@@ -65,4 +65,4 @@ Spacemesh 0.2 includes all 0.1 features plus support for the following stories.
 # Spacemesh 0.3
 - Full Spacemesh protocol implementation.
 - Release to open testnet to conduct security audits.
-- No new user-facing major features.
+- No new user-facing major features beyond Spacemesh 0.2 features.
