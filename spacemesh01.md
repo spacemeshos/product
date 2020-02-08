@@ -28,6 +28,8 @@ Spacemesh 0.1 only supports Smesh Coins transactions and does not support smart 
 - Spacemesh auto-updated feature to automatically install app and full node updates.
 - A basic working tap on discord - allows users to transact before getting their first reward.
 
+---
+
 # Spacemesh 0.2
 Spacemesh 0.2 includes all 0.1 features plus support for the following stories.
 
@@ -55,7 +57,12 @@ Spacemesh 0.2 includes all 0.1 features plus support for the following stories.
 - Basic full node configurable via CLI flags and a config file.
 - Basic CLI wallet.
 - Wallet-only app mode.
+- Variable post size initialized by GPU.
+- Smart wallets running on SVM.
+
+---
 
 # Spacemesh 0.3
-- Variable post size.
-- Smart wallets running on SVM.
+- Full Spacemesh protocol implementation.
+- Release to open testnet to conduct security audits.
+- No new user-facing major features.

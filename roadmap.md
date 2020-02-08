@@ -54,9 +54,9 @@
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing before mainnet genesis.
 
-*Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
+> *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
 ----
 
-### Spacemesh 0.1
-- [Spec](https://github.com/spacemeshos/product/blob/master/spacemesh01.md)
+### Resources
+- [Spacemesh 0.1 spec](https://github.com/spacemeshos/product/blob/master/spacemesh01.md)
