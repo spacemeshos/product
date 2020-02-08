@@ -35,8 +35,6 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Use Cases
 - [Available here](spacemesh01.md)
 
-### Visual Story
-![Story](https://github.com/spacemeshos/product/blob/master/resources/spacemesh0.1_sketch1.png)
 
 ### Release Highlights
 
@@ -95,4 +93,3 @@ We are building modern [wasm-based](https://webassembly.org/) VM and a programmi
 
 ### Use cases
 - Coming soon
----
