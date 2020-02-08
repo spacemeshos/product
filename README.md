@@ -20,3 +20,4 @@ This repo contains the Spacemesh product specifications and designs.
 ## Spacemesh WIP Resources for Open Testnet Updates (WIPs)
 - [Spacemesh Dashboard Visual Design](dashboard.md)
 - [Spacemesh Explorer Visual Design](resources/Explorer.pdf)
+- [Spacemesh Smart Wallet](svm-wallet.md)
