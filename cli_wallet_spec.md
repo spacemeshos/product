@@ -20,10 +20,10 @@
 ## REPL Commands
 1. `NEW` - Create a new account (key pair) - should be auto persisted to a wallet data file. Becomes current account.
 3. `SET` - Enumerate previously created accounts (key pairs) loaded from the data file and set one of them as current.
-4. `INFO` - Display current account's balance, counter/nonce, and full private and public keys.
+4. `INFO` - Display current account's balance, counter/nonce, account public address (0x[20_bytes] format) and full private and public keys.
 5. `NET` - Display local node status (/v1/nodestatus) + the current POST status.
 6. `TX` - Execute a coin transaction (only if local node is synced) to a target account. Will be signed by current account. User needs to input the dest account string - 0x[20_hex_bytes) format.
-7. `SIGN` - Sign a text message with the current account private key.
+7. `SIGN` - Sign a text message with the current account private key. When message is empty, sign the public key.
 8. `COINBASE` - set current account as coinbase account in the node.
 
 - When a wallet is launched, it should read the data file and set the first persisted account (if any) as the current account.
