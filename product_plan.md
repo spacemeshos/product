@@ -50,6 +50,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 5. [Spacemesh Tap](tap.md) - Enables users to get Testnet coins for testing purposes.
 
+6. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
+
 ### App Users Guide
 [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
 
@@ -61,21 +63,19 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 1. GPU Post generator and user-specified POST commitment size per node.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. The app communicates with a Spacemesh network http api gateway.
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network http api gateway.
 
-3. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
+3. Dashboard. Network status and data visualizations.
 
-4. Dashboard. Network status and data visualizations.
+4. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
 
-5. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
+5. Bug fixes and consensus protocol updates.
 
-6. Bug fixes and consensus protocol updates.
+6. Testnet dashboard.
 
-7. Testnet dashboard.
+7. Testnet automated tap.
 
-8. Testnet automated tap.
-
-9. Smart wallets contracts with SVM
+8. Smart wallets contracts with SVM
 
 ---
 
