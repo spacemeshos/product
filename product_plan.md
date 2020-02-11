@@ -71,7 +71,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 5. Bug fixes and consensus protocol updates.
 
-6. Testnet dashboard.
+6. Testnet [dashboard](dashboard.md).
 
 7. Testnet [automated tap](tap.md).
 
