@@ -58,17 +58,21 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Releases Highlights
 
-1. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. The app comminicates with a Spacemesh network http api gateway.
+1. GPU Post generator and user-specified POST commitement size per node.
 
-2. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. The app comminicates with a Spacemesh network http api gateway.
 
-3. Dashboard. Network status and data visualizations.
+3. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
 
-4. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
+4. Dashboard. Network status and data visualizations.
 
-5. GPU Post generator and user-specified POST commitement size per node.
+5. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
 
 6. Bug fixes and consensus protocol updates.
+
+7. Testnet dashboard.
+
+8. Testnet autoamted tap.
 
 ---
 
