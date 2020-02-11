@@ -30,7 +30,9 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ### Release Highlights
 
-The main use case case of `Spacemesh 0.1` is to support [Spacemesh Coins](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
+The main use case case of `Spacemesh 0.1` is to support [Smesh](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Smesh` to people who run full Spacemesh full p2p nodes on their PCs.
+
+The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
 
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
@@ -48,7 +50,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
-5. [Spacemesh Tap](tap.md) - Enables users to get Testnet coins for testing purposes.
+5. [Spacemesh Tap](tap.md) - Enables users to get Testnet Smesh for testing purposes.
 
 6. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
 
