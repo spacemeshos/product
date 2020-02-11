@@ -61,7 +61,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Releases Highlights
 
-1. GPU Post generator and user-specified POST commitment size per node.
+1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node.
 
 2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network http api gateway.
 
@@ -73,9 +73,9 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 6. Testnet dashboard.
 
-7. Testnet automated tap.
+7. Testnet [automated tap](tap.md).
 
-8. Smart wallets contracts with SVM
+8. [Smart wallets](svm-wallet.md) with SVM.
 
 ---
 
