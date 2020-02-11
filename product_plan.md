@@ -12,11 +12,13 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainent release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate.
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainnet release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate.
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
 Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality level and have been security audited.
+
+0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainnet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
 ## TL;DR
 
@@ -54,13 +56,12 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ---
 
 ## Spacemesh 0.2
-0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
 ### Releases Highlights
 
 1. GPU Post generator and user-specified POST commitement size per node.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. The app comminicates with a Spacemesh network http api gateway.
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer. The app communicates with a Spacemesh network http api gateway.
 
 3. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
 
@@ -72,9 +73,16 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 7. Testnet dashboard.
 
-8. Testnet autoamted tap.
+8. Testnet automated tap.
 
 ---
+
+## Spacemesh 0.3
+
+### Release Highlights
+Coming soon
+
+----
 
 ## Spacemesh 1.0
 
