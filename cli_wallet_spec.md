@@ -25,7 +25,7 @@
 6. `TX` - Execute a coin transaction (only if local node is synced) to a target account. Will be signed by current account. User needs to input the dest account string - 0x[20_hex_bytes) format.
 7. `SIGN` - Sign a text message with the current account private key. When message is empty, sign the public key.
 8. `COINBASE` - set current account as coinbase account in the node.
-9. `SMESH` - Start smeshing. User needs to provide a path to the POST file as a param. The current account should be used as the coinbase accoount.
+9. `SMESH` - Start smeshing. User needs to provide a path to the POST file as a param. The current account should be used as the coinbase accoount. User must have rw permissions to this path. e.g. `SMESH c:\`.
 
 
 - When a wallet is launched, it should read the data file and set the first persisted account (if any) as the current account.
