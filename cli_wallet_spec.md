@@ -26,7 +26,7 @@
 7. `SIGN` - Sign a text message with the current account private key. When message is empty, sign the public key.
 8. `COINBASE` - set current account as coinbase account in the node.
 9. `SMESH` - Start smeshing. User needs to provide a path to the POST file as a param. The current account should be used as the coinbase accoount. User must have rw permissions to this path. e.g. `SMESH c:\`.
-
+10. `TXS` - Get a list of transactions (outgoing and incoming) for the current account since layer 0. For each transaction, display full transaction info.
 
 - When a wallet is launched, it should read the data file and set the first persisted account (if any) as the current account.
 - Always display accounts using the 0x[20_hex_bytes] format.
