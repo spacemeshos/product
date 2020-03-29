@@ -14,15 +14,15 @@
 3. In Windows 10, if the app was installed then uninstall it by running `Uninstall Spacemesh.exe`. It is located in the App install folder. The default is: `C:\Users\[your_user_name]\AppData\Local\Programs\Spacemesh`
 4. Install the updated app for testing and run it.
 
-# Sanity Test
+# App Basic Sanity Test
 1. Setup smeshing and wallet
 2. Wait until app is synced with the mesh.
-3. Get some smidge from the tap and verify that transaction is confirmed and wallet balance updated.
+3. Get some smidge from the tap (or via a transaction from another app instance) and verify that transaction is confirmed and wallet balance updated.
 4. Send some smidge to another account and verify that the transaction gets pending and confirmed.
 5. Verify smeshers is starting to get rewards in up to 49 hours from setup time.
 6. Check the smeshing rewards and transactions are visible in the smesher log, in the main wallet screen and in the full transaction log.
 
-# Backup Test
+# Wallet Backup Basic Test
 1. Copy main wallet address to verify it later.
 2. Backup wallet to file and to 12 words backup.
 3. Quit the app and start it again.
