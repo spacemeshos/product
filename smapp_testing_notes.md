@@ -21,3 +21,11 @@
 4. Send some smidge to another account and verify that the transaction gets pending and confirmed.
 5. Verify smeshers is starting to get rewards in up to 49 hours from setup time.
 6. Check the smeshing rewards and transactions are visible in the smesher log, in the main wallet screen and in the full transaction log.
+
+# Backup Test
+1. Copy main wallet address to verify it later.
+2. Backup wallet to file and to 12 words backup.
+3. Quit the app and start it again.
+4. Verify restore from backup file work. Main address after restore should be identical to original one.
+5. Quit the app and start it again.
+6. Verify restore from 12 words backup works. Main address after restore should be identical to original one.
