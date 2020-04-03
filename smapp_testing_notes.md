@@ -1,5 +1,5 @@
 # New App Release Sanity Test
-For a new app release, e.g. Smapp 0.6.6:
+For a new app release, e.g. Smapp 0.0.6:
 1. verify that the correct installers (Windows, OS X, Linux) are downloadable from all endpoints.
   - https://spacemesh.io/testnet
   - https://testnet.spacemesh.io/#/guide/install
