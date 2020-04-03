@@ -1,8 +1,10 @@
 # New App Release Sanity Test
-For each new app release, verify that the correct installers (Windows, OS X, Linux) are downloadable from all endpoints.
-1. https://spacemesh.io/testnet
-2. https://testnet.spacemesh.io/#/guide/install
-3. The release on Smapp github repo. e.g. https://github.com/spacemeshos/smapp/releases/
+For a new app release, e.g. Smapp 0.6.6:
+1. verify that the correct installers (Windows, OS X, Linux) are downloadable from all endpoints.
+  1. https://spacemesh.io/testnet
+  2. https://testnet.spacemesh.io/#/guide/install
+  3. The release on Smapp github repo. e.g. https://github.com/spacemeshos/smapp/releases/
+2. Verify that the release notes were added to https://spacemesh.io/testnet and to the release page on https://github.com/spacemeshos/smapp/releases/ 
 
 # New User Experience Testing Setup
 1. Quit the smapp if it is running.
