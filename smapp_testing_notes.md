@@ -1,3 +1,9 @@
+# Onboarding Sanity Test
+For each new app release, verify that the correct installers (Windows, OS X, Linux) are downloadable from all endpoints.
+1. https://spacemesh.io/testnet
+2. https://testnet.spacemesh.io/#/guide/install
+3. Smapp release on github. e.g. https://github.com/spacemeshos/smapp/releases/
+
 # New User Experience Testing Setup
 1. Quit the smapp if it is running.
 2. Delete local Spacemesh data folder. Folder location:
