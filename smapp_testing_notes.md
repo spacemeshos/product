@@ -1,4 +1,4 @@
-# Onboarding Sanity Test
+# New App Release Sanity Test
 For each new app release, verify that the correct installers (Windows, OS X, Linux) are downloadable from all endpoints.
 1. https://spacemesh.io/testnet
 2. https://testnet.spacemesh.io/#/guide/install
