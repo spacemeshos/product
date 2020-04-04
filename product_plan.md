@@ -77,7 +77,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 7. Testnet [automated tap](tap.md).
 
-8. [Smart wallets](svm-wallet.md) with SVM.
+8. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
 ---
 
