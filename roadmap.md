@@ -36,10 +36,11 @@
 - [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all three major desktop platforms.
 - [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App.
 
-## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q2-Q3 2020 - [TN2](https://github.com/spacemeshos/go-spacemesh/milestone/9)
+## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q3 2020 - [TN2](https://github.com/spacemeshos/go-spacemesh/milestone/9)
 ### Focus: FUNCTIONALITY
-- [ ] Launch Dashboard and an automated Tap.
-- [ ] Support wallet-only app mode.
+- [ ] Launch dashboard and an automated Tap.
+- [ ] Launch testnet rewards programs and the Spacemesh store.
+- [ ] Support wallet-only mode in the Spacemesh app.
 - [ ] Support adjustable PoST commitment sizes per node and GPU PoST init.
 - [ ] Programability - Smart wallet apps running on SVM and smart wallet transactions.
 - [ ] Implement consensus protocol updates.
@@ -47,7 +48,7 @@
 ## Milestone 6 - Spacemesh 0.3 - Q4 2020 - [TN3](https://github.com/spacemeshos/go-spacemesh/milestone/8)
 ### Focus: SECURITY
 - [ ] Launch full mesh explorer.
-- [ ] Security audit and bug bounties program.
+- [ ] Conduct security audit and bug bounties program.
 - [ ] Fix all critical issues found in audit and in Spacemesh 0.2.
 
 ## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q3/Q4 2020
