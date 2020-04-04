@@ -20,9 +20,9 @@ Graph: change over time, x-axis: epoch. y-axis: number of active smeshers.
 Main display: Total number of on-mesh accounts with a non-zero coin balance as of the current epoch.
 Graph: change over time, x-axis: epoch. y-axis: total number of accounts.
 
-### Mining Rewards
+### Smeshing Rewards
 Main display: Total amount of Smesh minted as mining rewards as of the last known reward distribution event.
-Graph: change over time, x-axis: epoch. y-axis: total mining rewards until and including that epoch.
+Graph: change over time, x-axis: epoch. y-axis: total smeshing rewards until and including that epoch.
 
 ### Circulation
 Main display: Total number of Smesh coins in circulation. This is the total balances of all on-mesh accounts.
@@ -30,21 +30,21 @@ Graph: change over time, x-axis: epoch. y-axis: total number of smesh coins in c
 Note: the difference between this and the rewards module is that circulation includes any pre-minted coins at genesis.
 
 ### Age
-Main display: Elapsed time since genesis time of the
+Main display: Elapsed time since genesis time of the network.
 
 ### Layer / Epoch
-Main display: Current layer number and current epoch number (1-indexed since genesis)
+Main display: Current layer number and current epoch number (0-indexed since genesis)
 
 ### Transactions
-Main display: total number of transactions processed by the state transition function - e.g. reflected in global state as of the last state transition function (not txs on the mesh in blocks)
+Main display: total number of transactions processed by the state transition function - e.g. reflected in global state as of the last state transition function (not txs on the mesh in blocks). Should exclude ATX transactions.
 Graph: x-axis: epoch. y-axis: total number of txs processed by the state transition function up to the end time of that epoch.
 
 ### Security
-Main display: total amount of storage committted to the network based on the ATXs in the previous epoch.
+Main display: total amount of storage committed to the network based on the ATXs in the previous epoch.
 Graph: x-axis: epoch. y-axis: total amount of storage as of the epoch start time (atxs in previous epoch).
 
 ### Decentralization
-TBD - distribution of storage between all active miners. Measurement of how long is the tail.
+TBD - distribution of storage between all active smeshers. Measurement of how long is the tail.
 
 ### TX/s / Capacity
 Main display: average tx/s rate over capacity considering all layers in the current epoch. Only processed transactions by the state transition function and not transactions in blocks should be counted. Capacity is defined as the theoretical upper-bound on tx/s based on the network params.
