@@ -33,22 +33,22 @@
 
 ## Milestone 4 - Spacemesh 0.1 Testnet Soft Launch - Q1 2020 - [TN1](https://github.com/spacemeshos/go-spacemesh/milestone/6)
 ### Focus: LEARNINGS
-- [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all major desktop platforms.
+- [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all three major desktop platforms.
+- [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App.
 
 ## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q2-Q3 2020 - [TN2](https://github.com/spacemeshos/go-spacemesh/milestone/9)
 ### Focus: FUNCTIONALITY
-- [ ] Launch Dashboard and Tap.
+- [ ] Launch Dashboard and an automated Tap.
 - [ ] Support wallet-only app mode.
-- [ ] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App.
 - [ ] Support adjustable PoST commitment sizes per node and GPU PoST init.
+- [ ] Programability - Smart wallet apps running on SVM and smart wallet transactions.
 - [ ] Implement consensus protocol updates.
 
 ## Milestone 6 - Spacemesh 0.3 - Q4 2020 - [TN3](https://github.com/spacemeshos/go-spacemesh/milestone/8)
 ### Focus: SECURITY
 - [ ] Launch full mesh explorer.
-- [ ] Smart contracts preview with smart wallets.
 - [ ] Security audit and bug bounties program.
-- [ ] Fix all critical issues found in audit.
+- [ ] Fix all critical issues found in audit and in Spacemesh 0.2.
 
 ## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q3/Q4 2020
 ### Focus: GENESIS
