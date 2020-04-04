@@ -53,4 +53,4 @@ Graph: x-axis: epoch. y-axis: same ratio as main display for that epoch.
 
 ### Live Smeshers Map View
 This is a live heat map of smeshers from around the globe.
-For a testnet, smeshers can opt-out from reporting ip address for geo-location via the app settings. For a mainent, smeshers can opt-in to report ip address for gelo-location. Nodes show as hot spots over the world's map. The goal of this module is not to identify specific smeshers but to display a measure of the geographic distribution aspect of decentraliztaion.
+For a testnet, smeshers can opt-out from reporting ip address for geo-location via the app settings. For a mainnet, smeshers can opt-in to report ip address for geo-location. Nodes show as hot spots over the world's map. The goal of this module is not to identify specific smeshers but to display a measure of the geographic distribution aspect of decentralization.
