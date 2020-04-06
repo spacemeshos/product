@@ -4,9 +4,9 @@
 ![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/dashboard_visual_design.png)
 
 ## Requirements
-- Dynamic webpage designed for desktop-class screens with a fallback to a mobile layout.
-- Real time updates from the mesh - update every 5 minutes.
-- Dashboard is always connected to a specific network. e.g. Open Testnet 0.1, Mainent, etc...
+- Dynamic webpage designed for desktop-class screens with a fallback to a mobile layout
+- Real time updates from the mesh - websockets or via GRPC
+- Dashboard is always connected to a specific network. e.g. Open Testnet 0.1, Mainnet, etc...
 - We need to be able to deploy and display a dashboard for different testnets and mainnets.
 
 ## Dashboard Modules
