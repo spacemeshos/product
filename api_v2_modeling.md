@@ -19,8 +19,9 @@ Provider: Full node.
     - Set Smesher's coinbase account
 
 
-3. Node / Sync
+3. Node / Status
     - Get sync status ( synced / total layers), sync status num
+    -
 
 
 ### II. Mesh Basic Data API
@@ -80,4 +81,5 @@ Clients: dashboard, explorer and backup agents data workers.
 
 ## Design Notes
 - Consistency: use canonical format for addresses e.g. 0x[20_bytes_suffix] and not byte arrays.
-- Large results set support via pagination. Every response which returns a list of data items should have pagination support built-in.
+- Large results set support via pagination. Every response which returns a list of data items should have pagination support built-in. However, streaming pushed server results should contain all data and no pagination hints as the client is not expected to call the server for additional data in this use case.
+- In methods that return enum values, we should always return the enum int value and not just string representation of an enum. For example /v1/gettransaction returns the status string e.g. 'confirmed' but not status id. e.g. 2.
