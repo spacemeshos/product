@@ -11,13 +11,15 @@ Provider: Full node.
     - Post status - setup, size, etc...
     - Setup post
 
+
 2. Node / Management - Set or get node configurable params
     - Get current Smesher's id
+
 
 3. Node / TX Processing
     - Submit a new signed tx to the pool
 
-### II. Mesh Simple Data API
+### II. Mesh Basic Data API
 Overview: simple data access with focus on app and api clients.
 Provider: Full node.
 Clients: apps, wallets.
