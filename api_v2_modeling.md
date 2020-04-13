@@ -18,24 +18,28 @@ Clients: apps, wallets.
 ### II. Mesh Simple Data APIs - Provided by every full node.
 Clients: apps, wallets.
 
-4. Mesh / Data / Transactions
+1. Mesh / Data / Transactions
     - Get tx info/status
-    - Get txs info
+    - Get txs info (pass several as args)
+
+
+2. Mesh / Data / Accounts
+    - Get account's nonce
+    - Get account's balance
+    - Get account's rewards (list)
     - Get account txs (list)
 
-5. Mesh / Data / Accounts
-    - Get account nonce
-    - Get account balance
-    - Get account's rewards (list)
 
-6. Mesh / Data / Smart Contracts
+3. Mesh / Data / Smart Contracts
     - Get app instance data for a var name / id
 
-6. Mesh / Data / Smeshers
+
+4. Mesh / Data / Smeshers
     - Get smesher's coinbase account
     - Get smesher's ATXs (list)
 
-7. Mesh / Pubsub - Subscribe to server-side streaming data feeds
+
+5. Mesh / Pubsub - Subscribe to server-side streaming data feeds
 Clients: apps, wallets.
 
     - Subscribe to account's txs
