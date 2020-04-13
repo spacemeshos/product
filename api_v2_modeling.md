@@ -2,8 +2,10 @@
 
 ## API Categories
 
-### I. NODE APIs (data specific to a specific node instance). Used by app.
+### I. NODE API
+Overview: Data specific to a specific node instance.
 Clients: apps, wallets.
+Provider: Full node.
 
 1. Node / Smeshing - PoST setup and status functionality
     - Post status - setup, size, etc...
@@ -15,7 +17,9 @@ Clients: apps, wallets.
 3. Node / TX Processing
     - Submit a new signed tx to the pool
 
-### II. Mesh Simple Data APIs - Provided by every full node.
+### II. Mesh Simple Data API
+Overview: simple data access with focus on app and api clients.
+Provider: Full node.
 Clients: apps, wallets.
 
 1. Mesh / Data / Transactions
@@ -39,14 +43,18 @@ Clients: apps, wallets.
     - Get smesher's ATXs (list)
 
 
-5. Mesh / Pubsub - Subscribe to server-side streaming data feeds
+5. Mesh / Data / Pubsub
+Overview: Server-side streaming data feeds.
+Provider: Full node.
 Clients: apps, wallets.
 
     - Subscribe to account's txs
     - Subscribe to account's rewards
-    - Subscribe to smesher's rewards
-    - Subscribe to smesher's atxs
-    - Unsubscribe from any subscribed data stream.
+    - Subscribe to Smesher's rewards
+    - Subscribe to Smesher's atxs
+    - Unsubscribe from any subscribed data stream - by subscription id ?
 
-### III. Advanced Data APIS - provided by a full node which is synced from genesis under full data archival node.
+### III. Mesh Advanced Data API
+Overview: Advanced mesh readonly data.
+Provider: A full node which is synced from genesis under full data archival node.
 Clients: dashboard, explorer and backup agents data workers.
