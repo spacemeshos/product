@@ -25,3 +25,4 @@
 	Is canical state part of layer data? epoch data?																												
 	Also - if smart contract txs events and receipts are NOT part of canonical state - how can a node know that the data he's getting from other nodes is correct?																												
 	We need self-authenticated data structures like in eth - where all data is pretty much secured by 1 state root hash which is part in the canonical state - I don't know of a way around this....																												
+Stream: GRPC only - no json / http
