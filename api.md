@@ -1,6 +1,28 @@
 # Spacemesh API design and methodology
 
-[Master API](https://docs.google.com/spreadsheets/d/1P89OVWdgJocPy0CGM43Ge7Sx_6dabCBEagaVQfOk9us/edit)
+This high-level documentation is intended to accompany the [Master API spec](https://docs.google.com/spreadsheets/d/1P89OVWdgJocPy0CGM43Ge7Sx_6dabCBEagaVQfOk9us/edit).
+
+## Goal
+
+The goal of this project is to design a single comprehensive API to allow multiple classes of consumers, including the [Spacemesh app](https://github.com/spacemeshos/smapp), independent wallet software, a [dashboard](https://github.com/spacemeshos/product/blob/master/dashboard.md), and an [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf), to consume Spacemesh node data. This API must be flexible enough to support the different use cases for these (and future) consumers with minimal changes, and it must be intuitive enough to allow a node operator to quickly enable and disable different endpoints while keeping their node secure.
+
+## For reference
+
+For comparison, please see the API implemented in the main Ethereum clients:
+
+- go-ethereum [Management APIs](https://github.com/ethereum/go-ethereum/wiki/Management-APIs)
+- go-ethereum [JSON-RPC Server](https://geth.ethereum.org/docs/rpc/server)
+- OpenEthereum (formerly Parity Ethereum) [JSON RPC API](https://wiki.parity.io/JSONRPC)
+
+## Design methodology
+
+API methods are grouped together into broad sets, called "facades." This division is made according to the following logic:
+
+1. Function: Endpoints are grouped into facades based primarily upon function. For instance, all endpoints related to mesh data (blocks, transactions, epochs, layers, accounts, rewards, etc.) are grouped together under a "mesh" facade.
+2. Archive mode
+3. Stream
+
+## Open questions
 
 ## Facade Design Method
 - Sets of API methods are broken down into groups called "facades." Each facade is separately enabled in the node using a CLI flag.
