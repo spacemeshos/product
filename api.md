@@ -19,8 +19,8 @@ For comparison, please see the API implemented in the main Ethereum clients:
 API methods are grouped together into broad sets, called "facades." This division is made according to the following logic:
 
 1. Function: Endpoints are grouped into facades based primarily upon function. For instance, all endpoints related to mesh data (blocks, transactions, epochs, layers, accounts, rewards, etc.) are grouped together under a "mesh" facade.
-2. Archive mode
-3. Stream
+2. Archive mode: Certain endpoints are only available from archive nodes (see below). These are grouped together into an `archive` facade.
+3. Stream: Certain endpoints provide streams of real-time data (see below). These are grouped together into stream facades.
 
 The fully-qualified name for an endpoint, as used canonically in the API, is `facade.method-name`.
 
