@@ -22,31 +22,29 @@ API methods are grouped together into broad sets, called "facades." This divisio
 2. Archive mode
 3. Stream
 
+The fully-qualified name for an endpoint, as used canonically in the API, is `facade.method-name`.
+
+## Support for large data sets
+
+Some data sets served by the API may group to hundreds of thousands, or millions, of rows. In order to support this amount of data, all API endpoints that return multiple rows of data return data in pages. Each call to one of these endpoints can optionally include a page size and page number. By default, the API will return the first page containing 50 elements. There is also a maximum page size, of ~1000 rows.
+
+## Archive nodes
+
+The vast majority of data exposed by the API are available from any fully synced full node. However, the API also includes a few endpoints (under the `archive` facade) that are only available on a special class of node called an "archive node." An archive node is identical to a full node, except that it stores _all intermediate state,_ i.e., the state at the end of every layer. This allows it to provide data such as the trace and state diff for all historical transactions. (This is a very large amount of data, and a non-archive full node would have to rerun all transactions from genesis to determine the historical state before an arbitrary historical transaction.)
+
+Another way to conceive of an archive node is that it's a full node with "state pruning" or "garbage collection" turned off.
+
+We *may* add an additional distinction whereby archive nodes store some of the same data as a full node but with additional indexes.
+
+These endpoints should only be consumed by blockchain explorers; as an example, see how Etherscan displays a [state diff](https://etherscan.io/tx/0xeb9c0156b5d40caf446170d422b25f159dd2efe9bc0a0c12aeee05b673309a6e#statechange).
+
+## Non-streaming vs. streaming endpoints
+
+For certain data sets, such as blocks, transactions, and account data, in addition to the non-streaming (paginated) endpoints, there are also streaming endpoints. These streams are designed to provide _new data only:_ they do not accept any parameters, and just stream new data in real-time as it becomes available. For instance, the `mesh-stream.account` endpoint streams all events that touch an account: transactions, balance updates, rewards, etc. Older data must be downloaded using the corresponding non-stream endpoints.
+
+Note that all stream endpoints are unidirectional (read-only), and run only via GRPC (no JSON/HTTP/websockets/etc.).
+
 ## Open questions
-
-## Facade Design Method
-- Sets of API methods are broken down into groups called "facades." Each facade is separately enabled in the node using a CLI flag.
-- Method naming convention: `facade.component.method-name`
-- We group methods into facades by
-  1. function
-  2. mode (read-only methods are grouped together; create-update-delete methods must be explicitly enabled separately)
-  3. type (ordinary, archive mode, stream)
-
-## Large data sets support
-- Every method which returns list of data supports pagination
-- Only return a default no. of items + return a field with the number of items returned and support calling it with an offset to retrieve additional items... NTH: User can specify how many results to retrieve up to a max of say 100 and if he's not specifying it a default is used. e.g. 50. Otherwise: always return up to 20 items (constant) at an offset
-
-## Design Ideas
-- Full nodes store historical data of up to n=200 layer or something like that but prune non-consensus data that's older than this.
-- For older data, e.g., intermediate states, you must ask an archive node.
-- An "archive node" is just a full node with pruning/garbage collection turned off.
-- We *may* add an additional distinction whereby archive nodes store some of the same data as a full node but with additional indexes.
-- Lots of the API design isssues are due to lack of decision on layer and epoch canonical state and rewards as part of consensus.  We have to resolve this.
-- Stream: GRPC only - no json/http/websockets
-
-## Questions
-
-- Are receipts and events part of consensus? Can non-archive nodes prune them?
+- Do we want receipts and event logs? Are they part of consensus? Should non-archive nodes prune them?
 - What about layer and epoch hashes?
 - Is canonical state part of layer data? epoch data? (see [state root checkpointing](https://github.com/spacemeshos/research/issues/45))
-- If smart contract txs events and receipts are NOT part of canonical state - how can a node know that the data he's getting from other nodes is correct?
