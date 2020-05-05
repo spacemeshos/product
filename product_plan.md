@@ -63,7 +63,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Releases Highlights
 
-1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node.
+1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node. New tree-free post construction,
 
 2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
 
