@@ -71,7 +71,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. Bug fixes and consensus protocol updates.
 
-5. Testnet [dashboard](dashboard.md).
+5. Testnet [dashboard](dashboard.md) and explorer.
 
 
 7. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
