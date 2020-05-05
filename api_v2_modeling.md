@@ -1,5 +1,7 @@
 # API DESIGN Whiteboard
 
+See also: https://docs.google.com/spreadsheets/d/1bZykfwMjcl4QOHCPKL-5jYUN3l3bxX9Km1qyMA0MecM/edit?usp=sharing
+
 ## API Categories
 
 ### I. NODE API
