@@ -71,10 +71,11 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. Bug fixes and consensus protocol updates.
 
-5. Testnet [dashboard](dashboard.md) and explorer.
+5. Testnet [dashboard](dashboard.md) and [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf).
 
+6. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
-7. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
+7. Improved user experience in the Spacemesh app in both the wallet and smesher features and additional features to support Spacemesh community programs.
 
 ---
 
