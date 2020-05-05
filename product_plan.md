@@ -50,7 +50,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
-5. [Spacemesh Tap](tap.md) - Enables users to get Testnet Smesh for testing purposes.
+5. Automated testnet tap - enables users to get Testnet Smesh for testing purposes.
 
 6. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
 
@@ -65,26 +65,26 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network http api gateway.
+2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
 
-3. Dashboard. Network status and data visualizations.
+3. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
 
-4. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
+4. Bug fixes and consensus protocol updates.
 
-5. Bug fixes and consensus protocol updates.
+5. Testnet [dashboard](dashboard.md).
 
-6. Testnet [dashboard](dashboard.md).
 
-7. Testnet [automated tap](tap.md).
-
-8. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
+7. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
 ---
 
 ## Spacemesh 0.3
 
 ### Release Highlights
-Coming soon
+
+1. Hardware Wallets support. Sign transactions with a hardware wallet.
+
+2. Security tightening & bug fixes.
 
 ----
 
@@ -104,7 +104,8 @@ We are building modern [wasm-based](https://webassembly.org/) VM and a programmi
 
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading smart contracts blockmesh state
 
-3. `Spacemesh Wallet` updates to supports interacting with smart contracts - reading smart contract state and executing smart contract transactions
+3. `Spacemesh Wallet` updates to support interacting with smart contracts - reading smart contract state and executing smart contract transactions
 
-### Use cases
-- Coming soon
+4. Full node validator functionality implementing a protocol to reach consensus on global state.
+
+5. Payment channels and tokens capabilities via smart contracts.
