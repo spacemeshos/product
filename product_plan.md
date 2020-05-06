@@ -87,8 +87,11 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Release Highlights
 
-1. No new user-facing features. Only bug fixes and enhancements to existing features.
-2. Security tightening and bug fixes to the Spacemesh protocol implementation.
+Spacemesh 0.3 is designed to be a minimally viable cryptocurrency with smart wallets powered by the Spacemesh consensus protocol.
+
+1. No new major features.
+2. Bug fixes and enhancements to existing features.
+2. Security tightening and bug fixes to the Spacemesh consensus protocol implementation.
 
 ----
 
