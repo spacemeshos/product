@@ -63,19 +63,23 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Releases Highlights
 
-1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node. New tree-free post construction,
+1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified variable POST commitment size per node. A new tree-free post construction.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
+2. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
-3. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
+3. Bug fixes and consensus protocol updates.
 
-4. Bug fixes and consensus protocol updates.
+4. Testnet [dashboard](dashboard.md) and [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf).
 
-5. Testnet [dashboard](dashboard.md) and [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf).
+5. Spamesh App (Smapp): Improved user experience in both the wallet and smesher features and additional features to support Spacemesh community programs. Add support for smart wallets.
 
-6. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
+6. Run a local testnet on your computer using go-spacemesh full node and CLI wallet.
 
-7. Improved user experience in the Spacemesh app in both the wallet and smesher features and additional features to support Spacemesh community programs.
+7. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
+
+8. Sign transactions with a hardware wallet or a mobile wallet. We'd like to support at least one major 3rd party mobile wallet and one major hardware wallet.
+
+9. A new robust full node meatmesh data collection model and a more robust full node API for clients such as node management apps, wallets, dashboards and explorers.
 
 ---
 
@@ -83,9 +87,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Release Highlights
 
-1. Hardware Wallets support. Sign transactions with a hardware wallet.
-
-2. Security tightening & bug fixes.
+1. No new user-facing features. Only bug fixes and enhancements to existing features.
+2. Security tightening and bug fixes to the Spacemesh protocol implementation.
 
 ----
 
