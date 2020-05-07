@@ -1,6 +1,6 @@
 # Spacemesh API design and methodology
 
-This high-level documentation is intended to accompany the [Master API spec](https://docs.google.com/spreadsheets/d/1P89OVWdgJocPy0CGM43Ge7Sx_6dabCBEagaVQfOk9us/edit).
+This high-level documentation is intended to accompany the [master API spec](https://github.com/spacemeshos/api).
 
 ## Goal
 
