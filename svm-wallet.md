@@ -3,7 +3,7 @@ SVM-wallet is contract wallet abstraction implemented in SVM and available for u
 
 # Use Cases
 1. Create an on-mesh spending wallet with a single  master key or a multi-sig master key (where zero or more of the key keys can be a hardware-wallet keys).
-2. Set daily spending limit and have them enforced by the wallet.
+2. Set daily spending limit and a spending key, and have these enforced by the wallet.
 3. Recycle a lost spending key using master key.
 4. View vested and unvested coin balance.
 5. Transfer up to the vested wallet balance from the wallet to another account or wallet.
