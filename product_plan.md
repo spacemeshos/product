@@ -1,5 +1,7 @@
 # Spacemesh Product Plan
 
+> Note that spacemesh is under active dynamic development and milestones and milestone features may change.
+
 ## The main problems that Spacemesh aims to solve
 1. Cryptocurrency fair global distribution
 2. Cryptocurrency as a global means of payment
@@ -10,11 +12,13 @@
 
 ## Overview
 
-Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with `Spacemesh 0.x` releases testnet updates and launch a mainnet according to the project [roadmap](roadmap.md).
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainnet release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate.
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
 Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality level and have been security audited.
+
+0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainnet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
 ## TL;DR
 
@@ -26,15 +30,15 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ### Release Highlights
 
-The main use case case of `Spacemesh 0.1` is to support [Spacemesh Coins](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Spacemesh coins` to people who run full Spacemesh full p2p nodes on their PCs. The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
+The main use case case of `Spacemesh 0.1` is to support [Smesh](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Smesh` to people who run full Spacemesh full p2p nodes on their PCs.
+
+The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
 
 The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
 
 ### Use Cases
 - [Available here](spacemesh01.md)
 
-### Visual Story
-![Story](https://github.com/spacemeshos/product/blob/master/resources/spacemesh0.1_sketch1.png)
 
 ### Release Highlights
 
@@ -46,34 +50,50 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
+5. Automated testnet tap - enables users to get Testnet Smesh for testing purposes.
+
+6. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
+
 ### App Users Guide
 [Spacemesh Testnet guide](https://testnet.spacemesh.io/#/dict)
 
 ---
 
-## Spacemesh 0.x
-0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainanet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
+## Spacemesh 0.2
 
 ### Releases Highlights
 
-1. [Spacemesh Tap](tap.md) - Enables users to get Testnet coins for testing purposes.
+1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified variable POST commitment size per node. A new tree-free post construction.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a Node on their computer.
+2. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
-3. Build and run from source code - Build go-spacemesh and the CLI-wallet from source code and use them to run
-a Node, get awards and execute transactions.
+3. Bug fixes and consensus protocol updates.
 
-4. Explorer. Explore the Spacemesh canonical ledger and mesh.
+4. Testnet [dashboard](dashboard.md) and [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf).
 
-5. Dashboard. Network status and data visualizations.
+5. Spamesh App (Smapp): Improved user experience in both the wallet and smesher features and additional features to support Spacemesh community programs. Add support for smart wallets.
 
-6. Local Testnet.
+6. Run a local testnet on your computer using go-spacemesh full node and CLI wallet.
 
-7. GPU Post generator.
+7. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
 
-8. Bug fixes and protocol updates.
+8. Sign transactions with a hardware wallet or a mobile wallet. We'd like to support at least one major 3rd party mobile wallet and one major hardware wallet.
+
+9. A new robust full node meatmesh data collection model and a more robust full node API for clients such as node management apps, wallets, dashboards and explorers.
 
 ---
+
+## Spacemesh 0.3
+
+### Release Highlights
+
+Spacemesh 0.3 is designed to be a minimally viable cryptocurrency with smart wallets powered by the Spacemesh consensus protocol.
+
+1. No new major features.
+2. Bug fixes and enhancements to existing features.
+2. Security tightening and bug fixes to the Spacemesh consensus protocol implementation.
+
+----
 
 ## Spacemesh 1.0
 
@@ -91,8 +111,8 @@ We are building modern [wasm-based](https://webassembly.org/) VM and a programmi
 
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading smart contracts blockmesh state
 
-3. `Spacemesh Wallet` updates to supports interacting with smart contracts - reading smart contract state and executing smart contract transactions
+3. `Spacemesh Wallet` updates to support interacting with smart contracts - reading smart contract state and executing smart contract transactions
 
-### Use cases
-- Coming soon
----
+4. Full node validator functionality implementing a protocol to reach consensus on global state.
+
+5. Payment channels and tokens capabilities via smart contracts.
