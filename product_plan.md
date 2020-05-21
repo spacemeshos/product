@@ -50,7 +50,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 4. [Spacemesh POST](https://github.com/spacemeshos/post) - A component implementing the proofs of space protocol used by Spacemesh full nodes.
 
-5. [Spacemesh Tap](tap.md) - Enables users to get Testnet Smesh for testing purposes.
+5. Automated testnet tap - enables users to get Testnet Smesh for testing purposes.
 
 6. Build go-spacemesh and a CLI wallet directly from source code and join the open testnet using them.
 
@@ -63,28 +63,35 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Releases Highlights
 
-1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified POST commitment size per node.
+1. [GPU Post generator](https://github.com/spacemeshos/gpu-post) and user-specified variable POST commitment size per node. A new tree-free post construction.
 
-2. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network http api gateway.
+2. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
 
-3. Dashboard. Network status and data visualizations.
+3. Bug fixes and consensus protocol updates.
 
-4. Run a local testnet on your computer using go-spacemesh full node and cli wallet.
+4. Testnet [dashboard](dashboard.md) and [explorer](https://github.com/spacemeshos/product/blob/master/resources/Explorer.pdf).
 
-5. Bug fixes and consensus protocol updates.
+5. Spamesh App (Smapp): Improved user experience in both the wallet and smesher features and additional features to support Spacemesh community programs. Add support for smart wallets.
 
-6. Testnet [dashboard](dashboard.md).
+6. Run a local testnet on your computer using go-spacemesh full node and CLI wallet.
 
-7. Testnet [automated tap](tap.md).
+7. Wallet-Only App Mode - Enables users to run the Spacemesh App and use all of its wallet features without running a node on their computer. The app communicates with a Spacemesh network https-json api gateway.
 
-8. [Smart wallets](svm-wallet.md) apps running on SVM and smart wallet transactions.
+8. Sign transactions with a hardware wallet or a mobile wallet. We'd like to support at least one major 3rd party mobile wallet and one major hardware wallet.
+
+9. A new robust full node meatmesh data collection model and a more robust full node API for clients such as node management apps, wallets, dashboards and explorers.
 
 ---
 
 ## Spacemesh 0.3
 
 ### Release Highlights
-Coming soon
+
+Spacemesh 0.3 is designed to be a minimally viable cryptocurrency with smart wallets powered by the Spacemesh consensus protocol.
+
+1. No new major features.
+2. Bug fixes and enhancements to existing features.
+2. Security tightening and bug fixes to the Spacemesh consensus protocol implementation.
 
 ----
 
@@ -104,7 +111,8 @@ We are building modern [wasm-based](https://webassembly.org/) VM and a programmi
 
 2. `Spacemesh full node`, `Spacemesh API` and `Spacemesh Gateway` updates to support smart contract transactions and reading smart contracts blockmesh state
 
-3. `Spacemesh Wallet` updates to supports interacting with smart contracts - reading smart contract state and executing smart contract transactions
+3. `Spacemesh Wallet` updates to support interacting with smart contracts - reading smart contract state and executing smart contract transactions
 
-### Use cases
-- Coming soon
+4. Full node validator functionality implementing a protocol to reach consensus on global state.
+
+5. Payment channels and tokens capabilities via smart contracts.

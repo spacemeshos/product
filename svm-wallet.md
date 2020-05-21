@@ -5,8 +5,8 @@ SmeshCash is a flexible, smart contract-based multisig wallet implemented in SVM
 # Use Cases
 
 1. Create an on-mesh spending wallet with a single master key or multiple master keys (any of these keys can be hardware-wallet keys).
-1. Generation of any number of replaceable "spending keys." These spending keys can be burned at any time, or replaced if lost, by the master key.
 1. Daily spending limits enforced by the wallet: master spending limit, and per-key spending limit.
+1. Generation of any number of replaceable "spending keys." These spending keys can be burned at any time, or replaced if lost, by the master key.
 1. View vested and unvested coin balance.
 1. Transfer up to the vested wallet balance from the wallet to another account or wallet.
 1. Provide investors and builders with a way to track vesting and get their coins.
