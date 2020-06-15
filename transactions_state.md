@@ -1,3 +1,5 @@
+This spec is depracted by the transaction status and restults as specified here: https://github.com/spacemeshos/api
+
 # Coin Transfer Transactions States
 
 ## Overview
