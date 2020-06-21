@@ -58,10 +58,25 @@ A new smart wallet is created via a special transaction. User specifies the requ
 - The vesting section is only displayed if the wallet has the vesting feature enabled. For genesis, this is only going to be the case for genesis smart wallets and not for user-created smart wallets. User created smart wallets do not support setting vesting.
 - On the left side user can see basic wallet info.
 - The advanced section should be collapsed and click-able to be displayed to reduce information overload when looking at this screen. The mock shows the section expanded.
+- The `review pending approval request` button should be displayed when is one or more pending approval request for the a 3 master accounts wallet that the user can sign with one of his wallet's account. There are 3 kind of approval operations:
+1. a withdrawal request
+2. a change to daily spending account
+3. A change to daily spending wallet amount in a 3 mast
 
+Clicking on the button should display the first pending operation for user approval (there can be more than 1 pending request - up to 1 per supported operation).
+
+TODO: Add approve transaction screen here for each request.
+
+---
 
 ## Smart Wallet Transactions Screen
 ![](./resources/smart_wallet_mocks/app_transactions.png)
+
+- This screen displays all transactions related to a smart wallet app. These include the app creation transaction and any transaction sent to the on-mesh app by any account (not just the accounts in the current active wallet).
+- Link to `view on explorer` should open the explorer tab in smapp and display the app's transactions. The explore view should be more detailed as it is not limited to the data available to the local node or the API endpoint that smapp is connected to.
+- The name of the operation of each transaction is displayed as well as any value associated with the transaction such as a withdrawal or funding.
+
+---
 
 ## My Apps Screen
 ![](./resources/smart_wallet_mocks/my_apps.png)
