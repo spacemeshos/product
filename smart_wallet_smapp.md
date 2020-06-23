@@ -1,5 +1,26 @@
 # Smart Wallets in Smapp
-Smart Wallets is the only app which users can create in the first version of the Spacemesh mainnet. This document describes the main flows of creating and working with smart wallets in smapp. Smart wallets is an advanced feature which showcase the power of Spacemesh VM and smart contracts. It is designed for enhance security and capabilities for working with coins on the Spacemesh platform.
+Smart Wallets is the only app which users can create in the first version of the Spacemesh mainnet.
+
+This document describes the main flows of creating and working with smart wallets in smapp.
+
+Smart wallets is an advanced feature which showcase the power of Spacemesh VM and smart contracts. It is designed for enhance security and capabilities for working with coins on the Spacemesh platform.
+
+## Definitions
+
+### Smart Wallet App
+A Spacemesh smart wallet smart contract instance. Deployed from the smart wallet code template.
+
+### 3 master accounts Smart Wallet
+A smart wallet with 3 master account requires approval of 1 master account owner on the following operations: withdraw, set daily spending limit and set daily spending account.
+
+### 1 master account Smart Wallet
+A smart wallet with 1 master account is fully controlled by the master account owner and he doesn't need authorization to perform any operation such as withdraw, set daily spending limit and set daily spending account.
+
+### Genesis deployed smart wallets
+These apps are deployed at genesis time to the Spacemesh platform from data in the genesis config file. These wallets provide vesting capabilities.
+
+### User created smart wallets
+These smart wallets are created by users using a create transaction. Vesting features are not supported for user-created smart wallets.
 
 ## Creating a new Smart Wallet
 A new smart wallet is created via a special transaction. User specifies the required wallet configuration and funding amount using the flow described below.
@@ -13,7 +34,7 @@ A new smart wallet is created via a special transaction. User specifies the requ
 - The master account may be on a hardware wallet generated key pair connected via usb to smapp or a standard smapp hot wallet.
 - User can optionally set a daily spending account and daily spending limit (only for a single master account wallet). For a 3 master account wallet, spending account and limit can be set later and requires an additional master account approval.
 - User sets the funding amount, the account to create the smart wallet with. This should be one of his owned accounts.
-- Smart wallet nickname (up to 20 utf chars) is stored on mesh with the new wallet's app instance.
+- Smart wallet nickname (up to 20 utf-8 chars) is stored on mesh with the new wallet's app instance.
 
 ### Step 2 - Set One Master Account
 ![](./resources/smart_wallet_mocks/set_master_account.png)
