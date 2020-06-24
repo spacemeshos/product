@@ -20,15 +20,10 @@
 
 ## Milestone 3 - Q4 2019
 - [x] Full node and proof of elapsed time service code complete.
-
 - [x] Simple proof of space protocol finalized and e-print published. Presented at crypto 2019.
-
 - [x] Running closed Testnet with 1,500 nodes across several world regions, bootstrap nodes and a PoET service.
-
 - [x] SVM - A Wasm-based smart contracts runtime alpha code-complete.
-
 - [x] Proof of space GPU setup library for Windows and Linux code-complete.
-
 - [x] Spacemesh Desktop App 0.1 for Windows, OS X and Linux Code Complete and in testing.
 
 ## Milestone 4 - Spacemesh 0.1 Testnet Soft Launch - Q1 2020 - [TN1](https://github.com/spacemeshos/go-spacemesh/milestone/6)
@@ -36,18 +31,21 @@
 - [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all three major desktop platforms.
 - [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App.
 
-## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q3 2020 - [TN2](https://github.com/spacemeshos/go-spacemesh/milestone/9)
+## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q3 2020 - [TN2]
 ### Focus: FUNCTIONALITY
-- [ ] Launch dashboard and an automated Tap.
-- [ ] Launch testnet rewards programs and the Spacemesh store.
-- [ ] Support wallet-only mode in the Spacemesh app.
-- [ ] Support adjustable PoST commitment sizes per node and GPU PoST init.
+- [ ] Launch dashboard.
+- [ ] Testnet rewards programs and the Spacemesh store.
+- [ ] Full nodes API 2.0.
+- [ ] Public network API gateway and wallet-only mode in the Spacemesh app.
+- [ ] Adjustable PoST commitment sizes per node and GPU PoST init.
 - [ ] Programability - Smart wallet apps running on SVM and smart wallet transactions.
 - [ ] Implement consensus protocol updates.
+- [ ] Full Smart wallets support in the Spacemesh App.
+- [ ] Spacemesh App dark mode.
 
-## Milestone 6 - Spacemesh 0.3 - Q4 2020 - [TN3](https://github.com/spacemeshos/go-spacemesh/milestone/8)
+## Milestone 6 - Spacemesh 0.3 - Q4 2020 - [TN3]
 ### Focus: SECURITY
-- [ ] Launch full mesh explorer.
+- [ ] Full mesh explorer.
 - [ ] Conduct security audit and bug bounties program.
 - [ ] Fix all critical issues found in audit and in Spacemesh 0.2.
 
@@ -57,6 +55,11 @@
 
 > *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
+## Milestone 8 - Spacemesh 1.0 - TBD
+- [ ] Validators role in full node - consensus on global state.
+- [ ] Tokens and stable coins via smart contacts.
+- [ ] Payment channels and a payment network for Spacemesh coin and tokens.
+- [ ] 3D network explorer.
 ----
 
 ### Resources
