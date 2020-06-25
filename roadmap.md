@@ -83,6 +83,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Testnet rewards programs and the Spacemesh store.
 - [ ] Web Dashboard and explorer.
 - [ ] Public API 2.0 Endpoint.
+- [ ] Spacemesh Ledger App and client SDK
 
 #### Spacemesh App
 - [ ] Full Smart Wallets transactions support.
