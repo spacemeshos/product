@@ -3,7 +3,7 @@
 > Note that spacemesh is under active dynamic development and milestones dates and features may change.
 
 ## Overview
-Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainnet release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate.
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainnet release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate in 2021.
 
 Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
 
@@ -11,22 +11,15 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainnet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
 
-### The main problems that Spacemesh aims to solve
-1. Cryptocurrency fair global distribution
-2. Cryptocurrency as a global means of payment
-3. Censorship from participating in a fair, global and open monetary system
-4. Distributed apps are too hard to develop and to be used by everyday people
-5. Issues involved in Proof of Work based consensus mechanisms, mining pools and ASIC mining
-6. Issues involved in Proof of Stake based consensus mechanisms
-
 ---
 
 # Spacemesh Roadmap
 
-## TL;DR
+## TL;DR: 2020 Roadmap
 
 ![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/roadmap2019_1.png)
 
+---
 # Completed milestones
 
 ## Q4 2017
@@ -74,28 +67,40 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 # Current and Future Milestones
 
-## Milestone 5 - Spacemesh 0.2 Public Testnet Updates - Q3 2020
+## Milestone 5 - Spacemesh 0.2 Public Testnet - Q3 2020
 ### Focus: FUNCTIONALITY
-- [ ] Dashboard and explorer on the web and in the Spacemesh App.
-- [ ] Testnet rewards programs and the Spacemesh store.
-- [ ] Full nodes API 2.0.
-- [ ] Public network API gateway and wallet-only mode in the Spacemesh App.
-- [ ] Smesher provided variable PoST commitment size and GPU PoST init.
-- [ ] Programability - Smart wallet app running on SVM and support for smart wallet transactions.
-- [ ] Full Smart wallets support in Spacemesh App.
+
+#### Full Node
 - [ ] Implement Spacemesh protocol updates to Sync, Tortoise and Hare protocols.
-- [ ] Spacemesh App dark mode.
-- [ ] Ledger hardware wallet support for signing transactions via the Spacemesh App and CLIWallet.
-- [ ] Full nodes operational telemetry.  
-- [ ] Self healing protocol implementation in full node.
-- [ ] Smeshers rewards scheme implementation in full node including Hare and ATX rewards. Implement API support for the rewards scheme.
+- [ ] Smeshers rewards scheme implementation including Hare and ATX rewards. Implement API support for the rewards scheme.
+- [ ] API 2.0.
+- [ ] Telemetry Features.
+- [ ] Smart wallet SVM app and support for smart wallet transactions.
+- [ ] Smesher provided variable PoST commitment size and GPU PoST init.
+- [ ] Self healing protocol implementation
+
+#### Ecosystem Projects
+- [ ] Testnet rewards programs and the Spacemesh store.
+- [ ] Web Dashboard and explorer.
+- [ ] Public API 2.0 Endpoint.
+
+#### Spacemesh App
+- [ ] Full Smart Wallets transactions support.
+- [ ] Dark Mode.
+- [ ] Sign transactions with Ledger hardware wallet.
+- [ ] Display dashboard and explorer.
+- [ ] Wallet-only mode.
+
+#### CLIWallet
+- [ ] Sign transactions with Ledger hardware wallet.
 
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and bug bounties program for Spacemesh protocol and full nodes.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
+- [ ] Genesis Smart Wallets
 
-## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q4 2020
+## Milestone 7 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2020
 
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing on testnet before mainnet genesis.
