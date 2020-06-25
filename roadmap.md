@@ -1,4 +1,33 @@
-# Spacemesh Project Roadmap
+# Spacemesh Project Product Plan and Roadmap
+
+> Note that spacemesh is under active dynamic development and milestones dates and features may change.
+
+## Overview
+Our short-term high-level product plan is to build [Spacemesh 0.1](spacemesh01.md), release an open public testnet, follow-up with two major open testnet releases `Spacemesh 0.2` and `Spacemesh 0.3`. We are aiming to have a mainnet release candidate we call `Spacemesh 0.3.5` in 2020 and launch a mainnet genesis based on the quality of the release candidate.
+
+Our long-term high-level product plan is to implement, test and roll-out additional capabilities and features to the platform in subsequent incremental releases until the full platform is released as `Spacemesh 1.0` with support to all the main use cases outlined here.
+
+Incremental product releases, starting with `Spacemesh 0.1` will be deployed to testnets first for testing and to the `Spacemesh Mainnet` once they reach production quality level and have been security audited.
+
+0.x releases are going to include bug fixes, updates and additional features for testing on the public testnet prior to mainnet launch. The mainnet will be launched once we are comfortable with the quality, security and performance of a 0.x release.
+
+### The main problems that Spacemesh aims to solve
+1. Cryptocurrency fair global distribution
+2. Cryptocurrency as a global means of payment
+3. Censorship from participating in a fair, global and open monetary system
+4. Distributed apps are too hard to develop and to be used by everyday people
+5. Issues involved in Proof of Work based consensus mechanisms, mining pools and ASIC mining
+6. Issues involved in Proof of Stake based consensus mechanisms
+
+---
+
+# Spacemesh Roadmap
+
+## TL;DR
+
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/roadmap2019_1.png)
+
+# Completed milestones
 
 ## Q4 2017
 - [x] Go-spacemesh App scaffolding.
@@ -26,41 +55,57 @@
 - [x] Proof of space GPU setup library for Windows and Linux code-complete.
 - [x] Spacemesh Desktop App 0.1 for Windows, OS X and Linux Code Complete and in testing.
 
-## Milestone 4 - Spacemesh 0.1 Testnet Soft Launch - Q1 2020 - [TN1](https://github.com/spacemeshos/go-spacemesh/milestone/6)
+## Milestone 4 - Spacemesh 0.1 Public Testnet Launch - Q1 2020
+
+### Spacemesh 0.1 Release Highlights
+
+The main use case case of `Spacemesh 0.1` is to support [Smesh](spacemesh_coin.md) cryptocurrency transactions between any two parties and to award `Smesh` to people who run full Spacemesh full p2p nodes on their PCs.
+
+The Spacemesh full node implements the [Spacemesh consensus protocol 1.0](https://spacemesh.io/spacemesh-protocol-v1-0/) and other protocols to support this use case.
+
+The main goal of this release is to provide an MVP of a permissionless and trustless Internet money that is secure, decentralized and scalable without using POW or PoStake mechanisms.
+
 ### Focus: LEARNINGS
 - [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all three major desktop platforms.
-- [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App.
+- [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App and join testnet or run a local devnet.
+- [x] Automated community run tap.
 
-## Milestone 5 - Spacemesh 0.2 Testnet Updates - Q3 2020 - [TN2]
+----
+
+# Current and Future Milestones
+
+## Milestone 5 - Spacemesh 0.2 Public Testnet Updates - Q3 2020
 ### Focus: FUNCTIONALITY
-- [ ] Launch dashboard.
+- [ ] Launch first version of dashboard and explorer.
 - [ ] Testnet rewards programs and the Spacemesh store.
 - [ ] Full nodes API 2.0.
 - [ ] Public network API gateway and wallet-only mode in the Spacemesh app.
 - [ ] Adjustable PoST commitment sizes per node and GPU PoST init.
 - [ ] Programability - Smart wallet apps running on SVM and smart wallet transactions.
-- [ ] Implement consensus protocol updates.
+- [ ] Implement Spacemesh protocol updates to sync, Tortoise and Hare protocols.
 - [ ] Full Smart wallets support in the Spacemesh App.
 - [ ] Spacemesh App dark mode.
+- [ ] Ledger hardware wallet support for signing transactions via the Spacemesh App.
+- [ ] Full nodes operational telemetry.  
+- [ ] Self healing protocol implementation in full node.
+- [ ] Smeshers rewards scheme implementation in full node. Hare and ATX rewards.
 
-## Milestone 6 - Spacemesh 0.3 - Q4 2020 - [TN3]
+## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
-- [ ] Full mesh explorer.
-- [ ] Conduct security audit and bug bounties program.
-- [ ] Fix all critical issues found in audit and in Spacemesh 0.2.
+- [ ] Perform comprehensive security audits and bug bounties program for Spacemesh protocol and full nodes.
+- [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
 
-## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q3/Q4 2020
+## Milestone 7 - Spacemesh 0.3.5 Release Candidate - Q4 2020
+
 ### Focus: GENESIS
-- [ ] Launch release candidate for final testing before mainnet genesis.
+- [ ] Launch release candidate for final testing on testnet before mainnet genesis.
 
 > *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
 
 ## Milestone 8 - Spacemesh 1.0 - TBD
 - [ ] Validators role in full node - consensus on global state.
-- [ ] Tokens and stable coins via smart contacts.
+- [ ] Tokens and stable coins via SVM smart contacts.
 - [ ] Payment channels and a payment network for Spacemesh coin and tokens.
 - [ ] 3D network explorer.
+- [ ] Update Spacemesh App to support all new features.
 ----
-
-### Resources
-- [Spacemesh 0.1 spec](https://github.com/spacemeshos/product/blob/master/spacemesh01.md)
