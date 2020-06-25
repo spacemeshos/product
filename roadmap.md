@@ -76,19 +76,19 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ## Milestone 5 - Spacemesh 0.2 Public Testnet Updates - Q3 2020
 ### Focus: FUNCTIONALITY
-- [ ] Launch first version of dashboard and explorer.
+- [ ] Dashboard and explorer on the web and in the Spacemesh App.
 - [ ] Testnet rewards programs and the Spacemesh store.
 - [ ] Full nodes API 2.0.
-- [ ] Public network API gateway and wallet-only mode in the Spacemesh app.
-- [ ] Adjustable PoST commitment sizes per node and GPU PoST init.
-- [ ] Programability - Smart wallet apps running on SVM and smart wallet transactions.
-- [ ] Implement Spacemesh protocol updates to sync, Tortoise and Hare protocols.
-- [ ] Full Smart wallets support in the Spacemesh App.
+- [ ] Public network API gateway and wallet-only mode in the Spacemesh App.
+- [ ] Smesher provided variable PoST commitment size and GPU PoST init.
+- [ ] Programability - Smart wallet app running on SVM and support for smart wallet transactions.
+- [ ] Full Smart wallets support in Spacemesh App.
+- [ ] Implement Spacemesh protocol updates to Sync, Tortoise and Hare protocols.
 - [ ] Spacemesh App dark mode.
-- [ ] Ledger hardware wallet support for signing transactions via the Spacemesh App.
+- [ ] Ledger hardware wallet support for signing transactions via the Spacemesh App and CLIWallet.
 - [ ] Full nodes operational telemetry.  
 - [ ] Self healing protocol implementation in full node.
-- [ ] Smeshers rewards scheme implementation in full node. Hare and ATX rewards.
+- [ ] Smeshers rewards scheme implementation in full node including Hare and ATX rewards. Implement API support for the rewards scheme.
 
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
