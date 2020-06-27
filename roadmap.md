@@ -70,25 +70,26 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ## Milestone 5 - Spacemesh 0.2 Public Testnet - Q3 2020
 ### Focus: FUNCTIONALITY
 
-#### Full Node
-- [ ] Implement Spacemesh protocol updates to Sync, Tortoise and Hare protocols.
-- [ ] Smeshers rewards scheme implementation including Hare and ATX rewards. Implement API support for the rewards scheme.
+#### Full Node Features
+- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols.
 - [ ] API 2.0.
-- [ ] Telemetry Features.
-- [ ] Smart wallet SVM app and support for smart wallet transactions.
-- [ ] Smesher provided variable PoST commitment size and GPU PoST init.
-- [ ] Self healing protocol implementation
+- [ ] Smeshers rewards scheme including Hare and ATX rewards.
+- [ ] Consensus protocol self healing.
+- [ ] Smart Wallet app and smart contract transactions.
+- [ ] Telemetry.
+- [ ] User-defined PoST init size.
+- [ ] GPU PoST setup.
+- [ ] Support for standard ED25519 transactions signature scheme.
 
 #### Ecosystem Projects
-- [ ] Testnet rewards programs and the Spacemesh store.
-- [ ] Web Dashboard and explorer.
-- [ ] Public API 2.0 Endpoint.
-- [ ] Spacemesh Ledger App and client SDK
+- [ ] Testnet rewards program and the Spacemesh store.
+- [ ] Web dashboard and explorer.
+- [ ] Public API 2.0 endpoint.
 
 #### Spacemesh App
-- [ ] Full Smart Wallets transactions support.
+- [ ] Full Smart Wallets support.
 - [ ] Dark Mode.
-- [ ] Sign transactions with Ledger hardware wallet.
+- [ ] Use Ledger wallet to sign transactions.
 - [ ] Display dashboard and explorer.
 - [ ] Wallet-only mode.
 
@@ -99,19 +100,27 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and bug bounties program for Spacemesh protocol and full nodes.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
-- [ ] Genesis Smart Wallets
+- [ ] Genesis Smart Wallets.
+
+---
 
 ## Milestone 7 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2020
 
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing on testnet before mainnet genesis.
 
-> *Caveat*: we are only going to launch a Mainnet supporting the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
+> *Caveat*: we are only going to launch a mainnet for the Spacemesh Coin cryptocurrency once we have obtained a high-degree of confidence in the security of our platform. This means both full published theoretical proofs for all of the protocols and the security of the Spacemesh node implementation.
+
+---
 
 ## Milestone 8 - Spacemesh 1.0 - TBD
-- [ ] Validators role in full node - consensus on global state.
-- [ ] Tokens and stable coins via SVM smart contacts.
-- [ ] Payment channels and a payment network for Spacemesh coin and tokens.
-- [ ] 3D network explorer.
-- [ ] Update Spacemesh App to support all new features.
+
+### Full Node
+1. [ ] Validators role in full node and consensus on global state.
+1. [ ] Tokens and stable coins via SVM smart contacts.
+1. [ ] Payment channels and a payment network for Spacemesh coin and tokens.
+
+### Ecosystem Projects
+1. [ ] 3D network explorer.
+1. [ ] Update Spacemesh App and CLIWallet to support all new features.
 ----
