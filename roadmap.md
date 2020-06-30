@@ -72,35 +72,36 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 #### Full Node Features
 - [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols.
-- [ ] API 2.0.
-- [ ] Smeshers rewards scheme including Hare and ATX rewards.
+- [ ] Spacemesh API 2.0.
+- [ ] Smeshers rewards protocol including Hare and ATX rewards.
 - [ ] Consensus protocol self healing.
-- [ ] Smart Wallet app and smart contract transactions.
+- [ ] Smart wallet app and smart wallet transactions.
 - [ ] Telemetry.
-- [ ] User-defined PoST init size.
-- [ ] GPU PoST setup.
-- [ ] Support for standard ED25519 transactions signature scheme.
+- [ ] User-defined PoST allocation size and GPU setup.
+- [ ] Support for signing transactions with the standard ED25519 signature scheme.
 
 #### Ecosystem Projects
 - [ ] Testnet rewards program and the Spacemesh store.
 - [ ] Web dashboard and explorer.
-- [ ] Public API 2.0 endpoint.
+- [ ] Public Spacemesh API 2.0 endpoint.
 
 #### Spacemesh App
-- [ ] Full Smart Wallets support.
 - [ ] Dark Mode.
-- [ ] Use Ledger wallet to sign transactions.
+- [ ] Full Smart Wallets apps support.
+- [ ] Use Ledger hardware wallet to sign transactions.
 - [ ] Display dashboard and explorer.
 - [ ] Wallet-only mode.
+- [ ] Switch between networks.
 
 #### CLIWallet
 - [ ] Sign transactions with Ledger hardware wallet.
+- [ ] Smart Wallets support.
 
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
-- [ ] Perform comprehensive security audits and bug bounties program for Spacemesh protocol and full nodes.
+- [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
-- [ ] Genesis Smart Wallets.
+- [ ] Support Genesis Smart Wallets.
 
 ---
 
