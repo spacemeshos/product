@@ -11,6 +11,10 @@
 
 - [Overview Video 2](https://youtu.be/sbZZy9CYjEE)
 
+- [Overview Video 3](https://youtu.be/BjKBYIbrScM)
+
+- [Overview Video 4](https://youtu.be/yTjXFb-ZhOY)
+
 - [Spacemesh Protocol e-print](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
 
 
