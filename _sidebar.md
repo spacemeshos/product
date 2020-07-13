@@ -1,5 +1,6 @@
 
 - [Roadmap](roadmap.md)
+- [Platform](platform.md)
 - [Coin](spacemesh_coin.md)
 - [Glossary](sm0.1_names.md)
 - [Smeshers Data](home-smeshers-data.md)
