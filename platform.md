@@ -1,6 +1,6 @@
 # Spacemesh Platform
 
-> This page lists the main technical resources available for the Spacemesh Protocol, as well as the Github repos that are used to implement the Spacemesh cryptocurrency.
+> This page lists the main technical resources available about the Spacemesh Protocol, as well as the Github repos that are used to implement the Spacemesh cryptocurrency.
 
 ## The Spacemesh Protocol
 - [Overview Part 1](https://spacemesh.io/protocol)
@@ -17,10 +17,7 @@
 
 - [Spacemesh Protocol e-print](https://drive.google.com/file/d/18I9GPebWqgpvusI1kMnAB9nayBbL-1qN/view)
 
-
-
-
-- Developers oriented [protocol documentation](https://protocol.spacemesh.io).
+- Developer oriented [protocol documentation](https://protocol.spacemesh.io).
 
 ---
 
