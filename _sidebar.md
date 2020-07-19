@@ -6,6 +6,7 @@
 - [Smeshers Data](home-smeshers-data.md)
 - [Smart Wallets](smart_wallet_smapp.md)
 - [Dashboard](dashboard.md)
+- [GPU POST via Smapp](post_setup.md)
 
 **Visual Designs**
 - [Explorer Dark Mode](resources/explorer_reference_visual_design_dark_mode.pdf ':ignore')
