@@ -19,15 +19,15 @@ We would like to empower users to use a Ledger hardware wallet to sign Spacemesh
 
 2. when using smapp for the first time - user is prompted to select the type of wallet he'd like to setup.
 
-![](./resources/ledger_Wallet/smapp_create_new_wallet.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/ledger_wallet/smapp_create_new_wallet.png)
 
 3. After selecting a new ledger wallet, user is prompted to connect his ledger device via USB to his computer and open the Ledger app on the device.
 
-![](./resources/ledger_Wallet/smapp_connect_ledger_device.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/ledger_wallet/smapp_connect_ledger_device.png)
 
 4. The Ledger wallet is displayed in Smapp and it has one or more accounts similar to a standard hot wallet.
 
-![](./resources/ledger_Wallet/smapp_sign_with_ledger.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/ledger_wallet/smapp_sign_with_ledger.png)
 
 - Each account is an account on the ledger device and user can access additional accounts (create account in smapp jargon).
 
@@ -37,4 +37,4 @@ We would like to empower users to use a Ledger hardware wallet to sign Spacemesh
 
 5. When user signs a transaction on ledger Smapp displays a confirmation screen about transaction being signed and submitted to the network for processing.
 
-![](./resources/ledger_Wallet/smapp_ledger_tx_submitted.png)
+![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/ledger_wallet/smapp_ledger_tx_submitted.png)

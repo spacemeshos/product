@@ -10,7 +10,7 @@
 - [Smart Wallets](smart_wallet_smapp.md)
 - [Dashboard](dashboard.md)
 - [GPU POST via Smapp](post_setup.md)
-- [Multiple Wallets in Smapp](multiple_wallets_smapp.md)
+- [Multiple Wallets Smapp](multiple_wallets_smapp.md)
 - [Ledger Wallet](ledger_app.md)
 
 
