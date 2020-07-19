@@ -1,29 +1,35 @@
-# Smart Wallets in Smapp
-Smart Wallets is the only app which users can create in the first version of the Spacemesh mainnet.
+# Vaults in Smapp
 
-This document describes the main flows of creating and working with smart wallets in smapp.
+> This document is WIP draft and is under heavy modifications
 
-Smart wallets is an advanced feature which showcase the power of Spacemesh VM and smart contracts. It is designed for enhance security and capabilities for working with coins on the Spacemesh platform.
+This document describes the main flows of creating and working with vaults in smapp.
+
+Vaults is the only app which users can create and use in the first version of the Spacemesh mainnet.
+
+Vaults is an advanced feature which showcase the power of the Spacemesh VM and smart contracts. It is designed to provide enhance security and capabilities for working with coins on the Spacemesh platform use cases.
+
+Vaults also work with Ledger hardware wallet.
 
 ## Definitions
 
-### Smart Wallet App
-A Spacemesh smart wallet smart contract instance. Deployed from the smart wallet code template.
+### Vault
+A Spacemesh vault smart contract instance which is deployed from the vault's code template. The code template will be automatically deployed at genesis time of the Spacemesh network.
 
-### 3 master accounts Smart Wallet
-A smart wallet with 3 master account requires approval of 1 master account owner on the following operations: withdraw, set daily spending limit and set daily spending account.
+### One master account Vault
+A vault with one master account is fully controlled by the master account owner and he doesn't need authorization from anyone else to perform any operation such as withdraw, set daily spending limit and set daily spending account.
 
-### 1 master account Smart Wallet
-A smart wallet with 1 master account is fully controlled by the master account owner and he doesn't need authorization to perform any operation such as withdraw, set daily spending limit and set daily spending account.
+### 3 master accounts Vault
+A vault configured with 3 master accounts. Operations are initiated by one master account owner and require approval of additional one master account owner on the following operations: withdraw, set daily spending limit and set daily spending account. A 3 master accounts vaults is similar to the concept of 2 out of 3 multi-sig wallet.
 
-### Genesis deployed smart wallets
-These apps are deployed at genesis time to the Spacemesh platform from data in the genesis config file. These wallets provide vesting capabilities.
+### Genesis Deployed Vaults
+These vaults are deployed at genesis time to a Spacemesh network from data in the network's genesis config file. These vaults provide vesting capabilities.
 
-### User created smart wallets
-These smart wallets are created by users using a create transaction. Vesting features are not supported for user-created smart wallets.
+### User created Vaults
+These vaults are created by users using a create transaction. Vesting features are not supported for user-created smart wallets. A new vault is created via a special transaction called `spawn-app` transaction. The user which creates and submits this transaction specifies his new vault's configuration and funding amount using the flow described below in smapp or in any other Spacemesh wallet app.
 
-## Creating a new Smart Wallet
-A new smart wallet is created via a special transaction. User specifies the required wallet configuration and funding amount using the flow described below.
+## Creating a Vault In Smapp - User Interactions
+
+From a user-perspective a vault is a special account that is added to an existing wallet. The wallet can be a hot-wallet or a ledger hardware device wallet. When a vault is added to a hot-wallet, it is created by a wallet's hot address and operations on the vault in the basic use-case also use the wallet's hot addresses. When a vault is added to a ledger wallet, it is created using a hardware-wallet secured address and transaction and operations in the simple use case are performed by the user using a hardware wallet address.
 
 ### Step 1 - Enter Wallet Info
 ![](./resources/smart_wallet_mocks/new_app.png)
