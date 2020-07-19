@@ -25,4 +25,5 @@ Each wallet can have multiple accounts. There are two types of accounts we shoul
 1. Standard accounts - derived from the wallet's random seed.
 2. Vault accounts - a vault account is an abstraction that is backed by an on-mesh smart wallet instance.
 
-Both ledger wallets and standard hot wallets should support vault accounts. Vault accounts do not have a bip32 path - they are just a collection of meta-data on vault on-chain instances. When using a vault account from a ledger wallet, signing transactions is done via ledger. When using a vault account from a standard wallet, signing transactions is done by smapp. Any wallet account can be used to sign messages for the same wallet's vault account.
+- Both ledger wallets and standard hot wallets should support vault accounts. Vault accounts do not have a bip32 path - they are just a collection of meta-data on vault on-chain instances. When using a vault account from a ledger wallet, signing transactions is done via ledger.
+- When using a vault account from a standard wallet, signing transactions is done by smapp. Any wallet account can be used to sign messages for the same wallet's vault account.
