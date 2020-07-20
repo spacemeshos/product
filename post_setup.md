@@ -35,7 +35,7 @@ Wizard flow starts when setting a new smesher in the app's first user experience
 
 ### Step 3 - Data Processor
 
-![](./resources/post_mocks/post_Setup_processor.png)
+![](./resources/post_mocks/post_setup_processor.png)
 
 - The App displays to the user a list of available processors and compute engines to create the data. For example, when the system has 1 Nvidia Geforce RTX 2070 GPU which supports Cuda and Vulkan compute engine, the drop-down will list two options: `Nvidia Geforce RTX 2070 (CUDA)` and `Nvidia Geforce RTX 2070 (Vulkan)`.
 - For each available processor and engine, the app should display the estimated work time to create the data.
@@ -48,7 +48,7 @@ Wizard flow starts when setting a new smesher in the app's first user experience
 
 ### Step 4 - Review & Create Data
 
-![](./resources/post_mocks/post_Setup_confirm.png)
+![](./resources/post_mocks/post_setup_confirm.png)
 
 - The App should display the data creation information specified by the user in previous steps.
 - User reviews the data and clicks `Create Data` to start creating it.
