@@ -23,7 +23,7 @@ A vault configured with 3 master accounts. Operations are initiated by one maste
 These vaults are deployed at genesis time to a Spacemesh network from data in the network's genesis config file. These vaults provide vesting capabilities.
 
 ### User Created Vaults
-These vaults are created by users using a create transaction. Vesting features are not supported for user-created smart wallets. A new vault is created via a special transaction called `spawn-app` transaction. The user which creates and submits this transaction specifies his new vault's configuration and funding amount using the flow described below in smapp or in any other Spacemesh wallet app.
+These vaults are created by users using a create transaction. Vesting features are not supported for user-created vaults. A new vault is created via a special transaction called `spawn-app` transaction. The user which creates and submits this transaction specifies his new vault's configuration and funding amount using the flow described below in smapp or in any other Spacemesh wallet app.
 
 ## Creating a Vault In Smapp - User Interactions
 
