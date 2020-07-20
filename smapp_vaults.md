@@ -80,7 +80,7 @@ A simple vault is a vault which is controlled by one master account. A multi-sig
 
 - User should be able to provide the vault creation transaction required information.
 - User selects one of the accounts with non-zero balance in his wallet.
-- User should be able set an optional funding amount to be transferred to the vault from the transaction's account.
+- User should be able to set an optional funding amount to be transferred to the vault from the transaction's account.
 - User should be able to set the transaction fee.
 - User clicks 'Review' when he provided the 3 required data items.
 
