@@ -51,7 +51,7 @@ A simple vault is a vault which is controlled by one master account. A multi-sig
 ![](./resources/smart_wallet_mocks2/new_vault_step3.png)
 
 - User's goal to specify the vault's master account.
-- The dropdown should display all the accounts which were created in the wallet as well as an entry for each of the wallet's contracts.
+- The dropdown should display all the accounts which were created in the wallet as well as an entry for each of the wallet's contacts.
 - User should be able to paste any address. This allows users to create a vault which is controlled by any address - not just addresses in his wallet.
 
 ### Step 3 - Set Multi-sig Vault Master Accounts
