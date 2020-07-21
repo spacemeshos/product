@@ -107,9 +107,25 @@ This screen is displayed when the new vault transaction has been successfully su
 
 ## Working with Vaults
 
-### Viewing Vault State in Smapp
+### Displaying a Vault
+- Vaults are accessed in Smapp in a similar way to how an account is accessed.
+- A vault always belongs to a specific smapp wallet and user views a vault by making it the current wallet's account in Smapp.
+- To access a vault in a different wallet, user is expected to switch smapp to access that wallet and select to make the vault the active account.
+
+
+### Working with a Simple Vault
+![](./resources/smart_wallet_mocks2/simple_vault_main_screen.png)
+
+- In the mock above, a simple vault called `My Vault` is displayed in `My Wallet`.
+- A visual indicator next to the vault's name indicates that this is a vault account.
+- Vault total balance is displayed on the bottom-left under `balance` - similar to the balance of a standard address.
+- User can set up or modify daily spending limit or daily spending account by clicking on `Setup daily spending` button.
+- On the right side, a list of recent vault transactions is displayed and user can click on `All Transactions` to view the vault's transactions. See vault transactions below.
+- In the main area, 3 main buttons are displayed with the main simple vault commands.
 
 ### Funding a Vault
+
+### Sending coin to another account from a vault 
 
 ### Withdrawing from a Simple Vault
 
@@ -122,3 +138,9 @@ This screen is displayed when the new vault transaction has been successfully su
 ### Setting Spending Limit Account - Simple Vault
 
 ### Setting Spending Limit Account - Multi Sig Vault
+
+### Adding an Existing Vault to Smapp
+
+### Hiding a Vault in Smapp
+
+### Vault Transactions Screen
