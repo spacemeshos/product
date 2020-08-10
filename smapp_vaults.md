@@ -107,13 +107,14 @@ This screen is displayed when the new vault transaction has been successfully su
 
 ## Working with Vaults
 
-### Displaying a Vault
+### Accessing a Vault
 - Vaults are accessed in Smapp in a similar way to how an account is accessed.
 - A vault always belongs to a specific smapp wallet and user views a vault by making it the current wallet's account in Smapp.
 - To access a vault in a different wallet, user is expected to switch smapp to access that wallet and select to make the vault the active account.
 
 
-### Working with a Simple Vault
+
+### Working with Vaults
 ![](./resources/smart_wallet_mocks2/simple_vault_main_screen.png)
 
 - In the mock above, a simple vault called `My Vault` is displayed in `My Wallet`.
@@ -122,14 +123,49 @@ This screen is displayed when the new vault transaction has been successfully su
 - User can set up or modify daily spending limit or daily spending account by clicking on `Setup daily spending` button.
 - On the right side, a list of recent vault transactions is displayed and user can click on `All Transactions` to view the vault's transactions. See vault transactions below.
 - In the main area, 3 main buttons are displayed with the main simple vault commands.
+- A vault can be funded by sending coin via a simple coin transaction from another account to the vault. Clicking on 'Fund' should display a transaction screen with the receiver address set to the vault's app instance account address. User should be able to select any account in the current wallet with a non-zero balance to prepare a fund transaction.
+- Clicking on 'Request' should display a screen which includes instructions on how to request anyone to send money to the vault via a simple coin transaction.
+- Clicking on 'Send' should trigger the `Send Coins from Vault` interaction.
 
-### Funding a Vault
+### Sending Coin from a Vault
+There are 2 main cases to consider here:
+- Case 1: Daily spending is not setup for the vault.
+- Case 2: Daily spending is setup in the vault.
 
-### Sending coin to another account from a vault 
+For case 1 - when user clicks on 'Send' the app should display a new transaction screen to enable the user to send coin using the vault's master account(s).
 
-### Withdrawing from a Simple Vault
+In case of a simple vault, the screen is as follows:
 
-### Withdrawing from a Multi Sig Vault
+- TODO: Add send from vault screen for single master account.
+
+If the vault is a Multi Sig Vault, the send screen should look as follows:
+
+- TODO: Add send from vault screen for 2/3 multisig vault and explain the interaction across vault owners.
+
+For case 2, the app should display the following dialog where the user selects which account he wants to use to send coin from the vault - via the spending account or via the master account(s):
+
+- TODO: show mock here - select which account to use to send....
+
+If the user selected to use the daily spending account then display this transaction screen:
+
+- TODO: Daily Spend Transaction Screen.
+
+If the user selected to use the master account then continue the interaction described in case 1 above.
+
+
+### Viewing Vault's Transactions
+
+- TODO: add screen shot here.
+
+The transaction screen for a vault should display the following transactions:
+1. The spwan-app transaction which created the vault (unless it is a genesis deployed vault)
+2. Every call-app transaction sent to the vault.
+3. Every fund transaction from another account which sent coin to the vault.
+
+- Transactions should be clearly label to clarify their type.
+- Transaction details for spawn-app should display the construction arguments - for each argument - name, and value.
+- Transaction details for a call-app transaction should display the arguments names and values.
+
 
 ### Setting Spending Limit Amount - Simple Vault
 
@@ -139,8 +175,6 @@ This screen is displayed when the new vault transaction has been successfully su
 
 ### Setting Spending Limit Account - Multi Sig Vault
 
-### Adding an Existing Vault to Smapp
+### Adding an Existing Vault
 
-### Hiding a Vault in Smapp
-
-### Vault Transactions Screen
+### Hiding a Vault
