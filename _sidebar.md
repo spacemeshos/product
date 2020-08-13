@@ -14,6 +14,7 @@
 - [Ledger Wallet](ledger_app.md)
 
 **Visual Designs**
+- [Post Setup](resources/gpu_post_setup_dark_mode.pdg ':ignore')
 - [Explorer Dark Mode](resources/explorer_reference_visual_design_dark_mode.pdf ':ignore')
 - [Explorer Light Mode](resources/explorer_reference_visual_design_light_mode.pdf ':ignore')
 - [App Dark Mode](resources/smapp_dark_mode_design.pdf ':ignore')
