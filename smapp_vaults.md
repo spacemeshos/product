@@ -131,9 +131,12 @@ This screen is displayed when the new vault transaction has been successfully su
 
 #### Vault With Daily Spending and Vesting Screen
 
+![](./resources/smart_wallet_mocks2/multi_sig_vault_main_screen.png)
 
 
 #### Vault With Daily Spending and Vesting Screen - Vesting Details
+
+![](./resources/smart_wallet_mocks2/multi_sig_vault_main_screen_vesting.png)
 
 
 ---
@@ -143,32 +146,38 @@ There are 2 main cases to consider here:
 - Case 1: Daily spending is not setup for the vault.
 - Case 2: Daily spending is setup in the vault.
 
-For case 1 - when user clicks on 'Send' the app should display a new transaction screen to enable the user to send coin using the vault's master account(s).
+#### Case 1 - Single Vault
+When user clicks on 'Send' the app should display a new transaction screen to enable the user to send coin using the vault's master account(s).
 
-In case of a simple vault, the interaction is the same as sending coin from a standard wallet account starting with the transaction input screen.
+![](./resources/smart_wallet_mocks2/send_smh.png)
+
+#### Case 1 - Multi Sig Vault
 
 If the vault is a Multi Sig Vault, the transaction screen should include a note instructing the user to tell one of the 2 other master account holders to approve the transaction.
 
-> TODO: Add send from vault screen for 2/3 multisig vault and explain the interaction across vault owners.
+![](./resources/smart_wallet_mocks2/send_smh_multi.png)
 
 Once the transaction was executed, the 2 other master accounts wallets will display a `pending approval request` that any of the owners can approve by executing a transaction from a master account.
 
 ----
 
-For case 2, the app should display the following dialog where the user selects which account he wants to use to send coin from the vault - via the spending account or via the master account(s):
+#### Case 2 - Spend or Withdraw?
+The app should display the following dialog where the user selects which account he wants to use to send coin from the vault - via the spending account or via the master account(s):
 
-> TODO: show mock here - select which account to use to send....
+![](./resources/smart_wallet_mocks2/send_smh_spend_or_withdraw.png)
 
-If the user selected to use the daily spending account then display this transaction screen:
+After the user selected how to spend, present the send smh screen:
 
-> TODO: Daily Spend Transaction Screen.
+![](./resources/smart_wallet_mocks2/send_smh_multi.png)
 
-If the user selected to use the master account then continue the interaction described in case 1 above.
+- The `From` field displays the account used to spend or withdraw. In case of withdraw it should display `My vault master account`. In case of spend, it should display 'Daily Spending Account' following with the account short string.
+- If spending from daily spending account then limit the amount to the daily spending amount.
 
-### Approving a Pending Vault Transaction
+---
 
-> TODO: confirm transaction screen here.
+### Approving a Pending Withdraw Transaction
 
+![](./resources/smart_wallet_mocks2/approve_withdraw_request.png)
 
 ---
 
@@ -187,19 +196,38 @@ The transaction screen for a vault should display the following transactions:
 
 ---
 
-### Setting Spending Limit Amount - Simple Vault
+### Setting Daily Spending Limit Amount - Simple Vault
+
+> Similar screen to the set daily spending limit amount in the new vault setup flow. User sets the amount. No approval is required.
 
 ---
 
-### Setting Spending Limit Amount - Multi Sig Vault
+### Setting Daily Spending Limit Amount - Multi Sig Vault
+
+![](./resources/smart_wallet_mocks2/change_spend_amount_multi.png)
+
+### Approving Daily Spending Limit Amount Change Request - Multi Sig Vault
+
+
+![](./resources/smart_wallet_mocks2/change_spend_amount.png)
 
 ---
 
-### Setting Spending Limit Account - Simple Vault
+### Setting Daily Spending Limit Account - Simple Vault
+
+> Similar screen to the setting daily spending amount in the new vault setup flow. User sets the amount. No approval is required.
 
 ---
 
-### Setting Spending Limit Account - Multi Sig Vault
+### Setting Daily Spending Limit Account - Multi Sig Vault
+
+![](./resources/smart_wallet_mocks2/change_spend_account_multi.png)
+
+
+### Approving Daily Spending Limit Account Change Request - Multi Sig Vault
+
+![](./resources/smart_wallet_mocks2/change_spend_account.png)
+
 
 ---
 
