@@ -208,7 +208,7 @@ The transaction screen for a vault should display the following transactions:
 
 ### Approving Daily Spending Limit Amount Change Request - Multi Sig Vault
 
-
+    
 ![](./resources/smart_wallet_mocks2/change_spend_amount.png)
 
 ---
