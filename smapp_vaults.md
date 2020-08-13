@@ -115,6 +115,8 @@ This screen is displayed when the new vault transaction has been successfully su
 
 
 ### Working with Vaults
+
+#### Vault Main Screen
 ![](./resources/smart_wallet_mocks2/simple_vault_main_screen.png)
 
 - In the mock above, a simple vault called `My Vault` is displayed in `My Wallet`.
@@ -127,6 +129,15 @@ This screen is displayed when the new vault transaction has been successfully su
 - Clicking on 'Request' should display a screen which includes instructions on how to request anyone to send money to the vault via a simple coin transaction.
 - Clicking on 'Send' should trigger the `Send Coins from Vault` interaction.
 
+#### Vault With Daily Spending and Vesting Screen
+
+
+
+#### Vault With Daily Spending and Vesting Screen - Vesting Details
+
+
+---
+
 ### Sending Coin from a Vault
 There are 2 main cases to consider here:
 - Case 1: Daily spending is not setup for the vault.
@@ -134,28 +145,36 @@ There are 2 main cases to consider here:
 
 For case 1 - when user clicks on 'Send' the app should display a new transaction screen to enable the user to send coin using the vault's master account(s).
 
-In case of a simple vault, the screen is as follows:
+In case of a simple vault, the interaction is the same as sending coin from a standard wallet account starting with the transaction input screen.
 
-- TODO: Add send from vault screen for single master account.
+If the vault is a Multi Sig Vault, the transaction screen should include a note instructing the user to tell one of the 2 other master account holders to approve the transaction.
 
-If the vault is a Multi Sig Vault, the send screen should look as follows:
+> TODO: Add send from vault screen for 2/3 multisig vault and explain the interaction across vault owners.
 
-- TODO: Add send from vault screen for 2/3 multisig vault and explain the interaction across vault owners.
+Once the transaction was executed, the 2 other master accounts wallets will display a `pending approval request` that any of the owners can approve by executing a transaction from a master account.
+
+----
 
 For case 2, the app should display the following dialog where the user selects which account he wants to use to send coin from the vault - via the spending account or via the master account(s):
 
-- TODO: show mock here - select which account to use to send....
+> TODO: show mock here - select which account to use to send....
 
 If the user selected to use the daily spending account then display this transaction screen:
 
-- TODO: Daily Spend Transaction Screen.
+> TODO: Daily Spend Transaction Screen.
 
 If the user selected to use the master account then continue the interaction described in case 1 above.
 
+### Approving a Pending Vault Transaction
+
+> TODO: confirm transaction screen here.
+
+
+---
 
 ### Viewing Vault's Transactions
 
-- TODO: add screen shot here.
+> TODO: add screen shot here.
 
 The transaction screen for a vault should display the following transactions:
 1. The spwan-app transaction which created the vault (unless it is a genesis deployed vault)
@@ -166,15 +185,26 @@ The transaction screen for a vault should display the following transactions:
 - Transaction details for spawn-app should display the construction arguments - for each argument - name, and value.
 - Transaction details for a call-app transaction should display the arguments names and values.
 
+---
 
 ### Setting Spending Limit Amount - Simple Vault
 
+---
+
 ### Setting Spending Limit Amount - Multi Sig Vault
+
+---
 
 ### Setting Spending Limit Account - Simple Vault
 
+---
+
 ### Setting Spending Limit Account - Multi Sig Vault
 
+---
+
 ### Adding an Existing Vault
+
+---
 
 ### Hiding a Vault
