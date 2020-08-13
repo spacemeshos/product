@@ -11,8 +11,8 @@
 - [Dashboard](dashboard.md)
 - [GPU POST via Smapp](post_setup.md)
 - [Multiple Wallets Smapp](multiple_wallets_smapp.md)
+- [Wallet Mode Smapp](wallet_only_mode.md)
 - [Ledger Wallet](ledger_app.md)
-- [App Wallet Mode](wallet_only_mode.md)
 
 **Visual Designs**
 - [GPU Post Setup](resources/gpu_post_setup_dark_mode.pdf ':ignore')
