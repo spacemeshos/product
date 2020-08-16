@@ -208,7 +208,7 @@ The transaction screen for a vault should display the following transactions:
 
 ### Approving Daily Spending Limit Amount Change Request - Multi Sig Vault
 
-    
+
 ![](./resources/smart_wallet_mocks2/change_spend_amount.png)
 
 ---
@@ -233,6 +233,13 @@ The transaction screen for a vault should display the following transactions:
 
 ### Adding an Existing Vault
 
----
+Users should be able to add any vault to their wallet. They will want to do it when the wallet includes one or more accounts that can execute vault transactions. e.g. the wallet includes the vault's master account or the wallet includes a vault's spending account.
 
-### Hiding a Vault
+Adding a vault to a wallet is done by specifying the vault's account address. Once added, the vault appears as an account in that wallet. A vault can be added to any wallet.
+
+When attempting to withdraw, daily spend or execute another transaction which requires a vault master key such change daily spending amount or account and the wallet doesn't include the account required for such an operation, the app should notify the user about this condition and recommend the user to add the vault to a wallet which has this address.
+
+![](./resources/smart_wallet_mocks2/add_existing_vault.png)
+
+
+---
