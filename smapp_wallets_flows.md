@@ -17,4 +17,4 @@ If this file is getting corrupted or deleted then user will just need to restore
 
 ## The Journey
 
-![](./resources/wallets_usage_flows.png)
+![](/resources/wallets_usage_flows.png)
