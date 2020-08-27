@@ -1,5 +1,8 @@
 # Spacemesh Project Product Plan and Roadmap
 
+## TL;DR
+![](resources/sm_basics_infograph.png)
+
 > Note that spacemesh is under active dynamic development and milestones dates and features may change.
 
 ## Overview
