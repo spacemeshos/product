@@ -100,6 +100,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Sign transactions with Ledger hardware device.
 - [ ] Vaults support.
 
+![](resources/sm_basics_infograph_2@2x.png)
+
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
