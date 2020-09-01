@@ -64,7 +64,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: LEARNINGS
 - [x] Launch open Testnet with the [Spacemesh 0.1 product](https://testnet.spacemesh.io) for all three major desktop platforms.
 - [x] Build and run full node from source (go-spacemesh + CLI wallet) instead of using the App and join testnet or run a local devnet.
-- [x] Automated community run tap.
+- [x] Automated community testnet tap.
 
 ----
 
@@ -78,27 +78,27 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Spacemesh API 2.0.
 - [ ] Smeshers rewards protocol including Hare and ATX rewards.
 - [ ] Consensus protocol self healing.
-- [ ] Smart wallet app and smart wallet transactions.
+- [ ] Vault mesh app and smart contract transactions.
 - [ ] Telemetry.
-- [ ] User-defined PoST allocation size and GPU setup.
+- [ ] User-defined PoST data size and GPU-baed setup.
 - [ ] Support for signing transactions with the standard ED25519 signature scheme.
 
 #### Ecosystem Projects
 - [ ] Testnet rewards program and the Spacemesh store.
-- [ ] Web dashboard and explorer.
+- [ ] Web dashboard and explorer apps.
 - [ ] Public Spacemesh API 2.0 endpoint.
 
 #### Spacemesh App
-- [ ] Dark Mode.
-- [ ] Full Smart Wallets apps support.
-- [ ] Use Ledger hardware wallet to sign transactions.
+- [x] Dark Mode.
+- [ ] Full support for vaults.
+- [ ] Use Ledger hardware device to sign transactions.
 - [ ] Display dashboard and explorer.
-- [ ] Wallet-only mode.
-- [ ] Switch between networks.
+- [ ] Support wallet-only mode.
+- [ ] Support multiple wallets and networks.
 
 #### CLIWallet
-- [ ] Sign transactions with Ledger hardware wallet.
-- [ ] Smart Wallets support.
+- [ ] Sign transactions with Ledger hardware device.
+- [ ] Vaults support.
 
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
 ### Focus: SECURITY
