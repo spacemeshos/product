@@ -1,18 +1,32 @@
-## Main go-sm 0.2 Dev Tasks
+## Main0.2 Open Dev Tasks
 
-### POST
-1. Finalize GPU post init scrypt modifications, implement and test them.
+### POST Tasks
+1. Implement GPU post init scrypt modifications (GPU Project Phase III).
 1. Finalize new post construction concrete params for 0.2 for required user params (100GB and up).
-1. Implement new POST construction and GPU init components.
+1. Implement full Smesher API Service.
 
-### Consensus
+### Consensus Tasks
 1. Implement all Tortoise (block voting) and Hare related 0.2 changes.
+1. Implement and benchmark self healing.
 
-### Transaction Processing and Global State
-1. Fully specify the state transition function, stored global state (e.g tx receipts) and API and implement in go-sm according to spec.
-1. Update transaction data structures and all related tx processing code to support SVM transactions and ed25519 signature scheme. Currently only supports simple coin transactions and ED25519++ signature scheme.
+### Transaction Processing
+1. Implement full transaction processing for all 0.2 supported transaction types (6 types). Generate receipts, store them and properly update accounts db.
+
+## Full Node
+1. Finish API 2.0 including SVM related methods.
+1. Implement new rewards scheme.
+1. Update notion of net-id and miner id per research recommendations.
 
 ### SVM and Smart Wallets
 1. Integrate SVM into go-sm.
-1. Implement the smart wallet smart wasm contract.
-1. Update genesis flow to support deployment of genesis smart wallets.
+1. Implement the vaults 2 smart contracts.
+1. Add deployment of vesting vaults from network params file to genesis flow.
+
+### Smapp and CLIWallet
+1. Migrate to use API 2.0.
+1. Implement vaults features.
+1. Implement multi wallets support and wallet only mode.
+1. Implement ledger wallet accounts features.
+
+### Integration Testing
+1. Run a close network with 0.2 release candidate for open testnet and stabilize it so it is ready for open testnet release. Test end-to-end user flows to ensure they are usable (like we did for 0.1 until it got usable).
