@@ -90,7 +90,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 #### Spacemesh App
 - [x] Dark Mode.
-- [ ] Full support for vaults.
+- [ ] Full support for Vaults.
 - [ ] Use Ledger hardware device to sign transactions.
 - [ ] Display dashboard and explorer.
 - [ ] Support wallet-only mode.
@@ -126,5 +126,5 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Ecosystem Projects
 1. [ ] 3D network explorer.
-1. [ ] Update Spacemesh App and CLIWallet to support all new features.
+1. [ ] Update Spacemesh and CLIWallet apps to support all new features.
 ----
