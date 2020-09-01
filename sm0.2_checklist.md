@@ -12,7 +12,7 @@
 ### Transaction Processing
 1. Implement full transaction processing for all 0.2 supported transaction types (6 types). Generate receipts, store them and properly update accounts db.
 
-## Full Node
+### Full Node
 1. Finish API 2.0 including SVM related methods.
 1. Implement new rewards scheme.
 1. Update notion of net-id and miner id per research recommendations.
