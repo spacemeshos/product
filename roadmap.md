@@ -1,7 +1,7 @@
 # Spacemesh Project Product Plan and Roadmap
 
 ## TL;DR
-![](resources/sm_basics_infograph.png)
+![](resources/sm_basics_infograph_1@2x.png)
 
 > Note that spacemesh is under active dynamic development and milestones dates and features may change.
 
@@ -79,7 +79,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Smeshers rewards protocol including Hare and ATX rewards.
 - [ ] Consensus protocol self healing.
 - [ ] Vault mesh app and smart contract transactions.
-- [ ] Telemetry.
+- [ ] Telemetry with opt-out.
 - [ ] User-defined PoST data size and GPU-baed setup.
 - [ ] Support for signing transactions with the standard ED25519 signature scheme.
 
