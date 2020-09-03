@@ -13,7 +13,7 @@
 1. Implement full transaction processing for all 0.2 supported transaction types (6 types). Generate receipts, store them and properly update accounts db. See [SMIP 23](https://github.com/spacemeshos/SMIPS/issues/23)
 
 ### Full Node
-1. Finish API 2.0 including SVM related methods, new rewards and transaction receipts.
+1. Finish [API 2.0 tasks](https://github.com/orgs/spacemeshos/projects/11) including SVM related methods, new rewards and transaction receipts.
 1. Implement new rewards scheme.
 1. Implement new sync algorithm.
 1. Update notion of net-id and miner id per research recommendations. [SMIP 26](https://github.com/spacemeshos/SMIPS/issues/26)
