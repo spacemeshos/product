@@ -18,6 +18,7 @@
 1. Implement new sync algorithm.
 1. Update notion of net-id and miner id per research recommendations. [SMIP 26](https://github.com/spacemeshos/SMIPS/issues/26)
 1. Fix known issues that are blocking open testnet release including [backlog issues](https://github.com/orgs/spacemeshos/projects/4).
+1. Implement telemetry and opt-in/out.
 
 ### SVM and Vaults
 1. Fully integrate SVM into node and transaction processing flow.
