@@ -70,7 +70,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 # Current and Future Milestones
 
-## Milestone 5 - Spacemesh 0.2 Public Testnet - Q3 2020
+## Milestone 5 - Spacemesh 0.2 Public Testnet - Q4 2020
 ### Focus: FUNCTIONALITY
 
 #### Full Node Features
@@ -102,7 +102,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ![](resources/sm_basics_infograph_2@2x.png)
 
-## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2020
+## Milestone 6 - Spacemesh 0.3 Public Testnet - Q1 2021
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
@@ -110,7 +110,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ---
 
-## Milestone 7 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2020
+## Milestone 7 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q2 2021
 
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing on testnet before mainnet genesis.
