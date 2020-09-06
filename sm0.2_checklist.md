@@ -1,5 +1,11 @@
 ## Main 0.2 Open Dev Tasks
 
+Moved to https://github.com/orgs/spacemeshos/projects/14
+
+------
+
+# Deprecated
+
 ### POST Tasks
 1. Implement GPU post init scrypt variable output size. Part of [SMIP 27](https://github.com/spacemeshos/SMIPS/issues/27).
 1. Finalize new post construction concrete params for 0.2 (e.g. 100GB and up).
