@@ -62,7 +62,7 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 --------
 
-### Adding a Ledger Wallet
+### Creating a Ledger Wallet
 
 > User goal: use a ledger device so sign spacemesh transactions.
 
@@ -81,7 +81,7 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 ---------
 
-### Adding a new Standard Wallet
+### Creating a new Standard Wallet
 
 > User goal: setup a new wallet to manage funds and vaults seperately than an existing wallet.
 
@@ -124,15 +124,37 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 
 --------
 
-## Adding a new Vault
+## Creating a new Vault
 
+User goal: create a new vault.
+
+1. App displays drop-down next to wallet name in `wallet` screen with wallet commands.
+2. User selects `Add new Vault` command from the drop-down.
+3. App starts the `new vault` flow (see Figma).
+
+
+> New vault is added as an account in the wallet that the user is using in the `wallet` screen. In can be added to standard or ledger wallets.
 
 ----------
 
+User goal: use an existing vault that may have been created by another wallet, by another user or by a Spacemesh network genesis flow.
+
 ## Adding an Existing Vault to a Wallet
+1. User selects 'Add existing Vault' command from the wallet's settings commands.
+1. App starts the `add existing vault` flow (see figma).
 
 -----------
 
+## Accessing an Existing Vault
+
+User goal: view vault state (balance, pending tranasactions, etc...) and execute vault transaction.
+
+1. App displays an entry for each wallet's vault in the accounts drop down in the `wallet` screen.
+1. User selects a vault from the drop-down.
+1. App displays the vault's main screen and state.
+1. User executes vault commands from the vault's screen.
+
+-----------
 ## The Journey - Tehnical View
 
 
