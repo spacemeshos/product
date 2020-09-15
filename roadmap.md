@@ -107,6 +107,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
 - [ ] Support Genesis Smart Wallets.
+- [ ] Release updated protocol docs site for 0.3 protocol and main components.
 
 ---
 
