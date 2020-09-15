@@ -127,6 +127,11 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 
 --------
 
+## Switching between wallets
+
+1. User clicks on log-out in the main screen.
+1. `New App Session` flow runs (above) from step 1.
+
 --------
 
 ## Adding a new Vault
@@ -135,14 +140,6 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 ----------
 
 ## Adding an Existing Vault to a Wallet
-
------------
-
-## Adding a new Standard Wallet
-
------------
-
-## App Session Start with Multiple Wallets
 
 -----------
 
