@@ -30,7 +30,7 @@ All flows described here are happy flows and error cases are not considered for 
 In the flows below, user doesn't have a wallet in the first session and only one wallet on the second app session.
 
 ### First-Time User Session (Local Node)
-> User goals: setup new standard wallet, run a local p2p node and sync it with the network, and setup smeshing.
+> User goal: setup new standard wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
 1. App displays the `wallet config` screen (wallet+node or wallet only).
 1. User selects to setup a wallet+node and not just wallet.
@@ -45,7 +45,7 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 ### Second User Session (Local Node)
 
-> User goals: view smeshing rewards, use wallet.
+> User goal: view smeshing rewards, use wallet.
 
 1. App starts local node and if smeshing is setup, configures it to smesh.
 1. App displays the `unlock wallet` screen.
@@ -57,6 +57,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 -----
 
 ### First Time User Experience - (via Public Api)
+
+> User goal: setup a standard wallet without running a local node.
 
 1. App displays the `wallet setup` screen. (wallet+node or wallet).
 1. User selects to setup wallet only.
@@ -73,6 +75,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 ### Second User Session (via Public Api)
 
+> User goal: work with wallet without running a full mnode.
+
 1. App displays the `unlock wallet` screen.
 1. User enters wallet password to access it.
 1. App displays the `wallet` screen and updates wallet data via the API,
@@ -82,6 +86,9 @@ In the flows below, user doesn't have a wallet in the first session and only one
 --------
 
 ### Adding a Ledger Wallet
+
+> User goal: use a ledger device so sign spacemesh transactions.
+
 1. App displays an `add new wallet` command in the `unlock wallet` screen.
 1. User clicks on the add new wallet command.
 1. App displays the `network selection` screen (local node or public api)
@@ -98,6 +105,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ---------
 
 ### Adding a new Standard Wallet
+
+> User goal: setup a new wallet to manage funds and vaults seperately than an existing wallet.
 
 1. App displays an `add new wallet` command in the `uncock wallet` screen.
 1. User clicks on the add new wallet command.
@@ -116,6 +125,8 @@ In the flows below, user has setup more than one wallet in previous app sessions
 
 ## New App Session (more than one wallet)
 
+> User goal: access one of his previously created wallets and optionally start local node and smeshing.
+
 This flow happens when more than 1 wallet was used in the App in a previous session.
 
 1. App displays the `open wallet` screen. It lists all available wallets.
@@ -128,6 +139,8 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 --------
 
 ## Switching between wallets
+
+> User goal: quickly access one of the wallets he'd previously created.
 
 1. User clicks on log-out in the main screen.
 1. `New App Session` flow runs (above) from step 1.
