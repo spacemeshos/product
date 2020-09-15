@@ -13,7 +13,7 @@
 - [Multiple Wallets Smapp](multiple_wallets_smapp.md)
 - [Wallet Mode Smapp](wallet_only_mode.md)
 - [Ledger Wallet](ledger_app.md)
-- [Wallets Journeys](smapp_wallets_flows.md)
+- [Smapp Journeys](smapp_wallets_flows.md)
 
 **Visual Designs**
 - [GPU Post Setup](resources/gpu_post_setup_dark_mode.pdf ':ignore')

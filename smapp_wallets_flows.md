@@ -1,4 +1,4 @@
-# Smapp Wallets User Journeys
+# Smapp User Journeys
 
 ## Entities
 
