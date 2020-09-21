@@ -6,34 +6,32 @@ All flows described here are happy flows and error cases are not considered for 
 
 In the flows below, user doesn't have a wallet in the first session and only one wallet on the second app session.
 
-### First-Time User Session (Local Node)
+### Flow 1. First-Time User Session - Standard Wallet & Local Node
 > User goal: setup new standard wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
 1. App displays the `wallet config` screen (wallet+node or wallet only).
-1. User selects to setup a wallet+node and not just wallet.
-1. App displays the `wallet setup` screen (standard or ledger).
+1. User selects to setup a wallet+node (and not just wallet).
+1. App displays the `wallet setup` screen (standard or Ledger).
 1. User selects to setup a standard wallet.
 1. App displays the `set wallet password` screen.
 1. User sets password for new wallet.
 1. App starts the smeshing setup flow.
 1. User sets up smeshing.
 
------
+### Flow 2. First-Time User Session - Ledger Wallet & Local Node
+> User goal: setup new wallet that is using his Ledger wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
-### Second User Session (Local Node)
+1. App displays the `wallet config` screen (wallet+node or wallet only).
+1. User selects to setup a wallet+node (and not just wallet).
+1. App displays the `wallet setup` screen (standard or Ledger).
+1. User selects to setup a Ledger wallet.
+1. App displays the connect Ledger screen until Spacemesh app is open on a usb-connected Ledger device to the user's computer.
+1. App displays the `set wallet password` screen.
+1. User sets password for new wallet.
+1. App starts the smeshing setup flow.
+1. User sets up smeshing.
 
-> User goal: view smeshing rewards, use wallet.
-
-1. App starts local node and if smeshing is setup, configures it to smesh.
-1. App displays the `unlock wallet` screen.
-1. User enters wallet password to access it.
-1. App displays the `main wallet` screen and syncs the mesh in the background.
-1. User uses the wallet screen features
-1. User switchs to `smeshing screen` to view smeshing status.
-
------
-
-### First Time User Experience - (via Public Api)
+### Flow 3. First-Time User Session - Standard Wallet via Public Api Service
 
 > User goal: setup a standard wallet without running a local node.
 
@@ -41,18 +39,47 @@ In the flows below, user doesn't have a wallet in the first session and only one
 1. User selects to setup wallet only.
 1. App display the `network selection` screen.
 1. User selects a public Spacemesh API web service to use with the wallet.
-1. App displays the `wallet setup` screen. (standard or ledger).
+1. App displays the `wallet setup` screen. (standard or Ledger).
 1. User selects to setup a standard wallet.
 1. App displays the `set wallet password` screen.
 1. User sets password for new wallet.
 1. App gets wallet balance, transactions history, and network status via the API and presents it to the user in the `wallet` screen` and in the `network` screen.
 1. User checks his balance, incoming transactions and executes transactions.
 
+### Flow 4. First Time User Session - Ledger Wallet via Public Api Service
+
+> User goal: setup a standard wallet without running a local node.
+
+1. App displays the `wallet setup` screen. (wallet+node or wallet).
+1. User selects to setup wallet only.
+1. App display the `network selection` screen.
+1. User selects a public Spacemesh API web service to use with the wallet.
+1. App displays the `wallet setup` screen. (standard or Ledger).
+1. User selects to setup a Ledger wallet.
+1. App displays the connect Ledger screen until Spacemesh app is open on a usb-connected Ledger device to the user's computer.
+1. App displays the `set wallet password` screen.
+1. User sets password for new wallet.
+1. App displays the main wallet screen.
+
+-----
+
+### Flow 5. Second User Session (Standard or Ledger wallet and a local node)
+
+> User goal: check smeshing rewards, use wallet.
+
+1. App starts local node and if smeshing is setup, configures it to smesh.
+1. App displays the `unlock wallet` screen.
+1. User enters wallet password to access it.
+1. App displays the `main wallet` screen and syncs the mesh in the background.
+1. User uses the wallet screen features.
+1. User switchs to `smeshing screen` to view smeshing status.
+
+> User is only prompted to connect ledger wallet when the user needs to sign a new transaction or when user selects to add a new account, and the wallet is a ledger wallet and not a standard one.
 ----
 
-### Second User Session (via Public Api)
+### Flow 6. Second User Session (Standard or Ledger Wallet via Public Api Service)
 
-> User goal: work with wallet without running a full mnode.
+> User goal: Work with wallet without running a full node.
 
 1. App displays the `unlock wallet` screen.
 1. User enters wallet password to access it.
@@ -60,16 +87,18 @@ In the flows below, user doesn't have a wallet in the first session and only one
 1. User uses the `wallet` screen features
 1. User switches to `network` screen to view network status.
 
+> User is only prompted to connect ledger wallet when the user needs to sign a new transaction or when user selects to add a new account, and the wallet is a ledger wallet and not a standard one.
+
 --------
 
-### Creating a Ledger Wallet
+### Flow 7. Creating a Ledger Wallet (using Local Node or Public Api Service)
 
-> User goal: use a ledger device so sign spacemesh transactions.
+> User goal: User has a standard wallet. He's like to use a Ledger device so sign spacemesh transactions. To ahcieve this he needs to create a new Ledger wallet.
 
 1. App displays an `add new wallet` command in the `unlock wallet` screen.
-1. User clicks on the add new wallet command.
-1. App displays the `network selection` screen (local node or public api)
-1. User chooses one of the options for the wallet (local or public)
+1. User clicks on the `add new wallet` command.
+1. App displays the `network selection` screen (local node or public api).
+1. User chooses one of the options for the wallet (local or public).
 1. App display the `wallet setup` screen.
 1. User selects to setup a ledger wallet.
 1. App attempts to connect to ledger device using the sm ledger sdk.
@@ -81,14 +110,14 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 ---------
 
-### Creating a new Standard Wallet
+### Flow 8. Creating a new Standard Wallet (using Local Node or Public Api Service)
 
-> User goal: setup a new wallet to manage funds and vaults seperately than an existing wallet.
+> User goal: Setup a new standard (hot) wallet to manage funds and vaults seperately than an existing wallet.
 
 1. App displays an `add new wallet` command in the `uncock wallet` screen.
-1. User clicks on the add new wallet command.
-1. App displays the `wallet setup` screen (wallet+node or public api)
-1. User chooses one of the options for the wallet (local or public)
+1. User clicks on the `add new wallet` command.
+1. App displays the `wallet setup` screen (wallet+node or public api).
+1. User chooses one of the options for the wallet (local or public).
 1. App display the `wallet setup` screen (standard or ledger).
 1. User selects to setup a standard wallet.
 1. App connect to network via public api or starts a local node based on user selection above.
@@ -100,11 +129,11 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 In the flows below, user has setup more than one wallet in previous app sessions.
 
-## New App Session (more than one wallet)
+## Flow 9. New App Session (more than one wallet)
 
-> User goal: access one of his previously created wallets and optionally start local node and smeshing.
+> User goal: Access one of his previously created wallets and optionally start local node and smeshing.
 
-This flow happens when more than 1 wallet was used in the App in a previous session.
+This flow happens when more than one wallet was used in the App in a previous session.
 
 1. App displays the `open wallet` screen. It lists all available wallets.
 1. User selects a wallet from the screen.
@@ -112,10 +141,9 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 1. If wallet was configured to use a local node then the app configures itself to use a local node and starts it. If user has setup smeshing then the app starts smeshing.
 1. App opens the wallet and displays it in the `wallet` screen.
 
-
 --------
 
-## Switching between wallets
+## Flow 10. Switching Between Wallets
 
 > User goal: quickly access one of the wallets he'd previously created.
 
@@ -124,30 +152,30 @@ This flow happens when more than 1 wallet was used in the App in a previous sess
 
 --------
 
-## Creating a new Vault
+## Flow 11. Creating a new Vault
 
-User goal: create a new vault.
+User goal: Create a new vault to safely store funds via multisig and ledger wallet support, and optionally set daily spending.
 
 1. App displays drop-down next to wallet name in `wallet` screen with wallet commands.
-2. User selects `Add new Vault` command from the drop-down.
-3. App starts the `new vault` flow (see Figma).
+1. User selects `Add new Vault` command from the drop-down.
+1. App starts the `new vault` flow (see Figma).
 
-
-> New vault is added as an account in the wallet that the user is using in the `wallet` screen. In can be added to standard or ledger wallets.
+> New vault is added as an account to the wallet that the user is using in the `wallet` screen. It can be added to astandard or a Ledger wallets.
 
 ----------
 
-User goal: use an existing vault that may have been created by another wallet, by another user or by a Spacemesh network genesis flow.
+## Flow 12. Adding an Existing Vault to a Wallet
 
-## Adding an Existing Vault to a Wallet
+User goal: Use an existing vault that may have been created by another wallet, by another user or by a Spacemesh network genesis flow.
+
 1. User selects 'Add existing Vault' command from the wallet's settings commands.
 1. App starts the `add existing vault` flow (see figma).
 
 -----------
 
-## Accessing an Existing Vault
+## Flow 13. Accessing an Existing Vault
 
-User goal: view vault state (balance, pending tranasactions, etc...) and execute vault transaction.
+User goal: view vault's state (balance, pending tranasactions, etc...) and execute vault transaction.
 
 1. App displays an entry for each wallet's vault in the accounts drop down in the `wallet` screen.
 1. User selects a vault from the drop-down.
@@ -155,6 +183,8 @@ User goal: view vault state (balance, pending tranasactions, etc...) and execute
 1. User executes vault commands from the vault's screen.
 
 -----------
+
+
 ## The Journey - Tehnical View
 
 
