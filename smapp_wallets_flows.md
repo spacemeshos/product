@@ -129,7 +129,7 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 In the flows below, user has setup more than one wallet in previous app sessions.
 
-## Flow 9. New App Session (more than one wallet)
+### Flow 9. New App Session (more than one wallet)
 
 > User goal: Access one of his previously created wallets and optionally start local node and smeshing.
 
@@ -143,7 +143,7 @@ This flow happens when more than one wallet was used in the App in a previous se
 
 --------
 
-## Flow 10. Switching Between Wallets
+### Flow 10. Switching Between Wallets
 
 > User goal: quickly access one of the wallets he'd previously created.
 
@@ -152,7 +152,7 @@ This flow happens when more than one wallet was used in the App in a previous se
 
 --------
 
-## Flow 11. Creating a new Vault
+### Flow 11. Creating a new Vault
 
 User goal: Create a new vault to safely store funds via multisig and ledger wallet support, and optionally set daily spending.
 
@@ -164,7 +164,7 @@ User goal: Create a new vault to safely store funds via multisig and ledger wall
 
 ----------
 
-## Flow 12. Adding an Existing Vault to a Wallet
+### Flow 12. Adding an Existing Vault to a Wallet
 
 User goal: Use an existing vault that may have been created by another wallet, by another user or by a Spacemesh network genesis flow.
 
@@ -173,7 +173,7 @@ User goal: Use an existing vault that may have been created by another wallet, b
 
 -----------
 
-## Flow 13. Accessing an Existing Vault
+### Flow 13. Accessing an Existing Vault
 
 User goal: view vault's state (balance, pending tranasactions, etc...) and execute vault transaction.
 
