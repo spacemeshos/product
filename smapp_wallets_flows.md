@@ -9,6 +9,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 1. First-Time User Session - Standard Wallet & Local Node
 > User goal: setup new standard wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A8399%26viewport%3D1389%252C671%252C0.10568313300609589%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. App displays the `wallet config` screen (wallet+node or wallet only).
 1. User selects to setup a wallet+node (and not just wallet).
 1. App displays the `wallet setup` screen (standard or Ledger).
