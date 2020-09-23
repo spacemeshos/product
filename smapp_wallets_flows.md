@@ -23,6 +23,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 2. First-Time User Session - Ledger Wallet & Local Node
 > User goal: setup new wallet that is using his Ledger wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4741%253A1533%26viewport%3D1373%252C698%252C0.10146976262331009%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. App displays the `wallet config` screen (wallet+node or wallet only).
 1. User selects to setup a wallet+node (and not just wallet).
 1. App displays the `wallet setup` screen (standard or Ledger).
@@ -36,6 +38,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 3. First-Time User Session - Standard Wallet via Public Api Service
 
 > User goal: setup a standard wallet without running a local node.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A14700%26viewport%3D1186%252C925%252C0.1457517147064209%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. App displays the `wallet setup` screen. (wallet+node or wallet).
 1. User selects to setup wallet only.
@@ -51,6 +55,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 4. First Time User Session - Ledger Wallet via Public Api Service
 
 > User goal: setup a standard wallet without running a local node.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A21001%26viewport%3D1352%252C784%252C0.12511397898197174%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. App displays the `wallet setup` screen. (wallet+node or wallet).
 1. User selects to setup wallet only.
@@ -69,6 +75,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 > User goal: check smeshing rewards, use wallet.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A3499%26viewport%3D2244%252C1208%252C0.20544306933879852%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. App starts local node and if smeshing is setup, configures it to smesh.
 1. App displays the `unlock wallet` screen.
 1. User enters wallet password to access it.
@@ -83,6 +91,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 
 > User goal: Work with wallet without running a full node.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4791%253A20985%26viewport%3D785%252C553%252C0.2111605554819107%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. App displays the `unlock wallet` screen.
 1. User enters wallet password to access it.
 1. App displays the `wallet` screen and updates wallet data via the API,
@@ -96,6 +106,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 7. Creating a Ledger Wallet (using Local Node or Public Api Service)
 
 > User goal: User has a standard wallet. He's like to use a Ledger device so sign spacemesh transactions. To ahcieve this he needs to create a new Ledger wallet.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4746%253A952%26viewport%3D1493%252C722%252C0.13630522787570953%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. App displays an `add new wallet` command in the `unlock wallet` screen.
 1. User clicks on the `add new wallet` command.
@@ -115,6 +127,8 @@ In the flows below, user doesn't have a wallet in the first session and only one
 ### Flow 8. Creating a new Standard Wallet (using Local Node or Public Api Service)
 
 > User goal: Setup a new standard (hot) wallet to manage funds and vaults seperately than an existing wallet.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A79%26viewport%3D1680%252C729%252C0.13305002450942993%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. App displays an `add new wallet` command in the `uncock wallet` screen.
 1. User clicks on the `add new wallet` command.
@@ -137,6 +151,8 @@ In the flows below, user has setup more than one wallet in previous app sessions
 
 This flow happens when more than one wallet was used in the App in a previous session.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4791%253A34669%26viewport%3D1148%252C691%252C0.23537872731685638%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. App displays the `open wallet` screen. It lists all available wallets.
 1. User selects a wallet from the screen.
 1. If wallet was configured to use public API then the app configures itself to use this api.
@@ -149,6 +165,8 @@ This flow happens when more than one wallet was used in the App in a previous se
 
 > User goal: quickly access one of the wallets he'd previously created.
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4847%253A7372%26viewport%3D770%252C761%252C0.20979978144168854%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
 1. User clicks on log-out in the main screen.
 1. `New App Session` flow runs (above) from step 1.
 
@@ -157,6 +175,8 @@ This flow happens when more than one wallet was used in the App in a previous se
 ### Flow 11. Creating a new Vault
 
 User goal: Create a new vault to safely store funds via multisig and ledger wallet support, and optionally set daily spending.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4818%253A18647%26viewport%3D1101%252C691%252C0.16945761442184448%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. App displays drop-down next to wallet name in `wallet` screen with wallet commands.
 1. User selects `Add new Vault` command from the drop-down.
@@ -169,6 +189,8 @@ User goal: Create a new vault to safely store funds via multisig and ledger wall
 ### Flow 12. Adding an Existing Vault to a Wallet
 
 User goal: Use an existing vault that may have been created by another wallet, by another user or by a Spacemesh network genesis flow.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6bbFkIAzVu36bIpUNnMqoy%2FSmapp-Working-Mocks%3Fnode-id%3D4870%253A4888%26viewport%3D-383%252C-226%252C0.3340447247028351%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>
 
 1. User selects 'Add existing Vault' command from the wallet's settings commands.
 1. App starts the `add existing vault` flow (see figma).
