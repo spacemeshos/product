@@ -246,8 +246,18 @@ User goal: send coins from a vault to another account.
 1. User clicks 'Send'
 1. App displays the transaction summary screen.
 1. User clicks 'Send'
-1. App sends the transaction and displays the transaction sent screen.
+1. App submits the transaction to the transactions pool for procesisng, and displays the transaction sent screen.
 
+> The flows continues on instances of Smapp in which the same vault has been added to a wallet. For multi-sig vaults, this will happen in Smapp of the 2 other master account owners.
+
+1. User access the vault's account in the wallet screen.
+1. App displays a `pending approval request` (see left side of screen #6 in Vault Interactions figma page).
+1. User clicks on 'review' button.
+1. App displays the Send SMH review screen (Screen #6 in Vault Interactions figma page).)
+1. User reviews the transaction and clicks 'Approve'.
+1. App displays an approval transaction screen where user can modify transaction fee (gas units and gas unit price).
+1. User clicks 'Approve'
+1. App submits the user-signed approval transactions to the transactions pool for processing and displays the transaction sent screen.
 
 -----------
 
@@ -258,6 +268,9 @@ User goal: send coins from a vault to another account.
 1. App displays the select account screen. (See vault interactions figma page, screen #4).
 1. User clicks on `master account` button.
 1. Flow continues from Flow 16, step 2.
+
+------------
+
 
 -----------
 
