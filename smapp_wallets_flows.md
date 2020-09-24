@@ -271,6 +271,16 @@ User goal: send coins from a vault to another account.
 
 ------------
 
+### Flow 18. Daily Spending from a Vault.
+> This flow assumes user has setup daily spending on a simple or a multi-sig vault.
+
+1. User clicks on the `Send` button in the wallet screen.
+1. App displays the select account screen. (See vault interactions figma page, screen #4).
+1. User clicks on `Use daily spending` button.
+1. App verifies that the wallet has the user's daily spending account (he need to sign with that account in order to spend).
+1. Flow continues from Flow 14, step 2 with the from account set to the daily spending account, and in the transaction screen the app validates that the amount that the user inputs is avaiable for withdrawal in the current day. (User can only spend up to the daily spend amount every 24 hours).
+
+> Note that if the user's daily spending account is specified in another wallet, then to daily spend, the user needs to add the vault to that wallet. In this flow we assumed that current wallet has that account.
 
 -----------
 
