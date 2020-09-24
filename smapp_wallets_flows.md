@@ -208,6 +208,58 @@ User goal: view vault's state (balance, pending tranasactions, etc...) and execu
 
 -----------
 
+### Flow 14. Withdrawing from a Simple Vault (without daily spending)
+
+> For this and the following interactions, we assume user has accessed a vault (see Flow 13 above) and it is displayed in the wallet screen.
+
+User goal: send coins from a vault to another account.
+
+1. User clicks on the `Send` button in the wallet screen.
+1. App displays the `Send SMH` screen with the from field set to the vault's single master account. App displays the amount available for Withdrawing - it is the vault's balance.
+1. User specifies the destination account address, the coin amount, the transaction fee (gas uinits and gas unit price).
+1. App validates that the amount to send + the transaction fees are equal or smaller than the vault's balance.
+1. User clicks 'Send'
+1. App displays the transaction summary screen.
+1. User clicks 'Send'
+1. App sends the transaction and displays the transaction sent screen.
+
+-----------
+
+### Flow 15. Withdrawing from a Simple Vault (with daily spending)
+User goal: send coins from a vault to another account.
+
+1. User clicks on the `Send` button in the wallet screen.
+1. App displays the select account screen. (See vault interactions figma page, screen #4).
+1. User clicks on `master account` button.
+1. Flow continues from Flow 14, step 2.
+
+-----------
+
+### Flow 16. Withdrawing from a Multi Sig Vault (without daily spending)
+User goal: send coins from a vault to another account.
+
+1. User clicks on the `Send` button in the wallet screen.
+1. App displays the `Send SMH` screen with the from field set to the vault's single master account. App displays the amount available for Withdrawing - it is the vault's balance.
+1. App displays a note regarding the required approval of one of the other master accounts owners (See vault interactions figma page, screen #5). User is encoureged to notify one of the other master accounts owner about the transaction.
+1. User specifies the destination account address, the coin amount, the transaction fee (gas units and gas unit price).
+1. App validates that the amount to send + the transaction fee are equal or smaller than the vault's balance.
+1. User clicks 'Send'
+1. App displays the transaction summary screen.
+1. User clicks 'Send'
+1. App sends the transaction and displays the transaction sent screen.
+
+
+-----------
+
+### Flow 17. Withdrawing from a Multi Sig Vault (with daily spending)
+User goal: send coins from a vault to another account.
+
+1. User clicks on the `Send` button in the wallet screen.
+1. App displays the select account screen. (See vault interactions figma page, screen #4).
+1. User clicks on `master account` button.
+1. Flow continues from Flow 16, step 2.
+
+-----------
 
 ## The Journey - Tehnical View
 
