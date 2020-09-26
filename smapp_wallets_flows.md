@@ -297,6 +297,84 @@ User goal: Send coins from daily spending account to any other account.
 
 -----------
 
+# Flow 19. Change daily spending limit - Simple Vault.
+
+User goal: Change the daily spending amount.
+
+1. User views a vault in the wallet's screen.
+2. App is displaying the `edit` button in the `Daily spending limit` section if the wallet include the vault's master key.
+3. User clicks on `edit` in the `Daily spening limit` row.
+4. App displays the `Daily Spending Limit` screen (screen 8 in figma).
+
+> Note that the authorization info is not displayed as no authorization is required in a single vault.
+
+5. User sets new spending amount, provides gas units, gas unit price and clicks `next`.
+6. App displays a confirmation screen with the transaction details (missing mock in figma - needs to be added).
+7. User clicks `Approve`.
+8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
+
+# Flow 20. Change daily spend limit - Multisig Vault.
+
+User goal: Change the daily spend amount.
+
+1. User views a vault in the wallet's screen.
+1. App is displaying the `edit` button in the `Daily spending limit` section if the wallet include the vault's master key.
+1. User clicks on `edit` in the `Daily spening limit` row.
+1. App displays the `Daily Spending Limit` screen (screen 8 in figma).
+1. User sets new spending amount, provides gas units, gas unit price and clicks `next`.
+1. App displays a confirmation screen with the transaction details (missing mock in figma - needs to be added).
+1. User clicks `approove`.
+1. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
+
+> The flow now continues on one of the other 2 master account holders wallet in smapp.
+
+1. User accesses a wallet with the vault's account in smapp.
+2. App displays a `Pending approval request` button in the wallet's screen.
+3. User clicks on `review` to display the request.
+4. App displays the request (Screen #11 in figma).
+5. User reviews the requests and click `approve`.
+6. App signs the approval transaction, submits it to the network for processing and displays a transaction submitted notification in the status.
+
+# Flow 21. Change daily spend account - Simple Vault.
+
+User goal: Change the daily spend account.
+
+1. User views a vault in the wallet's screen.
+2. App is displaying the `edit` button in the `Daily spending account` section if the wallet include the vault's master key.
+3. User clicks on `edit` in the `Daily spening account` row.
+4. App displays the `Daily Spending Account` screen (screen #10 in figma).
+
+> Note that the authorization info is not displayed as no authorization is required in a single vault.
+
+5. User sets new spending account, provides gas units, gas unit price and clicks `next`.
+6. App displays a confirmation screen with the transaction details (missing mock in figma - needs to be added).
+7. User clicks `Approve`.
+8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
+
+# Flow 22. Change daily spend account - Multisig Vault.
+
+User goal: Change the daily spend account.
+
+1. User views a vault in the wallet's screen.
+1. App is displaying the `edit` button in the `Daily spending account` section if the wallet include the vault's master key.
+1. User clicks on `edit` in the `Daily spening account` row.
+1. App displays the `Daily Spending Account` screen (screen #10 in figma).
+1. User sets new spending amount, provides gas units, gas unit price and clicks `next`.
+1. App displays a confirmation screen with the transaction details (missing mock in figma - needs to be added).
+1. User clicks `approove`.
+1. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
+
+> The flow now continues on one of the other 2 master account holders wallet in smapp.
+
+1. User accesses a wallet with the vault's account in smapp.
+2. App displays a `Pending approval request` button in the wallet's screen.
+3. User clicks on `review` to display the request.
+4. App displays the request (Screen #11 in figma).
+5. User reviews the requests and click `approve`.
+6. App signs the approval transaction, submits it to the network for processing and displays a transaction submitted notification in the status.
+
+-----------
+
 ## The Journey - Tehnical View
 
 
