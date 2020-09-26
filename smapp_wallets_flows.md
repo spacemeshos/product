@@ -20,6 +20,8 @@ In the flows below, the user doesn't have a wallet in the first session and only
 1. App starts the smeshing setup flow.
 1. User sets up smeshing.
 
+------
+
 ### Flow 2. First-Time User Session - Ledger Wallet & Local Node
 > User goal: setup new wallet that is using his Ledger wallet, run a local p2p node and sync it with the network, and setup smeshing.
 
@@ -34,6 +36,8 @@ In the flows below, the user doesn't have a wallet in the first session and only
 1. User sets a password for the new wallet.
 1. App starts the smeshing setup flow.
 1. User sets up smeshing.
+
+------
 
 ### Flow 3. First-Time User Session - Standard Wallet via Public Api Service
 
@@ -51,6 +55,8 @@ In the flows below, the user doesn't have a wallet in the first session and only
 1. User sets a password for the new wallet.
 1. App gets wallet balance, transaction history, and network status via the API and presents it to the user in the `wallet screen` and in the `network` screen.
 1. User checks his balance, incoming transactions and executes transactions.
+
+------
 
 ### Flow 4. First Time User Session - Ledger Wallet via Public Api Service
 
@@ -85,6 +91,7 @@ In the flows below, the user doesn't have a wallet in the first session and only
 1. User switches to `smeshing screen` to view smeshing status.
 
 > User is only prompted to connect the Ledger device to his computer and open the Spacemesh Ledger App on it, when the user needs to sign a new transaction or when user selects to add a new account, and the wallet is a ledger wallet and not a standard one.
+
 ----
 
 ### Flow 6. Second User Session (Standard or Ledger Wallet via Public Api Service)
@@ -315,6 +322,8 @@ User goal: Change the daily spending amount.
 7. User clicks `Approve`.
 8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
 
+------
+
 ### Flow 20. Change daily spend limit - Multisig Vault.
 
 User goal: Change the daily spend amount.
@@ -337,6 +346,8 @@ User goal: Change the daily spend amount.
 5. User reviews the requests and clicks `approve`.
 6. App signs the approval transaction, submits it to the network for processing and displays a transaction submitted notification in the status.
 
+------
+
 ### Flow 21. Change daily spend account - Simple Vault.
 
 User goal: Change the daily spend account.
@@ -352,6 +363,8 @@ User goal: Change the daily spend account.
 6. App displays a confirmation screen with the transaction details (missing mock in figma - needs to be added).
 7. User clicks `Approve`.
 8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
+
+------
 
 ### Flow 22. Change daily spend account - Multisig Vault.
 
