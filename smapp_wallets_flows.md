@@ -214,6 +214,8 @@ User goal: view vault's state (balance, pending tranasactions, etc...) and execu
 
 User goal: send coins from a vault to another account.
 
+[Interactive prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5707%3A22305&viewport=236%2C-22%2C0.20278094708919525&scaling=min-zoom)
+
 1. User clicks on the `Send` button in the wallet screen.
 1. App displays the `Send SMH` screen with the from field set to the vault's single master account. App displays the amount available for Withdrawing - it is the vault's balance.
 1. User specifies the destination account address, the coin amount, the transaction fee (gas uinits and gas unit price).
@@ -228,6 +230,8 @@ User goal: send coins from a vault to another account.
 ### Flow 15. Withdrawing from a Simple Vault (with daily spending)
 User goal: send coins from a vault to another account.
 
+[Interactive prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5707%3A19207&viewport=568%2C-111%2C0.22096964716911316&scaling=min-zoom)
+
 1. User clicks on the `Send` button in the wallet screen.
 1. App displays the select account screen. (See vault interactions figma page, screen #4).
 1. User clicks on `master account` button.
@@ -236,7 +240,10 @@ User goal: send coins from a vault to another account.
 -----------
 
 ### Flow 16. Withdrawing from a Multi Sig Vault (without daily spending)
+
 User goal: send coins from a vault to another account.
+
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5707%3A21426&viewport=-184%2C79%2C0.24070248007774353&scaling=min-zoom)
 
 1. User clicks on the `Send` button in the wallet screen.
 1. App displays the `Send SMH` screen with the from field set to the vault's single master account. App displays the amount available for Withdrawing - it is the vault's balance.
@@ -264,6 +271,8 @@ User goal: send coins from a vault to another account.
 ### Flow 17. Withdrawing from a Multi Sig Vault (with daily spending)
 User goal: send coins from a vault to another account.
 
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5707%3A24211&viewport=222%2C22%2C0.1997256726026535&scaling=min-zoom)
+
 1. User clicks on the `Send` button in the wallet screen.
 1. App displays the select account screen. (See vault interactions figma page, screen #4).
 1. User clicks on `master account` button.
@@ -273,6 +282,10 @@ User goal: send coins from a vault to another account.
 
 ### Flow 18. Daily Spending from a Vault.
 > This flow assumes user has setup daily spending on a simple or a multi-sig vault.
+
+User goal: Send coins from daily spending account to any other account.
+
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5711%3A872&viewport=624%2C510%2C0.1901005655527115&scaling=min-zoom)
 
 1. User clicks on the `Send` button in the wallet screen.
 1. App displays the select account screen. (See vault interactions figma page, screen #4).
