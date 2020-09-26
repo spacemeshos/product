@@ -297,7 +297,7 @@ User goal: Send coins from daily spending account to any other account.
 
 -----------
 
-# Flow 19. Change daily spending limit - Simple Vault.
+### Flow 19. Change daily spending limit - Simple Vault.
 
 User goal: Change the daily spending amount.
 
@@ -313,7 +313,7 @@ User goal: Change the daily spending amount.
 7. User clicks `Approve`.
 8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
 
-# Flow 20. Change daily spend limit - Multisig Vault.
+### Flow 20. Change daily spend limit - Multisig Vault.
 
 User goal: Change the daily spend amount.
 
@@ -335,7 +335,7 @@ User goal: Change the daily spend amount.
 5. User reviews the requests and clicks `approve`.
 6. App signs the approval transaction, submits it to the network for processing and displays a transaction submitted notification in the status.
 
-# Flow 21. Change daily spend account - Simple Vault.
+### Flow 21. Change daily spend account - Simple Vault.
 
 User goal: Change the daily spend account.
 
@@ -351,7 +351,7 @@ User goal: Change the daily spend account.
 7. User clicks `Approve`.
 8. The app signs the change daily spending amount vault transactions and submits it to the network for processing.
 
-# Flow 22. Change daily spend account - Multisig Vault.
+### Flow 22. Change daily spend account - Multisig Vault.
 
 User goal: Change the daily spend account.
 
