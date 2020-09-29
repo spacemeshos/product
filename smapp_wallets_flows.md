@@ -310,6 +310,8 @@ User goal: Send coins from daily spending account to any other account.
 
 User goal: Change the daily spending amount.
 
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=5994%3A21908&viewport=177%2C893%2C0.24130608141422272&scaling=min-zoom)
+
 1. User views a vault on the wallet's screen.
 2. App is displaying the `edit` button in the `Daily spending limit` section if the wallet includes the vault's master key.
 3. User clicks on `edit` in the `Daily spending limit` row.
@@ -327,6 +329,8 @@ User goal: Change the daily spending amount.
 ### Flow 20. Change daily spend limit - Multisig Vault.
 
 User goal: Change the daily spend amount.
+
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=6000%3A316&viewport=396%2C-100%2C0.1691969633102417&scaling=min-zoom)
 
 1. User views a vault on the wallet's screen.
 1. App is displaying the `edit` button in the `Daily spending limit` section if the wallet includes the vault's master key.
@@ -352,6 +356,8 @@ User goal: Change the daily spend amount.
 
 User goal: Change the daily spend account.
 
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=6000%3A2378&viewport=444%2C-41%2C0.2702927887439728&scaling=min-zoom)
+
 1. User views a vault on the wallet's screen.
 2. App is displaying the `edit` button in the `Daily spending account` section if the wallet includes the vault's master key.
 3. User clicks on `edit` in the `Daily spending account` row.
@@ -369,6 +375,8 @@ User goal: Change the daily spend account.
 ### Flow 22. Change daily spend account - Multisig Vault.
 
 User goal: Change the daily spend account.
+
+[Interactive Prototype](https://www.figma.com/proto/6bbFkIAzVu36bIpUNnMqoy/Smapp-Designs?node-id=6003%3A681&viewport=32%2C92%2C0.18158355355262756&scaling=min-zoom)
 
 1. User views a vault on the wallet's screen.
 1. App is displaying the `edit` button in the `Daily spending account` section if the wallet includes the vault's master key.
