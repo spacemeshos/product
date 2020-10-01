@@ -36,7 +36,7 @@ Note that for explorer and dash we'd like to provide domains in the urls and not
 - The explorer and dash services should be monitored with alerts and its backend should be restarted in case of failure.
 - Required uptime (SLA): 96.7% (up to 24 hours downtime per cal month).
 - An explorer and dash service should support up to 20 requests per second from clients.
-- The Explorer and Dashbaord web apps should enable users to switch between all deployed networks via the network dropdown.
+- The Explorer and Dashboard web apps should enable users to switch between all deployed networks via the network dropdown.
 
 ## Flow: Starting Services for a new Spacemesh network
 1. A new Spacemesh network is started with a new net id. e.g. 167.
