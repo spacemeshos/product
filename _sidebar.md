@@ -14,6 +14,7 @@
 - [Wallet Mode Smapp](wallet_only_mode.md)
 - [Ledger Wallet](ledger_app.md)
 - [Smapp Journeys](smapp_wallets_flows.md)
+- [Web Services](public_webservices.md)
 
 **Visual Designs**
 - [GPU Post Setup](resources/gpu_post_setup_dark_mode.pdf ':ignore')
