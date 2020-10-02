@@ -80,7 +80,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Consensus protocol self healing.
 - [ ] Vault mesh app and smart contract transactions.
 - [ ] Telemetry with opt-out.
-- [ ] User-defined PoST data size and GPU-baed setup.
+- [ ] User-defined PoST data size and GPU-based setup.
 - [ ] Support for signing transactions with the standard ED25519 signature scheme.
 
 #### Ecosystem Projects
@@ -91,9 +91,9 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 #### Spacemesh App
 - [x] Dark Mode.
 - [ ] Full support for Vaults.
-- [ ] Use Ledger hardware device to sign transactions.
-- [ ] Display dashboard and explorer.
-- [ ] Support wallet-only mode.
+- [ ] Use a Ledger hardware device to sign transactions.
+- [ ] Display Dashboard and Explorer.
+- [ ] Support wallet-only Mode.
 - [ ] Support multiple wallets and networks.
 
 #### CLIWallet
