@@ -23,12 +23,10 @@ The public API service provides some Spacemesh API 2.0 services over the Interne
 }, ...]
 ```
 
-Note that the discover file also provides the urls for an explorer and dashboard for that network. Each network that has a public API service, should also provide dash and explore for that network.
-
-Note that for explorer and dash we'd like to provide domains in the urls and not the raw public IP address of these services.
-
+- The discover file also provides the urls for an explorer and dashboard for that network. Each network that has a public API service should also provide dash and explorer for that network.
+- For explorer and dash we'd like to provide domains in the urls and not the raw public IP address of these services.
 - When a new network is started that we'd like to have a public API for, it needs to be added to the API service and the discovery web service needs to be updated to provide the meta-data for the network.
-- When a network is terminated, we need to remove the managed node that provided the API, from the API service and the discovery service.
+- When a network is terminated, we need to remove the managed node that provided the API from the API service and the discovery service.
 
 ## Explorer and Dash Web Apps - Phase I
 - We'd like to provide a public explorer and dashboards for some networks such as open testnet and devnets. Each network which provides a public API should also provide an explorer for that network.
@@ -40,18 +38,18 @@ Note that for explorer and dash we'd like to provide domains in the urls and not
 
 ## Flow: Starting Services for a new Spacemesh network
 1. A new Spacemesh network is started with a new net id. e.g. 167.
-2. Spacemesh requests public API, dash and explore to be setup for the new network. It provides the friendly url for the new services. e.g. `https://167.api.sm.io` for API, `https://167.dash.sm.io` for Dash, adn `https://167.explore.sm.io` for explorer. Spacemesh specifies the exact full-node release that should be used on this network and the node network config file for the node (part of node github release).
-3. A new dash-backend, explore-backend with supporting nodes, and api-node needs should be deployed and configured and start being monitored.
-4. The discovery service should be updated to provide the meta-data for the new network.
+1. Spacemesh requests public API, dash and explore to be setup for the new network. It provides the friendly url for the new services. e.g. `https://167.api.sm.io` for API, `https://167.dash.sm.io` for Dash, and `https://167.explore.sm.io` for explorer. Spacemesh specifies the exact full-node release that should be used on this network (as docker image or Github branch/tag/commit hash) and the node network config file for the node (part of node github release).
+1. A new dash-backend, explore-backend with supporting nodes, and api-node needs should be deployed and configured and start being monitored.
+1. The discovery service should be updated to provide the meta-data for the new network.
 
 ## Flow: Stopping Services for a new Spacemesh network
 1. Spacemesh decides to terminate a network. It requests that services should be decommissioned for that network.
-2. The hardware resources providing the services for this network should be decommissioned and the discovery service should be updated to not include the discovery meta-data for this network.
+1. The hardware resources providing the services for this network should be decommissioned and the discovery service should be updated to not include the discovery meta-data for this network.
 
 ## Flow: Deploying updated full nodes
 1. Spacemesh requests to use a new full-node release for a specific network which has live services.
-2. Services needs to be updated to use the new node release in up to 48 hours.
+1. Services needs to be updated to use the new node release within 48 hours.
 
 ## Flow: Deploying a new Explorer or Dash front-ends
-1. Spacemesh requests to deploy new dash and explore front-end github release for all live networks.
-2. The dash and explore services needs to be updated with the new release in up to 48 hours.
+1. Spacemesh requests to deploy new dash and explorer front-end github release for all live networks.
+1. The dash and explore services needs to be updated with the new release within 48 hours.
