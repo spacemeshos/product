@@ -11,12 +11,13 @@ The public API service provides some Spacemesh API 2.0 services over the Interne
 - We need to have monitoring and alerts for each network so backing node can be restarted if needed.
 - Required uptime (SLA): 96.7% (up to 24 hours downtime per cal month).
 - Each endpoint needs to support up to 20 requests per second from clients.
-- We need to add a small `discovery web service` that provides a list of available endpoints on a static public url in json. e.g. `https://apis.sm.io` . Smapp will be configured to use this url to obtain available API for various networks.
+- We need to add a small `discovery web service` that provides a list of available endpoints on a static public url in json. e.g. `https://apis.sm.io` . Smapp will be configured to use this url to obtain available APIs, config file, explorer and dash urls for all available networks (testnets, devnets, mainnets).
 
 ```json
 [{
     "net-friendly-name": "TweedleDee Open Testnet 118",
     "net-id" : 118,
+    "conf-file": "https://sm.io/nets/118/conf.json"
     "api-url": "https://118.api.sm.io:9091",
     "explorer-url" : "https://118.explore.sm.io",
     "dash-url" : "https://118.dash.sm.io",
