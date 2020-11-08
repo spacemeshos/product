@@ -1,17 +1,18 @@
 # Motivation
-- We'd like to deploy 3 web Spacemesh web services and maintain them in a production environment for each Spacemesh network.
-- The services are: public api service (grpc and json over  https), dash web app, and explore web app.
+- We'd like to deploy 3 web Spacemesh web services and maintain them in a production environment for each Spacemesh network (such as devnet or open tetnet).
+- The services are: Public Api Service (grpc and json over  https), dashboard web app, and explorer web app.
 - The services will be hosted on Google cloud by Spacemesh.
 - In addition, a small `discovery service` should always be provided on a well-known friendly url (see below).
-- The services should be managed by a system that enables deployment of the services for a new Spacemesh network and update the discovery service automatically.
+- The services should be managed by a system that enables auto deployment of the services for a new Spacemesh network, auto removal of services for a network that is being shut down, and auto updates to the discovery service to indicate the currently supported networks and their services.
 
 ---
 
 ## Discovery Web Service - Phase I
 - The discovery web service provides a list of available Spacemesh networks, the web services urls for each network as well as friendly network name, id and config file.
-- The service will be provided over a persistent url and domain . e.g. `https://nets.sm.io` .
-- Smapp will be configured to use this url to obtain a list of available networks and the urls for a network's public api, explorer and dash.
-- The service should return json data in a well-known format.
+- The service should be provided over a permanent url and short Spacemesh domain. e.g. `https://discover.sm.io/` .
+- Service must be provided over https and not http.
+- Smapp will be configured to use this url to obtain a list of available networks and the urls for a network's public api, explorer and dash. This url will be the only network related data hard-coded into Smapp.
+- The service should return json data in a well-known format such as:
 
 ```json
 [{
@@ -23,7 +24,7 @@
 ]
 ```
 
-Here's an example of an entry for a Spacemesh network which we provide an api, explore, config file and dash for.
+Here's an example of an entry for a Spacemesh network in the json data:
 
 ```json
 [{
@@ -38,24 +39,25 @@ Here's an example of an entry for a Spacemesh network which we provide an api, e
 ```
 
 - The discovery data should include the urls for an explorer and dashboard for that network, the network friendly name, its config file and the urls of its json and grpc api services.
-- For explorer, api and dash we'd like to provide domains in the urls and not the raw public IP address.
-- When a new supported network is started (e.g a new public testnet) that system should start services, dash and explorer for it and update the discovery data with the urls of these services. This should be automated.
-- When a Spacemesh network is terminated, we need to stop its supported servies, free all resources which provided the dash, explore and API to that network and remove the network information from the discovery service data.
+- All urls should use friendly domain names and include the network id in them. e..g `118.explore.spacemesh.io`.
+- When a new supported network is started (e.g a new public testnet) the system should start services, dash and explorer for it, and update the discovery data with the urls of these services. This should be automated.
+- When a Spacemesh network is terminated, we need to stop its supported services, free all resources which provided the dash, explore and API services for that network and remove the network information from the discovery service data.
 
 ----
 
 ## Public API Service - Phase I
-- The public API service provides some Spacemesh API 2.0 services over the Internet via both https-json and https-grpc.
+- When a new Spacemesh network is configured to be supported, an API service should be created for it. The discovery service will provide the API service urls for that network.
+- The public API service provides one or more Spacemesh API 2.0 services over the Internet via both https-json and https-grpc channels.
 - The service should be provided for each supported Spacemesh network, e.g. a devnet or a testnet.
-- The should have its own permanent unique url and we'll map a custom domain to it. e.g. `https://118.api.sm.io:9092` for the grpc service for net id 118.
+- It should have its own permanent unique url and we'll map a custom domain to it. e.g. `https://118.api.sm.io:9092` for the grpc service for net id 118.
 - Both grpc and json end-points must be provided over https and not http.
 - THE API service should be provided by one managed full node that connects to a Spacemesh network and is configured to provide the API for that network. (In Phase II we should add load-balanced nodes for increased reliability and uptime).
 - We need to have monitoring and alerts for an API service, so backing node can be restarted if needed.
-- When a new Spacemesh network is configured to be supported, an API service should be added to it. The discovery service will provide the API service urls for that network.
-- When a Spacemesh network is deprecated and is going down, the API service for that network should be brougth down and the resources used to provide it must be reclaimed.
+- When a Spacemesh network is deprecated and is going down, the API service for that network should be brought down and the resources used to provide it must be reclaimed.
 - Required uptime (SLA): 96.7% (up to 24 hours downtime per cal month).
 - Each API service endpoint needs to support up to 20 requests per second from clients.
 
+------
 
 ## Explorer and Dash Web Apps - Phase I
 - We'd like to provide a public explorer and dashboards for some networks such as open testnet and devnets. Each network which provides a public API should also provide an explorer for that network.
