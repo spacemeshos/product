@@ -35,12 +35,15 @@ Here's an example of an entry for a Spacemesh network in the json data:
     "api-grpc": "https://118.api.sm.io:9092",
     "explorer" : "https://118.explore.sm.io/",
     "dash" : "https://118.dash.sm.io/",
+    "min-node-version" : "0.1.1"
 }, ...]
 ```
 
 - The discovery data should include the urls for an explorer and dashboard for that network, the network friendly name, its config file and the urls of its json and grpc api services.
 - All urls should use friendly domain names and include the network id in them. e..g `118.explore.spacemesh.io`.
 - When a new supported network is started (e.g a new public testnet) the system should start services, dash and explorer for it, and update the discovery data with the urls of these services. This should be automated.
+- Min-node-version indicates what is the minimum go-spacemesh full node release that is supported on that network.
+- Note that we don't include node release ulrs here as Smapp full node updates is handled via a different mechanism. We include the min-version to ensure that Smapp will enable users to join a network only if they have a compatible managed node installed.
 - When a Spacemesh network is terminated, we need to stop its supported services, free all resources which provided the dash, explore and API services for that network and remove the network information from the discovery service data.
 
 ----
