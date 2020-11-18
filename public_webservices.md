@@ -35,15 +35,29 @@ Here's an example of an entry for a Spacemesh network in the json data:
     "api-grpc": "https://118.api.sm.io:9092",
     "explorer" : "https://118.explore.sm.io/",
     "dash" : "https://118.dash.sm.io/",
-    "min-node-version" : "0.1.1"
+    "min-node-release" : "0.1.1",
+    "latest-node-release" : "0.1.2",
+    "min-smapp-release": "0.1.12",
+    "latest-smapp-release" : "0.1.13"
 }, ...]
 ```
 
 - The discovery data should include the urls for an explorer and dashboard for that network, the network friendly name, its config file and the urls of its json and grpc api services.
+<<<<<<< HEAD
 - All urls should use friendly domain names and include the network id in them, e.g., `118.explore.spacemesh.io`.
 - When a new supported network is started (e.g., a new public testnet) the system should start services, dash and explorer for it, and update the discovery data with the urls of these services. This should be automated.
 - Min-node-version indicates what is the minimum go-spacemesh full node release that is supported on that network.
 - Note that we don't include node release URLs here as Smapp full node updates is handled via a different mechanism. We include the min-version to ensure that Smapp will enable users to join a network only if they have compatible node software installed.
+=======
+- All urls should use friendly domain names and include the network id in them. e..g `118.explore.spacemesh.io`.
+- When a new supported network is started (e.g a new public testnet) the system should start services, dash and explorer for it, and update the discovery data with the urls of these services. This should be automated.
+- `min-node-release` indicates what is the minimum go-spacemesh full node release that is supported on that network.
+- `latest-node-release` indicates the most recent node release that is supported on that network.
+- `min-smapp-release` indicates what is the minimum Smapp release that is supported on that network.
+- `latest-smapp-release` indicates the most recent Smapp release that is supported on that network.
+
+- Note that we don't include node release ulrs here as Smapp full node updates is handled via a different mechanism. We include the min-version to ensure that Smapp will enable users to join a network only if they have a compatible managed node installed.
+>>>>>>> 6802404 (Update to include release versions)
 - When a Spacemesh network is terminated, we need to stop its supported services, free all resources which provided the dash, explore and API services for that network and remove the network information from the discovery service data.
 
 ----
