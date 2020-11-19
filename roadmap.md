@@ -18,9 +18,9 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 # Spacemesh Roadmap
 
-## TL;DR: 2020 Roadmap
+## TL;DR: 2020 and 2021 Roadmap
 
-![](https://raw.githubusercontent.com/spacemeshos/product/master/resources/roadmap2019_1.png)
+![](resources/roadmap_2021.png)
 
 ---
 # Completed milestones
@@ -70,7 +70,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 # Current and Future Milestones
 
-## Milestone 5 - Spacemesh 0.2 Public Testnet - Q4 2020
+## Milestone 5 - Spacemesh 0.2 Public Testnet - Q1 2021
 ### Focus: FUNCTIONALITY
 
 #### Full Node Features
@@ -85,14 +85,14 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 #### Ecosystem Projects
 - [ ] Testnet rewards program and the Spacemesh store.
-- [ ] Web dashboard and explorer apps.
-- [ ] Public Spacemesh API 2.0 endpoint.
+- [x] Web dashboard and explorer apps.
+- [x] Public Spacemesh API 2.0 endpoint.
 
 #### Spacemesh App
 - [x] Dark Mode.
 - [ ] Full support for Vaults.
 - [ ] Use a Ledger hardware device to sign transactions.
-- [ ] Display Dashboard and Explorer.
+- [x] Display Dashboard and Explorer.
 - [ ] Support wallet-only Mode.
 - [ ] Support multiple wallets and networks.
 
@@ -102,7 +102,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ![](resources/sm_basics_infograph_2@2x.png)
 
-## Milestone 6 - Spacemesh 0.3 Public Testnet - Q1 2021
+## Milestone 6 - Spacemesh 0.3 Public Testnet - Q2 2021
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
