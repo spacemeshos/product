@@ -43,7 +43,6 @@ Here's an example of an entry for a Spacemesh network in the json data:
 ```
 
 - The discovery data should include the urls for an explorer and dashboard for that network, the network friendly name, its config file and the urls of its json and grpc api services.
-<<<<<<< HEAD
 - All urls should use friendly domain names and include the network id in them, e.g., `118.explore.spacemesh.io`.
 - When a new supported network is started (e.g., a new public testnet) the system should start services, dash and explorer for it, and update the discovery data with the urls of these services. This should be automated.
 - Min-node-version indicates what is the minimum go-spacemesh full node release that is supported on that network.
