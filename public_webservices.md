@@ -100,7 +100,7 @@ Input data for a new network should be provided by Spacemesh as part of the depl
 ---
 
 ## Flow: Stopping Services for a Spacemesh network
-1. Spacemesh decides to terminate an open testet network. It requests that services should be decommissioned for that network.
+1. Spacemesh decides to terminate an open testnet network. It requests that services should be decommissioned for that network.
 1. The hardware resources providing the services for this network should be decommissioned and the discovery service should be updated to not include the discovery metadata for this network.
 1. This flow will happen if we decide to bring down an open testnet before a new one is deployed. It should be rare but may happen.
 
