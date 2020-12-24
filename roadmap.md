@@ -93,8 +93,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 #### Spacemesh App
 - [x] Dark Mode.
 - [x] Display Dashboard.
-- [ ] Vaults features. <meter value="0.5"/>
-- [ ] Support a Ledger hardware device to sign transactions. <meter value="0.5"/>
+- [ ] Support Vaults. <meter value="0.5"/>
+- [ ] Sign transactions with Ledger hardware device. <meter value="0.5"/>
 - [ ] Use discovery service for configuration. <meter value="0.8"/>
 - [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
 - [ ] Wallet-only Mode. <meter value="0.8"/>
