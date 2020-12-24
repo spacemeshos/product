@@ -74,8 +74,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: FUNCTIONALITY
 
 #### Full Node Features
-- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols. <meter value="0.8"/>
 - [x] Spacemesh API 2.0.
+- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols. <meter value="0.8"/>
 - [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
 - [ ] Consensus protocol self healing. <meter value="0.7"/>
 - [ ] Vault mesh app and smart contract transactions. <meter value="0.7"/>
@@ -83,11 +83,12 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
 - [ ] Support for signing transactions with the standard ED25519 signature scheme. <meter value="0.7"/>
 
-#### Ecosystem Projects
-- [ ] Testnet rewards program and the Spacemesh store. <meter value="0.8"/>
+#### Platform Projects
 - [x] Web dashboard and explorer apps.
 - [x] Public Spacemesh API 2.0 endpoint.
 - [x] Networks discovery service.
+- [x] Spacemesh Ledger App and SDK
+- [ ] Testnet rewards program and the Spacemesh store. <meter value="0.8"/>
 
 #### Spacemesh App
 - [x] Dark Mode.
