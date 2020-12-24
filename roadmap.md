@@ -84,23 +84,27 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Support for signing transactions with the standard ED25519 signature scheme. <meter value="0.7"/>
 
 #### Ecosystem Projects
-- [ ] Testnet rewards program and the Spacemesh store.
+- [ ] Testnet rewards program and the Spacemesh store. <meter value="0.8"/>
 - [x] Web dashboard and explorer apps.
 - [x] Public Spacemesh API 2.0 endpoint.
 - [x] Networks discovery service.
 
 #### Spacemesh App
 - [x] Dark Mode.
-- [ ] Support vaults.
-- [ ] Use a Ledger hardware device to sign transactions.
 - [x] Display Dashboard.
-- [ ] Support wallet-only Mode.
-- [ ] Support multiple wallets and networks.
+- [ ] Vaults features. <meter value="0.5"/>
+- [ ] Support a Ledger hardware device to sign transactions. <meter value="0.5"/>
+- [ ] Use discovery service for configuration. <meter value="0.8"/>
+- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [ ] Wallet-only Mode. <meter value="0.8"/>
+- [ ] Use API 2.0 <meter value="0.8"/>
 
 #### CLIWallet
-- [ ] Sign transactions with Ledger hardware device.
-- [ ] Support vaults.
-- [ ] Use same file format as smapp.
+- [x] Use API 2.0
+- [X] Use a remote api endpoint over https
+- [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
+- [ ] Support vaults. <meter value="0.2"/>
+- [ ] Use same file format as smapp. <meter value="0.8"/>
 
 ![](resources/sm_basics_infograph_2@2x.png)
 
