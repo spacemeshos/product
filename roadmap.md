@@ -74,33 +74,37 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: FUNCTIONALITY
 
 #### Full Node Features
-- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols.
-- [ ] Spacemesh API 2.0.
-- [ ] Smeshers rewards protocol including Hare and ATX rewards.
-- [ ] Consensus protocol self healing.
-- [ ] Vault mesh app and smart contract transactions.
-- [ ] Telemetry with opt-out.
-- [ ] User-defined PoST data size and GPU-based setup.
-- [ ] Support for signing transactions with the standard ED25519 signature scheme.
+- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols. <meter value="0.8"/>
+- [x] Spacemesh API 2.0.
+- [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
+- [ ] Consensus protocol self healing. <meter value="0.7"/>
+- [ ] Vault mesh app and smart contract transactions. <meter value="0.7"/>
+- [ ] Telemetry with opt-out. <meter value="0.8"/>
+- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [ ] Support for signing transactions with the standard ED25519 signature scheme. <meter value="0.7"/>
 
 #### Ecosystem Projects
 - [ ] Testnet rewards program and the Spacemesh store.
 - [x] Web dashboard and explorer apps.
 - [x] Public Spacemesh API 2.0 endpoint.
+- [x] Networks discovery service.
 
 #### Spacemesh App
 - [x] Dark Mode.
-- [ ] Full support for Vaults.
+- [ ] Support vaults.
 - [ ] Use a Ledger hardware device to sign transactions.
-- [x] Display Dashboard and Explorer.
+- [x] Display Dashboard.
 - [ ] Support wallet-only Mode.
 - [ ] Support multiple wallets and networks.
 
 #### CLIWallet
 - [ ] Sign transactions with Ledger hardware device.
-- [ ] Vaults support.
+- [ ] Support vaults.
+- [ ] Use same file format as smapp.
 
 ![](resources/sm_basics_infograph_2@2x.png)
+
+----
 
 ## Milestone 6 - Spacemesh 0.3 Public Testnet - Q2 2021
 ### Focus: SECURITY
