@@ -5,7 +5,7 @@
 
 2. We decided not to the support more than one sm network in Smapp at any given time, as this requires maintaining a go-sm binary release for each network as not all networks may work with a specific go-sm binary release.
 
-3. Smapp gets the meta-data about a supported public network (e.g. a testnet release) such as config file, dash url, explore url, and more via the sm public discovery service. [add link here]. The only hard-coded network info in Smapp is the discovery service canonical url https://discover.spacemesh.io/networks.json and a go-sm binary release that was tested to work with this network and Smapp assumes that the discovery service only returns data for one sm network. The discovery service includes the latest Smapp and go-sm binary releases numbers supported for the network. For more info see https://product.spacemesh.io/#/public_webservices
+3. Smapp gets the meta-data about a supported public network (e.g. a testnet release) such as config file, dash url, explore url, and more via the sm [public discovery service](https://product.spacemesh.io/#/public_webservices). The only hard-coded network info in Smapp is the discovery service canonical url https://discover.spacemesh.io/networks.json and a go-sm binary release that was tested to work with this network and Smapp assumes that the discovery service only returns data for one sm network. The discovery service includes the latest Smapp and go-sm binary releases numbers supported for the network. For more info refer to https://product.spacemesh.io/#/public_webservices.
 
 4. We will add support for multiple Testnet to the discovery service and to Smapp at a later phase if and when we'll find a need to run more than one long-running open testnet.
 
