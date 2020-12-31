@@ -1,4 +1,5 @@
 # Smapp update Spec
+Status: draft pre SMIP.
 
 ## Preliminaries
 1. A Smapp release includes a go-sm binary release that it is designed to work with. We want to keep it this way to avoid users having to download go-sm on app first session as it requires to trust the discovery endpoint and for convince reasons.
