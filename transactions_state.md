@@ -1,5 +1,5 @@
 # Coin Transfer Transaction States
-> This spec is depracted by the transaction status and restults as specified here: https://github.com/spacemeshos/api
+> This spec is deprecated by the transaction status and results as specified here: https://github.com/spacemeshos/api
 
 ## Overview
 This document details the possible states of coin transfer transactions for the open testnet timeframe.
