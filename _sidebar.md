@@ -16,6 +16,7 @@
 - [Smapp Journeys](smapp_wallets_flows.md)
 - [Smapp Updates](smapp_update_spec.md)
 - [Web Services](public_webservices.md)
+- [Transactions Syntax](transactions.md)
 
 
 **Visual Designs**
