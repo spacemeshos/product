@@ -153,7 +153,8 @@ Input:  `Type`, `TransactionData`, `NetworkID`, a signer.
 Output: `SignedTransaction` binary data item.
 
 1. Create `TransactionAuthenticationMessage` for the transaction using the input, and get its XDR encoded binary data.
-1. Sign the binary data with the signer, using the signature scheme specified in the given transaction type.
+1. Hash the data using [sha-512](https://en.wikipedia.org/wiki/SHA-2) to create a message digest for signature.
+1. Sign the message digest with the signer, using the signature scheme specified in the given transaction type.
 1. Create a `SignedTransaction` and return it XDR binary data.
 
 ### Notes
@@ -171,7 +172,8 @@ Input: `SignedTransaction`, `NetworkId`.
 Output: Verified or rejected `TransactionData`.
 
 1. Decode `SignedTransaction` and create an `TransactionAuthenticationMessage` using the input and the decoded data.
-1. If the signature theme is ed (not ed++) by the transaction type then use the  public key `PubKey` and `Signature` from `SignedTransaction` to verify `TransactionAuthenticationMessage`. Otherwise, extract the public key from the signature and `TransactionAuthenticationMessage` using the ed++ public key extraction function.
-1. Based on the transaction type, decode the transaction data into one of the three relevant native transaction data item as defined in this spec.
+2. If the signature scheme is ed25519++ then extract the public key from the `Signature` and `SignedTransaction` and skip to step 4.
+3. Hash `TransactionAuthenticationMessage` using sha512 to create a message digest. Use the ed25519 verify algorithm with the message digest as the input. e.g. `ed25519_pub_key.verify(signature, message_digest)`` to verify the transaction.
+4. Based on the transaction type, decode the transaction data into one of the three relevant native transaction data item as defined in this spec.
 
 ---
