@@ -154,7 +154,7 @@ Output: `SignedTransaction` binary data item.
 
 1. Create `TransactionAuthenticationMessage` for the transaction using the input, and get its XDR encoded binary data.
 1. Hash the data using [sha-512](https://en.wikipedia.org/wiki/SHA-2) to create a message digest for signature.
-1. Sign the message digest with the signer, using the signature scheme specified in the given transaction type.
+1. Sign the message digest using the signature scheme specified in the given transaction type and the signer's private key.
 1. Create a `SignedTransaction` and return it XDR binary data.
 
 ### Notes
