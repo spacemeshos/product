@@ -179,6 +179,9 @@ Output: Verified or rejected `TransactionData`.
 ---
 
 ## Implementation Notes
-1. Smapp and CLIWallet - the Spacemesh reference user wallets should be be updated support creating the transactions defined in this document and signing transactions with ed25519. Until the SVM-SDK is integrated in them, they should just mock SVM data in transactions so we are ready to integrate the SVM-SDK at a later time.
-1. The Spacemesh Ledger SDK needs to be updated or ported to golang to support CLIWallet which is written in GO so user can sign transactions created in CLIWallet in the Spacemesh Ledger App.
-1. The Spacemesh Ledger app needs to be able to parse all new transactions binary encoding and display the required information on the device's screen for users and to sign the transactions according to the information in this document.
+1. Smapp and CLIWallet, the Spacemesh reference user wallets, should be be updated to support creating transactions in the syntax defined in this document and to sign transactions with ed25519. Until the SVM-SDK is integrated in them, they should just mock SVM data in transactions so we are ready to integrate the SVM-SDK at a later time.
+1. The Spacemesh Ledger SDK may need to be updated to support the new transactions syntax.
+1. The Ledger SDK should be ported to GO (or updated via a GO wrapper) to support CLIWallet (which is written in GO), so users will be able to sign transactions created in CLIWallet in the Spacemesh Ledger App.
+1. The Spacemesh Ledger App needs to be able to parse all new transactions binary encoding and display the required information on the device's screen for users and to sign the transactions according to the information in this document.
+
+- Note that for now, the wallets do NOT need to sign transactions in ed25519++ signature scheme. We will add support for this signature scheme as soon as we have support for it in the Spacemesh Ledger App.
