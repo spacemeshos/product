@@ -184,4 +184,4 @@ Output: Verified or rejected `TransactionData`.
 1. The Ledger SDK should be ported to GO (or updated via a GO wrapper) to support CLIWallet (which is written in GO), so users will be able to sign transactions created in CLIWallet in the Spacemesh Ledger App.
 1. The Spacemesh Ledger App needs to be able to parse all new transactions binary encoding and display the required information on the device's screen for users and to sign the transactions according to the information in this document.
 
-- Note that for now, the wallets do NOT need to sign transactions in ed25519++ signature scheme. We will add support for this signature scheme as soon as we have support for it in the Spacemesh Ledger App.
+- Note that for Spacemesh 0.2 timeframe, the wallets do NOT need to sign transactions in ed25519++ signature scheme. We will add support for this signature scheme as soon as we have support for it in the Spacemesh Ledger App.
