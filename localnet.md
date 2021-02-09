@@ -76,7 +76,15 @@ Next, run the following command to use the image built above in a new LocalNet:
 spacemesh-local-testnet create --go-sm-image=spacemesh:local
 ```
 
-----
+## Connecting CLIWallet to a LocalNet Node
+
+> The Spacemesh API GRPC endpoint of the first miner (Miner1) is `localhost:8001`. Miner2's endpoint is `localhost:8002`, etc...
+
+To connect to a new with CLIWallet start it with one of the nodes GRPC API endpoint. The following command will start an instance of CLIWallet and connect to the first of the 10 miners in a LocalNet:
+
+```
+CLIWallet -server localhost:8001
+```
 
 ## Executing Transactions with CLIWallet
 
@@ -89,6 +97,27 @@ Follow these steps to use CLIWallet to transact using this account.
 1. Open the wallet in CLIWallet. The wallet's password is `spacemesh`.
 
 You can also use CLIWallet to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
+
+## Viewing Nodes Logs
+
+If you use Docker Desktop then you can see nodes log in the Docker Desktop App. You can also enter this command to tail any of the 10 nodes logs:
+
+```bash
+docker logs -f --tail 100 miner1
+```
+
+## Accessing Logs Using Kibana
+You can use the `--elk` optional `spacemesh-local-testnet` startup flag to setup Kibana to view nodes and Poet logs. When Kibana has been setup, access it from your web browser via this url: `localhost:5601`.
+
+## Troubleshooting
+
+### Docker No Such Image Error
+If you are getting an `no such image` error when creating a new LocalNet then pull the image using:
+```
+docker pull spacemeshos/go-spacemesh:v0.1.23
+```
+
+and try to create a new LocalNet again.
 
 
 ## Getting Help and Providing Feedback
