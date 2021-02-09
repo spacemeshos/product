@@ -98,13 +98,20 @@ Follow these steps to use CLIWallet to transact using this account.
 
 You can also use CLIWallet to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
 
-## Viewing Nodes Logs
+## Viewing Logs
 
-If you use Docker Desktop then you can see nodes log in the Docker Desktop App. You can also enter this command to tail any of the 10 nodes logs:
+If you use Docker Desktop then you can see nodes log in the Docker Dashboard App. You can also enter this command to tail any of the 10 nodes logs:
 
 ```bash
 docker logs -f --tail 100 miner1
 ```
+
+To tail the Poet logs use:
+```bash
+docker logs -f --tail 100 poet
+```
+
+
 
 ## Accessing Logs Using Kibana
 You can use the `--elk` optional `spacemesh-local-testnet` startup flag to setup Kibana to view nodes and Poet logs. When Kibana has been setup, access it from your web browser via this url: `localhost:5601`.
