@@ -88,7 +88,7 @@ CLIWallet -server localhost:8001
 
 ## Executing Transactions with CLIWallet
 
-The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x2fbe2610f69237f57ac3043f3213983819fe3ea5`
+The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x99027e1e3DE4de36d99f0054fa646EF663c276AD`.
 
 Follow these steps to use CLIWallet to transact using this account.
 
@@ -111,20 +111,8 @@ To tail the Poet logs use:
 docker logs -f --tail 100 poet
 ```
 
-
-
 ## Accessing Logs Using Kibana
 You can use the `--elk` optional `spacemesh-local-testnet` startup flag to setup Kibana to view nodes and Poet logs. When Kibana has been setup, access it from your web browser via this url: `localhost:5601`.
-
-## Troubleshooting
-
-### Docker No Such Image Error
-If you are getting an `no such image` error when creating a new LocalNet then pull the image using:
-```
-docker pull spacemeshos/go-spacemesh:v0.1.23
-```
-
-and try to create a new LocalNet again.
 
 
 ## Getting Help and Providing Feedback
