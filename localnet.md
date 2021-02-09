@@ -32,9 +32,9 @@ When you run a LocalNet with the default settings, specific dockerhub releases o
 
 > The package is fully open source and the source code is available [here](https://github.com/spacemeshos/local-testnet).
 
-When you run `spacemesh-local-testnst` without any custom options, it uses sensible defaults that have been tested to work. You can customizable these settings to override the default network configuration and behavior.
+When you run `spacemesh-local-testnet` without any custom options, it uses sensible defaults that have been tested to work. You can customizable these settings to override the default network configuration and behavior.
 
-## Installing spacemesh-local-testnst
+## Installing spacemesh-local-testnet
 
 ```
 npm install -g spacemesh-local-testnet
