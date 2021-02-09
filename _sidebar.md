@@ -5,6 +5,7 @@
 - [Coin](spacemesh_coin.md)
 - [Glossary](sm0.1_names.md)
 - [Smeshers Data](home-smeshers-data.md)
+- [LocalNet](localnet.md)
 
 **Mini Specs**
 - [Vaults](smapp_vaults.md)

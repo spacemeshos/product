@@ -1,10 +1,13 @@
 # Spacemesh Local Testnet (LocalNet)
 
+## Intro
 LocalNet is designed for developers who want to run a fully functional Spacemesh p2p networks on their computers for testing, evaluation and development purposes.
 
 There are 2 main ways to run a LocalNet.
 1. Run a LocalNet which uses binary releases of Spacemesh software components (built on github from Spacemesh open source software, and published to dockerhub).
 2. Run a localnet which uses locally built components from source code.
+
+<br/>
 
 A functional Spacemesh network includes 3 main components:
 1. [go-spacemesh full p2p nodes](https://github.com/spacemeshos/go-spacemesh). Each node participates in the consensus protocol and mines new blocks (we call this smeshing). Each node also provides a GRPC API you can use to submit transactions, view node settings and change node settings.
@@ -16,8 +19,6 @@ A functional Spacemesh network includes 3 main components:
 
 When you run a LocalNet with the default settings, specific dockerhub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
 
----
-
 ## LocalNet Prerequisites
 
 - macOS or Linux (Windows 10 is not yet supported)
@@ -25,15 +26,13 @@ When you run a LocalNet with the default settings, specific dockerhub releases o
 - NPM
 - Docker Compose
 
-## spacemesh-local-testnet
+## About spacemesh-local-testnet
 
 `spacemesh-local-testnet` is an NPM package published to NPM. Use it to create and start a LocalNet, and to stop and delete a running LocalNet.
 
 > The package is fully open source and the source code is available [here](https://github.com/spacemeshos/local-testnet).
 
 When you run `spacemesh-local-testnst` without any custom options, it uses sensible defaults that have been tested to work. You can customizable these settings to override the default network configuration and behavior.
-
----
 
 ## Installing spacemesh-local-testnst
 
@@ -79,17 +78,18 @@ spacemesh-local-testnet create --go-sm-image=spacemesh:local
 
 ----
 
-## Executing Transactions using CLI Wallet
+## Executing Transactions with CLIWallet
 
 The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x2fbe2610f69237f57ac3043f3213983819fe3ea5`
 
 Follow these steps to use CLIWallet to transact using this account.
 
-1. Download [this wallet file](https://github.com/spacemeshos/local-testnet/blob/master/cli-wallet.json) to your computer.
+1. Download [this wallet file](https://raw.githubusercontent.com/spacemeshos/local-testnet/master/cli-wallet.json) to your computer.
 1. Start CLIWallet and connect it to any of the 10 nodes.
 1. Open the wallet in CLIWallet. The wallet's password is `spacemesh`.
 
 You can also use CLIWallet to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
 
 
-```
+## Getting Help and Providing Feedback
+Join the dev channel on the [Spacemesh community discord](https://chat.spacemesh.io/).
