@@ -88,6 +88,8 @@ CLIWallet -server localhost:8001
 
 ## Executing Transactions with CLIWallet
 
+> Note that currently you can only execute transactions once epoch 2 (3rd epoch from epoch 0) starts.
+
 The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x99027e1e3DE4de36d99f0054fa646EF663c276AD`.
 
 Follow these steps to use CLIWallet to transact using this account.
@@ -97,6 +99,9 @@ Follow these steps to use CLIWallet to transact using this account.
 1. Open the wallet in CLIWallet. The wallet's password is `spacemesh`.
 
 You can also use CLIWallet to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
+
+## Getting Node and Network status
+Use the CLIWallet commands to get node and network status.
 
 ## Viewing Logs
 
