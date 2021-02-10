@@ -78,9 +78,9 @@ spacemesh-local-testnet create --go-sm-image=spacemesh:local
 
 ## Connecting CLIWallet to a LocalNet Node
 
-> The Spacemesh API GRPC endpoint of the first miner (Miner1) is `localhost:8001`. Miner2's endpoint is `localhost:8002`, etc...
+> The Spacemesh API GRPC endpoint of the first smesher (Miner1) is `localhost:8001`. Miner2's endpoint is `localhost:8002`, etc...
 
-To connect to a new with CLIWallet start it with one of the nodes GRPC API endpoint. The following command will start an instance of CLIWallet and connect to the first of the 10 miners in a LocalNet:
+Start an instance of CLIWallet with the `-server` flag set to one of a LocalNet 10 node's GRPC API endpoint. For example, the following command will start an instance of CLIWallet and connect it to the first of the 10 smeshers in a LocalNet:
 
 ```
 CLIWallet -server localhost:8001
