@@ -117,7 +117,14 @@ docker logs -f --tail 100 poet
 ```
 
 ## Accessing Logs Using Kibana
-You can use the `--elk` optional `spacemesh-local-testnet` startup flag to setup Kibana to view nodes and Poet logs. When Kibana has been setup, access it from your web browser via this url: `localhost:5601`.
+You can enable Kibana to view nodes and poet logs.
+To enable it set `--elk true` when creating a new LocalNet. For example:
+
+```bash
+spacemesh-local-testnet create --elk true
+```
+
+When Kibana is enabled, access it from your web browser via this url: `localhost:5601`.
 
 
 ## Getting Help and Providing Feedback
