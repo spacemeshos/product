@@ -124,7 +124,7 @@ To enable it set `--elk true` when creating a new LocalNet. For example:
 spacemesh-local-testnet create --elk true
 ```
 
-When Kibana is enabled, access it from your web browser via this url: `localhost:5601`. Continue to login with user `elastic` with password `spacemesh`.
+When Kibana is enabled, access it from your web browser via this url: `localhost:5601`. Continue to login using user name `elastic` and password `spacemesh`.
 
 > Note that it may take up to 30 minutes for Kibana interface to be fully operational from the time you start a new LocalNet.
 
