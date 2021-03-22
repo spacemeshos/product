@@ -45,7 +45,7 @@ npm install -g spacemesh-local-testnet
 To create and start a local network using the default settings run:
 
 ```bash
-spacemesh-local-testnet create
+spacemesh-local-testnet create --remove-old-api-port=true
 ```
 
 To stop and delete a running network run:
@@ -73,7 +73,7 @@ docker build -t spacemesh:local .
 Next, run the following command to use the image built above in a new LocalNet:
 
 ```bash
-spacemesh-local-testnet create --go-sm-image=spacemesh:local
+spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true
 ```
 
 ## Connecting CLIWallet to a LocalNet Node
@@ -121,7 +121,7 @@ You can enable Kibana to view nodes and poet logs.
 To enable it set `--elk true` when creating a new LocalNet. For example:
 
 ```bash
-spacemesh-local-testnet create --elk true
+spacemesh-local-testnet create --elk true --remove-old-api-port=true
 ```
 
 When Kibana is enabled, access it from your web browser via this url: `localhost:5601`. Continue to login using user name `elastic` and password `spacemesh`.
