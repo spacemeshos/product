@@ -17,7 +17,7 @@ A functional Spacemesh network includes 3 main components:
 
 > go-spacemesh, Poet and CLIWallet are fully open source. You can use binary releases for your platform from each component github repo, or build them locally on your computer.
 
-When you run a LocalNet with the default settings, specific dockerhub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
+When you run a LocalNet with the default settings, specific DockerHub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
 
 ## LocalNet Prerequisites
 
@@ -64,26 +64,54 @@ spacemesh-local-testnet --help
 
 ## Running a LocalNet with locally-built go-spacemesh nodes
 
-Run the following command in your go-spacemesh cloned repo root directory:
+First, clone the [go-spacemesh github repo](https://github.com/spacemeshos/go-spacemesh) to your computer.
+
+Next, run the following command in your cloned repo root directory to build a local docker image of go-spacemesh from source code:
 
 ```bash
 docker build -t spacemesh:local .
 ```
 
-Next, run the following command to use the image built above in a new LocalNet:
+Use the `-go-sm-image` argument to use your locally built image in a new LocalNet. For example:
 
 ```bash
 spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true
 ```
 
-## Connecting CLIWallet to a LocalNet Node
+### Running a LocalNet with a locally-built PoET service
 
-> The Spacemesh API GRPC endpoint of the first smesher (Miner1) is `localhost:6001`. Miner2's endpoint is `localhost:6002`, etc...
+First, clone the [PoET github repo](https://github.com/spacemeshos/poet) to your computer.
 
-Start an instance of CLIWallet with the `-server` flag set to one of a LocalNet 10 node's GRPC API endpoint. For example, the following command will start an instance of CLIWallet and connect it to the first of the 10 smeshers in a LocalNet:
+Next, run the following command in your PoET cloned repo root directory to build a local docker image of PoET from source code:
+
+```bash
+docker build -t poet:local .
+```
+
+Use the `poet-image` argument to use your locally built PoET service in your LocalNet. For example:
+
+```bash
+spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true --poet-image=poet:local
+```
+
+
+## Connecting to Node's API Services
+
+By default, each node provides a `Spacemesh GRPC API server` as well as an `http-json gateway server`.
+
+> The Spacemesh GRPC API server of the first node (Miner1) is provided at `localhost:6001`. Miner2's server is at `localhost:6002`, etc...
+
+> The Spacemesh API http-json gateway server of the first node (Miner1) is provided at `localhost:7001`. Miner2's server is at `localhost:7002`, etc...
+
+You can use any GRPC client such as `grpcurl`, or a json-http client such as `postman` to use the API provided by each of the nodes.
+
+## Connecting CLIWallet to a Node
+
+CLIWallet is a `Spacemesh GRPC API Client`. You can connect an instance of CLIWallet to any of a LocalNet nodes via their GRPC API servers.
+For example, use the following bash command to start an instance of CLIWallet and connect it to the first node in a LocalNet:
 
 ```
-CLIWallet -server localhost:6001
+./CLIWallet -server localhost:6001
 ```
 
 ## Executing Transactions with CLIWallet
