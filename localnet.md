@@ -99,9 +99,9 @@ spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-po
 
 By default, each node provides a `Spacemesh GRPC API server` as well as an `http-json gateway server`.
 
-> The Spacemesh GRPC API server of the first node (Miner1) is provided at `localhost:6001`. Miner2's server is at `localhost:6002`, etc...
+> The Spacemesh GRPC API server of the first node (Node1) is provided at `localhost:6001`. Node2's server is at `localhost:6002`, etc...
 
-> The Spacemesh API http-json gateway server of the first node (Miner1) is provided at `localhost:7001`. Miner2's server is at `localhost:7002`, etc...
+> The Spacemesh API http-json gateway server of the first node (Node1) is provided at `localhost:7001`. Node2's server is at `localhost:7002`, etc...
 
 You can use any GRPC client such as `grpcurl`, or a json-http client such as `postman` to use the API provided by each of the nodes.
 
@@ -136,7 +136,7 @@ Use the CLIWallet commands to get node and network status.
 If you use Docker Desktop then you can see nodes log in the Docker Dashboard App. You can also enter this command to tail any of the 10 nodes logs:
 
 ```bash
-docker logs -f --tail 100 miner1
+docker logs -f --tail 100 node1
 ```
 
 To tail the Poet logs use:
