@@ -20,7 +20,7 @@ Incremental product releases, starting with `Spacemesh 0.1` will be deployed to 
 
 ## TL;DR: 2020 and 2021 Roadmap
 
-![](resources/roadmap_2021.png)
+![](resources/roadmap2021.png)
 
 ---
 # Completed milestones
