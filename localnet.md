@@ -80,6 +80,9 @@ Use the `-go-sm-image` argument to use your locally built image in a new LocalNe
 spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true
 ```
 
+> For node versions that don't support the old legacy api use `--old-api-exists=false`.
+
+
 ### Running a LocalNet with a locally-built PoET service
 
 First, clone the [PoET github repo](https://github.com/spacemeshos/poet) to your computer.
