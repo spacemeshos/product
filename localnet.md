@@ -1,6 +1,6 @@
 # Spacemesh Local Testnet (LocalNet)
 
-Latest release [v1.1.11](https://github.com/spacemeshos/local-testnet/releases)
+Latest release [v1.1.20](https://github.com/spacemeshos/local-testnet/releases)
 
 ## Intro
 LocalNet is designed for developers who want to run a fully functional Spacemesh p2p networks on their computers for testing, evaluation and development purposes.
