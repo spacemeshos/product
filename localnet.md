@@ -47,7 +47,7 @@ npm install -g spacemesh-local-testnet
 To create and start a local network using the default settings run:
 
 ```bash
-spacemesh-local-testnet create --remove-old-api-port=true
+spacemesh-local-testnet create --old-api-exists=true
 ```
 
 To stop and delete a running network run:
@@ -154,7 +154,7 @@ You can enable Kibana to view nodes and poet logs.
 To enable it set `--elk true` when creating a new LocalNet. For example:
 
 ```bash
-spacemesh-local-testnet create --elk true --remove-old-api-port=true
+spacemesh-local-testnet create --elk true --old-api-exists=true
 ```
 
 When Kibana is enabled, access it from your web browser via this url: `localhost:5601`. Continue to login using user name `elastic` and password `spacemesh`.
