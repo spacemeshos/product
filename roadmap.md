@@ -82,7 +82,6 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] New transactions selection algorithm.
 - [ ] Telemetry with opt-out. <meter value="0.8"/>
 - [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
-- [ ] Implement account abstraction and new transaction format and signature schemes.
 
 #### Platform Projects
 - [x] Web-based Dashboard and Explorer apps.
@@ -119,14 +118,15 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
 - [ ] Release updated protocol docs site for 0.3 protocol and main components.
-- [ ] Vault mesh app and smart contract transactions.
+- [ ] Implement account abstraction model, new transactions format and signature schemes.
+- [ ] Vault mesh app
+- [ ] Vault apps and multi-sig transactions.
 
 #### Spacemesh App
 - [ ] Vaults and multi-sig transactions.
 
 #### SMRepl
 - [ ] Vaults and multi-sig transactions.
-
 
 ---
 
