@@ -70,53 +70,63 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 # Current and Future Milestones
 
-## Milestone 5 - Spacemesh 0.2 Public Testnet - Q2 2021
+## Milestone 5 - Spacemesh 0.2 Public Testnet - Q3 2021
+
 ### Focus: FUNCTIONALITY
 
-#### Full Node Features
-- [x] Spacemesh API 2.0.
+#### Full Node
+- [x] Spacemesh grpc API
 - [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols. <meter value="0.8"/>
 - [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
-- [ ] Consensus protocol self healing. <meter value="0.7"/>
-- [ ] Vault mesh app and smart contract transactions. <meter value="0.7"/>
+- [ ] Self healing protocol. <meter value="0.7"/>
+- [ ] New transactions selection algorithm.
 - [ ] Telemetry with opt-out. <meter value="0.8"/>
 - [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
-- [ ] Support for signing transactions with the standard ED25519 signature scheme. <meter value="0.7"/>
+- [ ] Implement account abstraction and new transaction format and signature schemes.
 
 #### Platform Projects
-- [x] Web dashboard and explorer apps.
+- [x] Web-based Dashboard and Explorer apps.
 - [x] Public Spacemesh API 2.0 endpoint.
 - [x] Networks discovery service.
 - [x] Spacemesh Ledger App and SDK
-- [ ] Testnet rewards program and the Spacemesh store. <meter value="0.8"/>
+- [ ] Testnet rewards drop program. <meter value="0.8"/>
 
 #### Spacemesh App
-- [x] Dark Mode.
-- [x] Display Dashboard.
-- [ ] Support Vaults. <meter value="0.5"/>
-- [ ] Sign transactions with Ledger hardware device. <meter value="0.5"/>
-- [ ] Use discovery service for configuration. <meter value="0.8"/>
+- [x] Dark mode.
+- [x] Dashboard screen.
+- [x] Use discovery service for configuration. <meter value="0.8"/>
+- [x] New main screens and ui cleanup
+- [x] Use Spacemesh grpc API <meter value="0.8"/>
 - [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [ ] Support new transaction format and signature scheme.
+- [ ] Sign transactions with Ledger hardware device. <meter value="0.5"/>
 - [ ] Wallet-only Mode. <meter value="0.8"/>
-- [ ] Use API 2.0 <meter value="0.8"/>
 
-#### CLIWallet
-- [x] Use API 2.0
-- [X] Use a remote api endpoint over https
+#### SMRepl
+- [x] Use Spacemesh grpc API.
+- [X] Use via a remote secure Spacemesh api provider.
+- [x] Use same file format as smapp. <meter value="1.0"/>
+- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [ ] Support new transaction format and signature scheme.
 - [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
-- [ ] Support vaults. <meter value="0.2"/>
-- [ ] Use same file format as smapp. <meter value="0.8"/>
 
 ![](resources/sm_basics_infograph_2@2x.png)
 
 ----
 
-## Milestone 6 - Spacemesh 0.3 Public Testnet - Q3 2021
+## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2021
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
-- [ ] Support Genesis Smart Wallets.
 - [ ] Release updated protocol docs site for 0.3 protocol and main components.
+- [ ] Vault mesh app and smart contract transactions.
+
+#### Spacemesh App
+- [ ] Vaults and multi-sig transactions.
+
+#### SMRepl
+- [ ] Vaults and multi-sig transactions.
+
 
 ---
 
@@ -138,5 +148,5 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ### Ecosystem Projects
 1. [ ] 3D network explorer.
-1. [ ] Update Spacemesh and CLIWallet apps to support all new features.
+1. [ ] Update Spacemesh and SMRepl apps to support all new features.
 ----
