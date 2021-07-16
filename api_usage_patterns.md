@@ -1,6 +1,6 @@
-Product Note: Transactions Related API Uusage Patterns
+Product Note: Transactions Related API Uusage Patterns (Spacemesh 0.2)
 
-# Stateful Clients
+# Stateful 0.2 Clients
 
 ## Overview
 - Client should locally store the ids of all transactions it is interested at, and transactions data for transactions with these ids when it got such data. 
