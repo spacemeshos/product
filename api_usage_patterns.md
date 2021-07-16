@@ -1,4 +1,4 @@
-Product Note: Transactions Related API Uusage Patterns (Spacemesh 0.2)
+Product Note: Transactions Related API Usage Patterns (Spacemesh 0.2)
 
 # Stateful 0.2 Clients
 
