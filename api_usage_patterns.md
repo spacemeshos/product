@@ -1,4 +1,4 @@
-Product Note: Transactions Related API Uusage Pattern
+Product Note: Transactions Related API Uusage Patterns
 
 # Stateful Clients
 
