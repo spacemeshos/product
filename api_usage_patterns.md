@@ -10,11 +10,10 @@ Stateful clients such as Smapp should use the following api patterns for working
 
 ## New App Session Flow
 1. Read `transaction ids set` from local store. 
-1. Call `TransactionService::TransactionsState(ids)` with the `transactions ids set` as input.
-1. Update local transaction data store based on results of call (see below for more info).
-1. Call `MeshService::AccountMeshDataQuery(accountId)` for each of the client's user accounts in order to get any mesh transactions that touch the accounts that the client doesn't may not know about. e.g. they were submitted by another user on another client. Update local transaction data store with the transactions in the results (including its layer number).
-1. Subscribe to `Transaction::TransactionsStateStreamRequest(ids)` using `transactions ids set`. Update the locally stored transactions store with new streaming data.
-1. Subscribe to `MeshService:: AccountMeshDataStream(accountId)` for all local accounts of interest. Update the locally stored transactions based new streaming results.
+1. Call `TransactionService::TransactionsState(ids)` with the `transactions ids set` as input. The goal is to get the current `TransactionState`. Update local transaction data store based on results of call (see below for more info).
+1. Call `MeshService::AccountMeshDataQuery(accountId)` for each of the client's user accounts in order to get mesh transactions the client doesn't know about yet that touch any of the accounts e.g. transactions submitted by another user on another client. Update the local transaction data store with the transactions in the results (including its layer number).
+1. Subscribe to `Transaction::TransactionsStateStreamRequest(ids)` using `transactions ids set`. Update the locally stored transactions store with new streaming data. This is required to receive updated TransactionState for all transactions that the client is interested at.
+1. Subscribe to `MeshService:: AccountMeshDataStream(accountId)` for all local accounts of interest. Update the locally stored transactions based new streaming results. This is required to update `LayerId` for transactions client care about. This happen when they get on the mesh or when the mesh is re-organized.
 
 
 ## Transactions Local Data Store
