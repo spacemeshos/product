@@ -1,6 +1,7 @@
 # Spacemesh Local Testnet (LocalNet)
 
-Latest release [v1.1.20](https://github.com/spacemeshos/local-testnet/releases)
+- [github repo](https://github.com/spacemeshos/local-testnet)
+- [Releases] (https://github.com/spacemeshos/local-testnet/releases)
 
 ## Intro
 LocalNet is designed for developers who want to run a fully functional Spacemesh p2p networks on their computers for testing, evaluation and development purposes.
@@ -15,18 +16,18 @@ A functional Spacemesh network includes 3 main components:
 1. [go-spacemesh full p2p nodes](https://github.com/spacemeshos/go-spacemesh). Each node participates in the consensus protocol and mines new blocks (we call this smeshing). Each node also provides a GRPC API you can use to submit transactions, view node settings and change node settings.
 1. [Poet Service](https://github.com/spacemeshos/poet). This is a proofs of elapsed time service that is used by the full nodes as part of Spacemesh's proof of space time protocol. A network only need one instance of this service to operate.
 
-1. [CLIWallet](https://github.com/spacemeshos/cli-wallet). An open-source terminal wallet. You connect an instance of CLIWallet to any of your LocalNet go-spacemesh nodes. Use CLIWallet to submit transactions to the network via a node, check network and node status, check account balances, and modify any full node runtime behavior.
+1. [Smrepl](https://github.com/spacemeshos/smrepl). An open-source terminal wallet. You connect an instance of smrepl to any of your LocalNet go-spacemesh nodes. Use smrepl to submit transactions to the network via a node, check network and node status, check account balances, and modify any full node runtime behavior.
 
-> go-spacemesh, Poet and CLIWallet are fully open source. You can use binary releases for your platform from each component github repo, or build them locally on your computer.
+> go-spacemesh, Poet and smrepl are fully open source. You can use binary releases for your platform from each component github repo, or build them locally on your computer.
 
 When you run a LocalNet with the default settings, specific DockerHub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
 
 ## LocalNet Prerequisites
 
-- macOS or Linux (Windows 10 is not yet supported)
+- macOS (x86-64 or ARM/M1) or Linux (Windows 10 is not yet supported)
 - Docker
-- NPM
 - Docker Compose
+- NPM
 
 ## About spacemesh-local-testnet
 
@@ -47,7 +48,7 @@ npm install -g spacemesh-local-testnet
 To create and start a local network using the default settings run:
 
 ```bash
-spacemesh-local-testnet create --old-api-exists=true
+spacemesh-local-testnet create
 ```
 
 To stop and delete a running network run:
@@ -66,9 +67,8 @@ spacemesh-local-testnet --help
 
 ## Running a LocalNet with locally-built go-spacemesh nodes
 
-First, clone the [go-spacemesh github repo](https://github.com/spacemeshos/go-spacemesh) to your computer.
-
-Next, run the following command in your cloned repo root directory to build a local docker image of go-spacemesh from source code:
+1. Clone the [go-spacemesh github repo](https://github.com/spacemeshos/go-spacemesh) to your computer.
+2. Run the following command in your cloned repo root directory to build a local docker image of go-spacemesh from source code:
 
 ```bash
 docker build -t spacemesh:local .
@@ -77,11 +77,8 @@ docker build -t spacemesh:local .
 Use the `-go-sm-image` argument to use your locally built image in a new LocalNet. For example:
 
 ```bash
-spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true
+spacemesh-local-testnet create --go-sm-image=spacemesh:local
 ```
-
-> For newish node versions that don't support the old legacy api use `--old-api-exists=false`.
-
 
 ### Running a LocalNet with a locally-built PoET service
 
@@ -96,7 +93,7 @@ docker build -t poet:local .
 Use the `poet-image` argument to use your locally built PoET service in your LocalNet. For example:
 
 ```bash
-spacemesh-local-testnet create --go-sm-image=spacemesh:local --remove-old-api-port=true --poet-image=poet:local
+spacemesh-local-testnet create --go-sm-image=spacemesh:local --poet-image=poet:local
 ```
 
 
@@ -110,31 +107,31 @@ By default, each node provides a `Spacemesh GRPC API server` as well as an `http
 
 You can use any GRPC client such as `grpcurl`, or a json-http client such as `postman` to use the API provided by each of the nodes.
 
-## Connecting CLIWallet to a Node
+## Connecting smrepl to a node
 
-CLIWallet is a `Spacemesh GRPC API Client`. You can connect an instance of CLIWallet to any of a LocalNet nodes via their GRPC API servers.
-For example, use the following bash command to start an instance of CLIWallet and connect it to the first node in a LocalNet:
+Smrepl is a `Spacemesh GRPC API Client`. You can connect an instance of smrepl to any of a LocalNet nodes via their GRPC API servers.
+For example, use the following bash command to start an instance of smrepl and connect it to the first node in a LocalNet:
 
 ```
-./CLIWallet -server localhost:6001
+./smrepl -server localhost:6001
 ```
 
-## Executing Transactions with CLIWallet
+## Executing Transactions with smrepl
 
 > Note that currently you can only execute transactions once epoch 2 (3rd epoch from epoch 0) starts.
 
 The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x99027e1e3DE4de36d99f0054fa646EF663c276AD`.
 
-Follow these steps to use CLIWallet to transact using this account.
+Follow these steps to use smrepl to transact using this account.
 
 1. Download [this wallet file](https://raw.githubusercontent.com/spacemeshos/local-testnet/master/cli-wallet.json) to your computer.
-1. Start CLIWallet and connect it to any of the 10 nodes.
-1. Open the wallet in CLIWallet. The wallet's password is `spacemesh`.
+1. Start smrepl and connect it to any of the 10 nodes.
+1. Open the wallet in smrepl. The wallet's password is `spacemesh`.
 
-You can also use CLIWallet to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
+You can also use smrepl to create new accounts and to set the rewards account of any of the 10 nodes to a new account.
 
 ## Getting Node and Network status
-Use the CLIWallet commands to get node and network status.
+Use the smrepl commands to get node and network status.
 
 ## Viewing Logs
 
@@ -154,7 +151,7 @@ You can enable Kibana to view nodes and poet logs.
 To enable it set `--elk true` when creating a new LocalNet. For example:
 
 ```bash
-spacemesh-local-testnet create --elk true --old-api-exists=true
+spacemesh-local-testnet create --elk true
 ```
 
 When Kibana is enabled, access it from your web browser via this url: `localhost:5601`. Continue to login using user name `elastic` and password `spacemesh`.
