@@ -1,13 +1,13 @@
-# Spacemesh Local Testnet (LocalNet)
+# Spacemesh Local Testnet (Localnet)
 
 - [github repo](https://github.com/spacemeshos/local-testnet)
 - [Releases] (https://github.com/spacemeshos/local-testnet/releases)
 
 ## Intro
-LocalNet is designed for developers who want to run a fully functional Spacemesh p2p networks on their computers for testing, evaluation and development purposes.
+Localnet is designed for developers who want to run a fully functional Spacemesh p2p networks on their computers for testing, evaluation and development purposes.
 
-There are 2 main ways to run a LocalNet.
-1. Run a LocalNet which uses binary releases of Spacemesh software components (built on github from Spacemesh open source software, and published to dockerhub).
+There are 2 main ways to run a localnet.
+1. Run a localnet which uses binary releases of Spacemesh software components (built on github from Spacemesh open source software, and published to dockerhub).
 2. Run a localnet which uses locally built components from source code.
 
 <br/>
@@ -16,13 +16,13 @@ A functional Spacemesh network includes 3 main components:
 1. [go-spacemesh full p2p nodes](https://github.com/spacemeshos/go-spacemesh). Each node participates in the consensus protocol and mines new blocks (we call this smeshing). Each node also provides a GRPC API you can use to submit transactions, view node settings and change node settings.
 1. [Poet Service](https://github.com/spacemeshos/poet). This is a proofs of elapsed time service that is used by the full nodes as part of Spacemesh's proof of space time protocol. A network only need one instance of this service to operate.
 
-1. [Smrepl](https://github.com/spacemeshos/smrepl). An open-source terminal wallet. You connect an instance of smrepl to any of your LocalNet go-spacemesh nodes. Use smrepl to submit transactions to the network via a node, check network and node status, check account balances, and modify any full node runtime behavior.
+1. [Smrepl](https://github.com/spacemeshos/smrepl). An open-source terminal wallet. You connect an instance of smrepl to any of your localnet go-spacemesh nodes. Use smrepl to submit transactions to the network via a node, check network and node status, check account balances, and modify any full node runtime behavior.
 
 > go-spacemesh, Poet and smrepl are fully open source. You can use binary releases for your platform from each component github repo, or build them locally on your computer.
 
-When you run a LocalNet with the default settings, specific DockerHub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
+When you run a localnet with the default settings, specific DockerHub releases of Poet and go-spacemesh components are used. However, you can easily modify this to use locally built components from source code.
 
-## LocalNet Prerequisites
+## Localnet Prerequisites
 
 - macOS (x86-64 or ARM/M1) or Linux (Windows 10 is not yet supported)
 - Docker
@@ -31,7 +31,7 @@ When you run a LocalNet with the default settings, specific DockerHub releases o
 
 ## About spacemesh-local-testnet
 
-`spacemesh-local-testnet` is an NPM package published to NPM. Use it to create and start a LocalNet, and to stop and delete a running LocalNet.
+`spacemesh-local-testnet` is an NPM package published to NPM. Use it to create and start a localnet, and to stop and delete a running localnet.
 
 > The package is fully open source and the source code is available [here](https://github.com/spacemeshos/local-testnet).
 
@@ -43,7 +43,7 @@ When you run `spacemesh-local-testnet` without any custom options, it uses sensi
 npm install -g spacemesh-local-testnet
 ```
 
-## Running a LocalNet
+## Running a Localnet
 
 To create and start a local network using the default settings run:
 
@@ -57,7 +57,7 @@ To stop and delete a running network run:
 spacemesh-local-testnet delete
 ```
 
-## Running a LocalNet with custom settings
+## Running a Localnet with custom settings
 
 You can change a local network default settings and determine which go-spacemesh and Poet components binaries to use in your network. To see available options enter:
 
@@ -65,7 +65,7 @@ You can change a local network default settings and determine which go-spacemesh
 spacemesh-local-testnet --help
 ```
 
-## Running a LocalNet with locally-built go-spacemesh nodes
+## Running a Localnet with locally-built go-spacemesh nodes
 
 1. Clone the [go-spacemesh github repo](https://github.com/spacemeshos/go-spacemesh) to your computer.
 2. Run the following command in your cloned repo root directory to build a local docker image of go-spacemesh from source code:
@@ -74,13 +74,13 @@ spacemesh-local-testnet --help
 docker build -t spacemesh:local .
 ```
 
-Use the `-go-sm-image` argument to use your locally built image in a new LocalNet. For example:
+Use the `-go-sm-image` argument to use your locally built image in a new localnet. For example:
 
 ```bash
 spacemesh-local-testnet create --go-sm-image=spacemesh:local
 ```
 
-### Running a LocalNet with a locally-built PoET service
+### Running a localnet with a locally-built PoET service
 
 First, clone the [PoET github repo](https://github.com/spacemeshos/poet) to your computer.
 
@@ -90,7 +90,7 @@ Next, run the following command in your PoET cloned repo root directory to build
 docker build -t poet:local .
 ```
 
-Use the `poet-image` argument to use your locally built PoET service in your LocalNet. For example:
+Use the `poet-image` argument to use your locally built PoET service in your localnet. For example:
 
 ```bash
 spacemesh-local-testnet create --go-sm-image=spacemesh:local --poet-image=poet:local
@@ -109,8 +109,8 @@ You can use any GRPC client such as `grpcurl`, or a json-http client such as `po
 
 ## Connecting smrepl to a node
 
-Smrepl is a `Spacemesh GRPC API Client`. You can connect an instance of smrepl to any of a LocalNet nodes via their GRPC API servers.
-For example, use the following bash command to start an instance of smrepl and connect it to the first node in a LocalNet:
+Smrepl is a `Spacemesh GRPC API Client`. You can connect an instance of smrepl to any of a localnet nodes via their GRPC API servers.
+For example, use the following bash command to start an instance of smrepl and connect it to the first node in a localnet:
 
 ```
 ./smrepl -server localhost:6001
@@ -120,7 +120,7 @@ For example, use the following bash command to start an instance of smrepl and c
 
 > Note that currently you can only execute transactions once epoch 2 (3rd epoch from epoch 0) starts.
 
-The default LocalNet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x99027e1e3DE4de36d99f0054fa646EF663c276AD`.
+The default localnet settings specify a genesis account with some coins, and sets the rewards account of all the 10 nodes on the network to the same account. The account address is `0x99027e1e3DE4de36d99f0054fa646EF663c276AD`.
 
 Follow these steps to use smrepl to transact using this account.
 
@@ -148,7 +148,7 @@ docker logs -f --tail 100 poet
 
 ## Accessing Logs Using Kibana
 You can enable Kibana to view nodes and poet logs.
-To enable it set `--elk true` when creating a new LocalNet. For example:
+To enable it set `--elk true` when creating a new localnet. For example:
 
 ```bash
 spacemesh-local-testnet create --elk true
