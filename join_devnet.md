@@ -51,7 +51,7 @@ TBD
 
 6. Start smrepl.
 
-> Due to a known issue please wait for up to 45 seconds from the time you started your node in the previous to start smrepl.
+> Due to a known issue please wait for up to 45 seconds from the time you start the go-spacemesh node in the previous step before starting smrepl.
 
 #### macOS and Linux
 
