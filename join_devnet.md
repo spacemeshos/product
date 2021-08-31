@@ -2,7 +2,7 @@
 
 Latest release: v0.2.0-rc7 (Network Id 203)
 
-> This early Spacemesh 0.2 preview release is intended for users who are comfortable with using the command line and terminal applications.
+> This early Spacemesh 0.2 technical preview release is intended for users who are comfortable with using the command line and terminal applications.
 
 Follow these instructions to join the Spacemesh 0.2 devnet.
 
@@ -12,13 +12,14 @@ Follow these instructions to join the Spacemesh 0.2 devnet.
 - [macOS](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/macOS.zip)
 - [Linux](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/linux.zip)
 
-2. Extract the zip file to a directory
+2. Extract the zip file to a directory.
 
-3. Open a terminal session and navigate to the directory
+3. Open a terminal session and navigate to the directory.
 
-4. Configure downloaded binaries
+4. Configure downloaded binaries.
 
 #### Linux and macOS
+Set binaries execution permissions.
 
 ```bash
 sudo u+x go-spacemesh
@@ -38,7 +39,7 @@ sudo xattr -rd com.apple.quarantine smrepl
 #### Windows 10
 TBD
 
-5. Start a Spacemesh full node
+5. Start a Spacemesh full node.
 
 #### macOS and Linux
 ```bash
@@ -48,7 +49,7 @@ TBD
 #### Windows
 TBD
 
-6. Start smrepl
+6. Start smrepl.
 
 > Due to a known issue please wait for up to 45 seconds from the time you started your node in the previous to start smrepl.
 
