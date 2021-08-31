@@ -6,17 +6,17 @@ Latest release: v0.2.0-rc7 (Network Id 203)
 
 Follow these instructions to join the Spacemesh 0.2 devnet.
 
-1. Download the Spacemesh release for your platform.
+1. Download the Spacemesh release for your platform
 
 - [Windows](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/windows.zip)
 - [macOS](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/macOS.zip)
 - [Linux](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/linux.zip)
 
-2. Extract the zip file to a directory.
+2. Extract the zip file to a directory
 
-3. Open a terminal session and navigate to the directory.
+3. Navigate to the directory in terminal
 
-4. Configure downloaded binaries.
+4. Configure downloaded binaries
 
 #### Linux and macOS
 Set binaries execution permissions.
@@ -36,21 +36,20 @@ sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
 
-5. Start a Spacemesh full node.
+5. Start a Spacemesh full node
 
 #### macOS and Linux
 ```bash
-./go-spacemesh -c config.json > log.txt`
+./go-spacemesh -c config.json > log.txt
 ```
 
-#### Windows
+#### Windows (PowerShell)
 
-PowerShell:
 ```
 .\go-spacemesh.exe -c config.json > log.txt
 ```
 
-6. Start smrepl.
+6. Start smrepl
 
 > Due to a known issue please wait for up to 45 seconds from the time you start the go-spacemesh node in the previous step before starting smrepl.
 
@@ -60,8 +59,7 @@ PowerShell:
 ./smrepl
 ```
 
-#### Windows
-PowerShell:
+#### Windows (PowerShell)
 
 ```
 .\smrepl_windows_amd64.exe
