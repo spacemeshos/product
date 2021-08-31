@@ -82,4 +82,4 @@ Proceed to create a wallet and setup smeshing in smrepl.
 
 4. Copy the gpu-post artifacts for your platform to your go-spacemesh directory.
 
-5. Run the full node with this devent [config file](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/config.json)
+5. Run the full node with this devnet [config file](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/config.json)
