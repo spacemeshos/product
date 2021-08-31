@@ -36,9 +36,6 @@ sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
 
-#### Windows 10
-TBD
-
 5. Start a Spacemesh full node.
 
 #### macOS and Linux
@@ -47,7 +44,11 @@ TBD
 ```
 
 #### Windows
-TBD
+
+PowerShell:
+```
+.\go-spacemesh.exe -c config.json > log.txt
+```
 
 6. Start smrepl.
 
@@ -60,7 +61,11 @@ TBD
 ```
 
 #### Windows
-TBD
+PowerShell:
+
+```
+.\smrepl_windows_amd64.exe
+```
 
 Proceed to create a wallet and setup smeshing in smrepl.
 
