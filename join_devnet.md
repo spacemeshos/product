@@ -22,9 +22,9 @@ Follow these instructions to join the Spacemesh 0.2 devnet.
 Set binaries execution permissions.
 
 ```bash
-sudo u+x go-spacemesh
-sudo u+x lib*
-sudo u+x smrepl
+sudo chmod u+x go-spacemesh
+sudo chmod u+x lib*
+sudo chmod u+x smrepl
 ```
 
 #### macOS
