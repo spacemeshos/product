@@ -27,7 +27,7 @@ sudo u+x smrepl
 ```
 
 #### macOS
-Enable downloaded binaries execution:
+Enable downloaded binaries execution.
 
 ```bash
 sudo xattr -rd com.apple.quarantine go-spacemesh
@@ -38,7 +38,7 @@ sudo xattr -rd com.apple.quarantine smrepl
 #### Windows 10
 TBD
 
-5. Start a Spacemesh full node:
+5. Start a Spacemesh full node
 
 #### macOS and Linux
 ```bash
@@ -58,13 +58,14 @@ TBD
 ./smrepl
 ```
 
-Proceed to create a wallet and setup smeshing in smrepl.
+#### Windows
+TBD
 
+Proceed to create a wallet and setup smeshing in smrepl.
 
 ----
 
 ## Technical Information
 
 - [v0.2.0-rc7 on Github](https://github.com/spacemeshos/go-spacemesh/releases/tag/v0.2.0-rc7)
-
-You can build this release from source code from our github repo.
+- You can build this release from source code from our github repos.
