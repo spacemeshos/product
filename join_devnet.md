@@ -36,6 +36,15 @@ sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
 
+Or alternatively try
+
+```bash
+spctl --add go-spacemesh
+spctl --add lib*
+spctl --add smrepl
+```
+
+
 5. Start a Spacemesh full node
 
 #### macOS and Linux
@@ -69,9 +78,29 @@ Proceed to create a wallet and setup smeshing in smrepl.
 
 ----
 
-## Technical Information
+### Using the gpu-post test app
+Navigate to your directory you extract the zip release to and enter from a terminal:
 
-- [v0.2.0-rc7 on Github](https://github.com/spacemeshos/go-spacemesh/releases/tag/v0.2.0-rc7)
+#### Linux
+```bash
+export DYLD_LIBRARY_PATH=.:$DYLD_LIBRARY_PATH
+chmod +x gpu-setup-test
+./gpu-setup-test -l
+```
+
+#### Mac
+```bash
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+chmod +x gpu-setup-test
+./gpu-setup-test -l
+```
+
+#### Windows (PowerShell)
+```
+.\gpu-setup-test.exe -l
+```
+
+---
 
 ## Building from Source Code
 
