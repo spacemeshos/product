@@ -54,11 +54,11 @@ spctl --add smrepl
 
 #### Windows (PowerShell)
 
-```
+```PowerShell
 .\go-spacemesh.exe -c config.json > log.txt
 ```
 
-6. Start smrepl
+6. Start Smrepl
 
 > Due to a known issue please wait for up to 45 seconds from the time you start the go-spacemesh node in the previous step before starting smrepl.
 
@@ -70,7 +70,7 @@ spctl --add smrepl
 
 #### Windows (PowerShell)
 
-```
+```PowerShell
 .\smrepl_windows_amd64.exe
 ```
 
@@ -85,19 +85,19 @@ Navigate to your directory you extract the zip release to and enter from a termi
 ```bash
 export DYLD_LIBRARY_PATH=.:$DYLD_LIBRARY_PATH
 chmod +x gpu-setup-test
-./gpu-setup-test -l
+./gpu-setup-test
 ```
 
 #### Linux
 ```bash
 export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 chmod +x gpu-setup-test
-./gpu-setup-test -l
+./gpu-setup-test
 ```
 
 #### Windows (PowerShell)
-```
-.\gpu-setup-test.exe -l
+```PowerShell
+.\gpu-setup-test.exe
 ```
 
 ---
