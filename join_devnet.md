@@ -81,14 +81,14 @@ Proceed to create a wallet and setup smeshing in smrepl.
 ### Using the gpu-post test app
 Navigate to your directory you extract the zip release to and enter from a terminal:
 
-#### Linux
+#### macOS
 ```bash
 export DYLD_LIBRARY_PATH=.:$DYLD_LIBRARY_PATH
 chmod +x gpu-setup-test
 ./gpu-setup-test -l
 ```
 
-#### Mac
+#### Linux
 ```bash
 export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 chmod +x gpu-setup-test
