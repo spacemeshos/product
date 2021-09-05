@@ -6,7 +6,12 @@ Latest release: v0.2.0-rc7 (Network Id 203)
 
 Follow these instructions to join the Spacemesh 0.2 devnet.
 
-1. Download the Spacemesh release for your platform
+## System Requirements
+
+
+## Installing & Running
+
+1. Download the devenet release zip file for your platform
 
 - [Windows](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/windows.zip)
 - [macOS](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/macOS.zip)

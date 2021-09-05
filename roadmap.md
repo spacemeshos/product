@@ -68,52 +68,60 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ----
 
-# Current and Future Milestones
+## Milestone 5 - TweedleDev - Spacemesh 0.2 Public Devnet - Q3 2021
 
-## Milestone 5 - Spacemesh 0.2 Public Testnet - Q3 2021
+> Shipped September 5th, 2021.
 
-### Focus: FUNCTIONALITY
+[TweedleDev Guide](https://testnet.spacemesh.io/#/devnet)
+
+### Focus: Spacemesh 0.2 consensus protocol
 
 #### Full Node
 - [x] Spacemesh grpc API
-- [ ] Spacemesh protocol update - Sync, Tortoise and Hare protocols. <meter value="0.8"/>
-- [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
-- [ ] Self healing protocol. <meter value="0.7"/>
-- [ ] New transactions selection algorithm.
-- [ ] Telemetry with opt-out. <meter value="0.8"/>
-- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [x] Spacemesh protocol update - Sync, Tortoise and Hare protocols.
+- [x] User-defined PoST data size and GPU-based PoST setup.
+- [x] Supported macOS, Windows 10 and Linux platform
 
-#### Platform Projects
-- [x] Web-based Dashboard and Explorer apps.
-- [x] Public Spacemesh API 2.0 endpoint.
-- [x] Networks discovery service.
-- [x] Spacemesh Ledger App and SDK
-- [ ] Testnet rewards drop program. <meter value="0.8"/>
+#### Smrepl
+- [x] Spacemesh grpc API client
+- [x] User-defined PoST data size and GPU-based PoST setup.
+- [x] Supported macOS, Windows 10 and Linux platform
 
-#### Spacemesh App
-- [x] Dark mode.
-- [x] Dashboard screen.
-- [x] Use discovery service for configuration. <meter value="0.8"/>
-- [x] New main screens and ui cleanup
-- [x] Use Spacemesh grpc API <meter value="0.8"/>
-- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
-- [ ] Support new transaction format and signature scheme.
-- [ ] Sign transactions with Ledger hardware device. <meter value="0.5"/>
-- [ ] Wallet-only Mode. <meter value="0.8"/>
-
-#### SMRepl
-- [x] Use Spacemesh grpc API.
-- [X] Use via a remote secure Spacemesh api provider.
-- [x] Use same file format as smapp. <meter value="1.0"/>
-- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
-- [ ] Support new transaction format and signature scheme.
-- [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
-
-![](resources/sm_basics_infograph_2@2x.png)
+#### Web Services
+- [x] Dashboard and Explorer web apps.
+- [x] A public Spacemesh grpc API web service.
+- [x] Network discovery service.
 
 ----
 
-## Milestone 6 - Spacemesh 0.3 Public Testnet - Q4 2021
+## Milestone 6 - Spacemesh 0.2 Public Testnet - Q3 2021
+
+### Focus: Functionality and Spacemesh App 0.2
+
+#### Full Node
+- [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
+- [ ] Self healing protocol. <meter value="0.7"/>
+
+#### Platform Projects
+- [ ] Testnet rewards drop program. <meter value="0.8"/>
+
+#### Spacemesh App 0.2
+- [x] Dark mode.
+- [x] Dashboard screen.
+- [x] Use discovery service for configuration.
+- [x] New main screens and ui cleanup.
+- [x] Use Spacemesh grpc API.
+- [x] User-defined PoST data size and GPU-based setup.
+
+#### SMRepl
+- [ ] Full compatibility with Spacemesh App wallet files
+
+----
+
+## Milestone 7 - Spacemesh 0.3 Public Testnet - Q4 2021
+
+![](resources/sm_basics_infograph_2@2x.png)
+
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
 - [ ] Fix all critical issues found in audits and in Spacemesh 0.2.
@@ -121,16 +129,25 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Implement account abstraction model, new transactions format and signature schemes.
 - [ ] Vault mesh app
 - [ ] Vault apps and multi-sig transactions.
+- [ ] New transactions selection algorithm. <meter value="0.7"/>
 
 #### Spacemesh App
 - [ ] Vaults and multi-sig transactions.
+- [ ] Support new transaction format and signature scheme.
+- [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
+- [ ] Wallet-only Mode. <meter value="0.8"/>
 
 #### SMRepl
 - [ ] Vaults and multi-sig transactions.
+- [ ] Support new transaction format and signature scheme.
+- [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
+
+#### Platform Projects
+- [ ] Spacemesh Ledger App and SDK <meter value="0.8"/>
 
 ---
 
-## Milestone 7 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2021
+## Milestone 8 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2021
 
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing on testnet before mainnet genesis.
@@ -139,7 +156,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ---
 
-## Milestone 8 - Spacemesh 1.0 - TBD
+## Milestone 9 - Spacemesh 1.0 - TBD
 
 ### Full Node
 1. [ ] Validators role in full node and consensus on global state.
