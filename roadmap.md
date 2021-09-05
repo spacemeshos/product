@@ -112,8 +112,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [x] Dashboard screen.
 - [x] Use discovery service for configuration.
 - [x] New main screens and ui cleanup.
-- [x] Use Spacemesh grpc API.
-- [x] User-defined PoST data size and GPU-based setup.
+- [ ] Use Spacemesh grpc API. <meter value="0.8"/>
+- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
 
 #### SMRepl
 - [ ] Full compatibility with Spacemesh App wallet files
