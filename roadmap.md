@@ -94,6 +94,8 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ----
 
+# Current and future milestones
+
 ## Milestone 6 - Spacemesh 0.2 Public Testnet - Q3 2021
 
 ### Focus: Functionality and Spacemesh App 0.2
