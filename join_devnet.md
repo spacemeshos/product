@@ -125,3 +125,6 @@ The available commands should be displayed.
 
 ## Known Issues
 - [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: don't restart your node after starting to smesh. 
+
+## Full Node Release on Github
+- [go-spacemesh v0.2.3-beta.0](https://github.com/spacemeshos/go-spacemesh/releases/tag/v0.2.3-beta.0)
