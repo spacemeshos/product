@@ -1,6 +1,6 @@
 # Spacemesh 0.2 Preview Release
 
-Latest release: v0.2.0-rc7 (Network Id 203)
+Latest release: v0.2.3-beta.0 (Network Id 207)
 
 > This early Spacemesh 0.2 technical preview release is intended for users who are comfortable with using the command line and terminal applications.
 
@@ -8,14 +8,20 @@ Follow these instructions to join the Spacemesh 0.2 devnet.
 
 ## System Requirements
 
+- A computer with a modern Intel, an AMD CPU (2 cores / 4 native threads) or an Apple M1 CPU.
+- Windows 10 Home or Pro, macOS, Ubuntu 18.04, Fedora 21, or Debian 8.
+- 4 GB RAM.
+- 300 GiB free disk space (HDD or SSD).
+- An always-on, un-metered Internet connection capable of 10 mbps download and 1 mbps upload.
+- Recommended: A graphics card supporting CUDA compute API 9.0 or later, or Vulkan compute API 1.1 or later.
 
 ## Installing & Running
 
 1. Download the devenet release zip file for your platform
 
-- [Windows](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/windows.zip)
-- [macOS](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/macOS.zip)
-- [Linux](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/linux.zip)
+- [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Windows.zip)
+- [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/macOS.zip)
+- [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Linux.zip)
 
 2. Extract the zip file to a directory
 
@@ -28,7 +34,6 @@ Set binaries execution permissions.
 
 ```bash
 chmod u+x go-spacemesh
-chmod u+x lib*
 chmod u+x smrepl
 ```
 
@@ -40,15 +45,6 @@ sudo xattr -rd com.apple.quarantine go-spacemesh
 sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
-
-Or alternatively try
-
-```bash
-spctl --add go-spacemesh
-spctl --add lib*
-spctl --add smrepl
-```
-
 
 5. Start a Spacemesh full node
 
@@ -64,8 +60,6 @@ spctl --add smrepl
 ```
 
 6. Start Smrepl
-
-> Due to a known issue please wait for up to 45 seconds from the time you start the go-spacemesh node in the previous step before starting smrepl.
 
 #### macOS and Linux
 
@@ -107,16 +101,5 @@ chmod +x gpu-setup-test
 
 ---
 
-## Building from Source Code
-
-> You can join the devnet by building this release binaries from source code from our public github repos instead of using our provided binaries.
-
-1. Clone and build go-spacemesh [from this tag](https://github.com/spacemeshos/go-spacemesh/tree/v0.2.0-rc7)
-
-2. Clone and build smrepl [from this tag](https://github.com/spacemeshos/smrepl/tree/v0.1.32)
-
-3. Clone and build gpu-post [from this tag](https://github.com/spacemeshos/gpu-post/tree/v0.1.22)
-
-4. Copy the gpu-post artifacts for your platform to your go-spacemesh directory.
-
-5. Run the full node with this devnet [config file](https://github.com/spacemeshos/go-spacemesh/releases/download/v0.2.0-rc7/config.json)
+## Known Issues
+- [Smeshing fails after restarting node](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: setup smeshing and don't restart your node. 
