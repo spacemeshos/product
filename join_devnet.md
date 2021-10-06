@@ -1,14 +1,14 @@
-# TweedleDev - Spacemesh 0.2 Preview Devnet
+# TweedleDev 207 - Spacemesh 0.2 Preview Devnet
 
-- Current release: v0.2.3-beta.0 (Network Id 207).
+Release date: October 6th, 2021.
 
-- Release date: October 6th, 2021.
+- [Devnet 207 Dashboard](https://dash.spacemesh.io)
 
-- [Devnet Dashboard](https://dash.spacemesh.io)
-
-- [Devnet Explorer](https://explorer.spacemesh.io)
+- [Devnet 207 Explorer](https://explorer.spacemesh.io)
 
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
+
+---
 
 Follow the instructions below to join the devnet.
 
