@@ -1,10 +1,11 @@
-# Spacemesh 0.2 Preview Release
+# TweedleDev - Spacemesh 0.2 Preview Devnet
 
-Latest release: v0.2.3-beta.0 (Network Id 207)
+Current release: v0.2.3-beta.0 (Network Id 207)
+Release date: October 6th, 2021
 
-> This early Spacemesh 0.2 technical preview release is intended for users who are comfortable using the command line and terminal applications.
+> This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
-Follow these instructions to join the Spacemesh 0.2 devnet.
+Follow the instructions below to join the devnet.
 
 ## System Requirements
 
@@ -17,17 +18,17 @@ Follow these instructions to join the Spacemesh 0.2 devnet.
 
 ## Installing & Running
 
-1. Download the devenet release zip file for your platform
+1. Download the devnet release zip file for your platform.
 
 - [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Windows.zip)
 - [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/macOS.zip)
 - [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Linux.zip)
 
-2. Extract the zip file to a directory
+2. Extract the zip file to a directory.
 
-3. Navigate to the directory in terminal
+3. Navigate to the directory in terminal.
 
-4. Configure downloaded binaries
+4. Configure downloaded binaries.
 
 #### Linux and macOS
 Set binaries execution permissions.
@@ -46,7 +47,7 @@ sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
 
-5. Start a Spacemesh full node
+5. Start a Spacemesh full node.
 
 #### macOS and Linux
 ```bash
@@ -59,7 +60,7 @@ sudo xattr -rd com.apple.quarantine smrepl
 .\go-spacemesh.exe -c config.json > log.txt
 ```
 
-6. Start Smrepl
+6. Start Smrepl.
 
 #### macOS and Linux
 
@@ -73,7 +74,7 @@ sudo xattr -rd com.apple.quarantine smrepl
 .\smrepl_windows_amd64.exe
 ```
 
-Proceed to create a wallet and setup smeshing in smrepl.
+7. Proceed to create a wallet and setup smeshing in smrepl.
 
 ----
 
@@ -102,4 +103,4 @@ chmod +x gpu-setup-test
 ---
 
 ## Known Issues
-- [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: setup smeshing and don't restart your node. 
+- [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: don't restart your node after starting to smesh. 
