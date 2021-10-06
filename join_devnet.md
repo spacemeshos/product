@@ -34,10 +34,14 @@ Follow the instructions below to join the devnet.
 #### Linux
 ```bash
 chmod u+x go-spacemesh
+chmod u+x smrepl_linux_amd64
+
 ```
 
 #### macOS
 ```bash
+chmod u+x go-spacemesh
+chmod u+x smrepl_darwon_amd64
 sudo xattr -rd com.apple.quarantine go-spacemesh
 sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl_darwin_amd64
