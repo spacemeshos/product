@@ -4,6 +4,10 @@ Current release: v0.2.3-beta.0 (Network Id 207).
 
 Release date: October 6th, 2021.
 
+Dashboard: https://dash.spacemesh.io
+
+Explorer: https://explorer.spacemesh.io
+
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
 Follow the instructions below to join the devnet.
