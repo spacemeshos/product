@@ -40,7 +40,7 @@ chmod u+x go-spacemesh
 ```bash
 sudo xattr -rd com.apple.quarantine go-spacemesh
 sudo xattr -rd com.apple.quarantine lib*
-sudo xattr -rd com.apple.quarantine smrepl
+sudo xattr -rd com.apple.quarantine smrepl_darwin_amd64
 ```
 
 5. Start a Spacemesh full node.
