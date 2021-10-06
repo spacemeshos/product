@@ -2,7 +2,7 @@
 
 Latest release: v0.2.3-beta.0 (Network Id 207)
 
-> This early Spacemesh 0.2 technical preview release is intended for users who are comfortable with using the command line and terminal applications.
+> This early Spacemesh 0.2 technical preview release is intended for users who are comfortable using the command line and terminal applications.
 
 Follow these instructions to join the Spacemesh 0.2 devnet.
 
@@ -11,9 +11,9 @@ Follow these instructions to join the Spacemesh 0.2 devnet.
 - A computer with a modern Intel, an AMD CPU (2 cores / 4 native threads) or an Apple M1 CPU.
 - Windows 10 Home or Pro, macOS, Ubuntu 18.04, Fedora 21, or Debian 8.
 - 4 GB RAM.
-- 300 GiB free disk space (HDD or SSD).
+- 250 GiB free disk space (HDD or SSD).
 - An always-on, un-metered Internet connection capable of 10 mbps download and 1 mbps upload.
-- Recommended: A graphics card supporting CUDA compute API 9.0 or later, or Vulkan compute API 1.1 or later.
+- Recommended but not required: A graphics card supporting CUDA compute API 9.0 or later, or Vulkan compute API 1.1 or later.
 
 ## Installing & Running
 
@@ -102,4 +102,4 @@ chmod +x gpu-setup-test
 ---
 
 ## Known Issues
-- [Smeshing fails after restarting node](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: setup smeshing and don't restart your node. 
+- [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: setup smeshing and don't restart your node. 
