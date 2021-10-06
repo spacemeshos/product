@@ -19,7 +19,7 @@ Follow the instructions below to join the devnet.
 - 4 GB RAM.
 - 250 GiB free disk space (HDD or SSD).
 - An always-on, un-metered Internet connection capable of 10 mbps download and 1 mbps upload.
-- Recommended but not required: A graphics card supporting CUDA compute API 9.0 or later, or Vulkan compute API 1.1 or later.
+- Recommended but not required: A graphics card supporting CUDA (minimum compute compatibility 5.0, maximum compute compatibility 8.6), or Vulkan compute API 1.2 or later.
 
 ## Installing & Running
 
