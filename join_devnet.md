@@ -1,7 +1,8 @@
 # TweedleDev - Spacemesh 0.2 Preview Devnet
 
-Current release: v0.2.3-beta.0 (Network Id 207)
-Release date: October 6th, 2021
+Current release: v0.2.3-beta.0 (Network Id 207).
+
+Release date: October 6th, 2021.
 
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
@@ -28,19 +29,14 @@ Follow the instructions below to join the devnet.
 
 3. Navigate to the directory in terminal.
 
-4. Configure downloaded binaries.
+4. Configure downloaded binaries for execution.
 
-#### Linux and macOS
-Set binaries execution permissions.
-
+#### Linux
 ```bash
 chmod u+x go-spacemesh
-chmod u+x smrepl
 ```
 
 #### macOS
-Enable downloaded binaries execution.
-
 ```bash
 sudo xattr -rd com.apple.quarantine go-spacemesh
 sudo xattr -rd com.apple.quarantine lib*
