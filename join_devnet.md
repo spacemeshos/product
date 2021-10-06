@@ -89,7 +89,6 @@ Navigate to your directory you extract the zip release to and enter from a termi
 ```bash
 export DYLD_LIBRARY_PATH=.:$DYLD_LIBRARY_PATH
 sudo xattr -rd com.apple.quarantine gpu-setup-test
-
 chmod +x gpu-setup-test
 ./gpu-setup-test
 ```
