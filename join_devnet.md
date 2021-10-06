@@ -43,11 +43,7 @@ sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl
 ```
 
-5. Get network config file.
-
-Download [devnet 127 config file](https://storage.googleapis.com/spacecraft-data/devnet207-archive/config.json) and save it as `config.json`.
-
-6. Start a Spacemesh full node.
+5. Start a Spacemesh full node.
 
 #### macOS and Linux
 ```bash
@@ -60,12 +56,16 @@ Download [devnet 127 config file](https://storage.googleapis.com/spacecraft-data
 .\go-spacemesh.exe -c config.json > log.txt
 ```
 
-7. Start Smrepl.
+6. Start Smrepl.
 
-#### macOS and Linux
-
+#### macOS
 ```bash
-./smrepl
+./smrepl_darwin_amd64
+
+```
+#### Linux
+```bash
+./smrepl_linux_amd64
 ```
 
 #### Windows (PowerShell)
