@@ -1,12 +1,12 @@
 # TweedleDev - Spacemesh 0.2 Preview Devnet
 
-Current release: v0.2.3-beta.0 (Network Id 207).
+- Current release: v0.2.3-beta.0 (Network Id 207).
 
-Release date: October 6th, 2021.
+- Release date: October 6th, 2021.
 
-Dashboard: https://dash.spacemesh.io
+- [Devnet Dashboard](https://dash.spacemesh.io)
 
-Explorer: https://explorer.spacemesh.io
+- [Devnet Explorer](https://explorer.spacemesh.io)
 
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
@@ -45,7 +45,7 @@ chmod u+x smrepl_linux_amd64
 #### macOS
 ```bash
 chmod u+x go-spacemesh
-chmod u+x smrepl_darwon_amd64
+chmod u+x smrepl_darwin_amd64
 sudo xattr -rd com.apple.quarantine go-spacemesh
 sudo xattr -rd com.apple.quarantine lib*
 sudo xattr -rd com.apple.quarantine smrepl_darwin_amd64
