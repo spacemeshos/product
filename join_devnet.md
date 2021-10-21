@@ -1,10 +1,10 @@
-# TweedleDev 207 - Spacemesh 0.2 Preview Devnet
+# TweedleDev 208 - Spacemesh 0.2 Preview Devnet
 
-Release date: October 6th, 2021.
+Release date: October 21st, 2021.
 
-- [Devnet 207 Dashboard](https://dash.spacemesh.io)
-
-- [Devnet 207 Explorer](https://explorer.spacemesh.io)
+- [Dashboard](https://dash.spacemesh.io)
+- [Explorer](https://explorer.spacemesh.io)
+- [Public API](https://api-devnet208.spacemesh.io/)
 
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
@@ -25,9 +25,9 @@ Follow the instructions below to join the devnet.
 
 1. Download the devnet release zip file for your platform.
 
-- [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Windows.zip)
-- [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/macOS.zip)
-- [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.3-beta.0/Linux.zip)
+- [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.4-beta.0/Windows.zip)
+- [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.4-beta.0/macOS.zip)
+- [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.4-beta.0/Linux.zip)
 
 2. Extract the zip file to a directory.
 
@@ -124,7 +124,21 @@ The available commands should be displayed.
 ---
 
 ## Known Issues
-- [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: don't restart your node after starting to smesh. 
+- [Smeshing fails after node restart](https://github.com/spacemeshos/go-spacemesh/issues/2858). Mitigation: don't restart your node after starting to smesh.
+
+--
+
+## Mini FAQ
+
+Q: I've setup smeshing via smrepl and I had later restart the node and now it is not smeshing. How can I keep smeshing after a node restart?
+
+A: After setting post in smrepl, you need to modify your node's config file with the smeshing parameters so your node can continute smeshing using these parameters after you restart it.
+
+Q: I'm getting an error when starting the node on Windows about missing C++ runtime.
+
+A: Install the latest Visual C++ runtime from Microsoft and try again.
+
+---
 
 ## Full Node Release on Github
-- [go-spacemesh v0.2.3-beta.0](https://github.com/spacemeshos/go-spacemesh/releases/tag/v0.2.3-beta.0)
+- [go-spacemesh v0.2.3-beta.0](https://github.com/spacemeshos/go-spacemesh/releases/tag/v0.2.4-beta.0)
