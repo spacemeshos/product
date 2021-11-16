@@ -96,7 +96,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 # Current and future milestones
 
-## Milestone 6 - Spacemesh 0.2 Public Testnet - Q3 2021
+## Milestone 6 - Spacemesh 0.2 Public Testnet - Q4 2021
 
 ### Focus: Functionality and Spacemesh App 0.2
 
@@ -120,7 +120,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ----
 
-## Milestone 7 - Spacemesh 0.3 Public Testnet - Q4 2021
+## Milestone 7 - Spacemesh 0.3 Public Testnet - Q1 2022
 
 ![](resources/sm_basics_infograph_2@2x.png)
 
@@ -149,7 +149,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ---
 
-## Milestone 8 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q4 2021
+## Milestone 8 - Spacemesh 0.3.5 Mainnet Release Candidate on Public Testnet - Q2 2022
 
 ### Focus: GENESIS
 - [ ] Launch release candidate for final testing on testnet before mainnet genesis.
