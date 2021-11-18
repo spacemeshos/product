@@ -1,10 +1,10 @@
-# TweedleDev 209 - Spacemesh 0.2 Preview Devnet
+# TweedleDev 210 - Spacemesh 0.2 Preview Devnet
 
 Release date: November 5th, 2021.
 
 - [Dashboard](https://dash.spacemesh.io)
 - [Explorer](https://explorer.spacemesh.io)
-- [Public gRPC API](https://api-devnet209.spacemesh.io)
+- [Public gRPC API](https://api-devnet210.spacemesh.io)
 
 > This early Spacemesh 0.2 devnet is intended for users who are comfortable using the command line and terminal applications.
 
@@ -25,9 +25,9 @@ Follow the instructions below to join the devnet.
 
 1. Download the devnet release zip file for your platform.
 
-- [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.5-beta.1/Windows.zip)
-- [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.5-beta.1/macOS.zip)
-- [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.5-beta.1/Linux.zip)
+- [Windows](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.6-beta.1/Windows.zip)
+- [macOS](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.6-beta.1/macOS.zip)
+- [Linux](https://storage.googleapis.com/go-spacemesh-release-builds/v0.2.6-beta.1/Linux.zip)
 
 2. Extract the zip file to a directory.
 
@@ -141,4 +141,4 @@ A: Install the latest Visual C++ runtime from Microsoft and try again.
 ---
 
 ## Full Node Release on Github
-[go-spacemesh v0.2.5-beta.1](https://github.com/spacemeshos/sm-net/releases/tag/v0.2.5-beta.1)
+[go-spacemesh v0.2.6-beta.1](https://github.com/spacemeshos/sm-net/releases/tag/v0.2.6-beta.1)
