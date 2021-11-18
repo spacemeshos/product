@@ -1,6 +1,6 @@
 # TweedleDev 210 - Spacemesh 0.2 Preview Devnet
 
-Release date: November 5th, 2021.
+Release date: November 18th, 2021.
 
 - [Dashboard](https://dash.spacemesh.io)
 - [Explorer](https://explorer.spacemesh.io)
