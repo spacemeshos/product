@@ -51,7 +51,7 @@ struct CallAppTx {
 ### Spawn Transaction
 
 ```c
-struct SpwanAppTx {
+struct SpawnAppTx {
     unsigned int TTL; // 32-bit
     opaque Nonce[1];
     opaque TemplateAddress[20];
@@ -89,7 +89,7 @@ enum TransactionAndSignatureType {
     EXEC_APP_ED      = 2, // exec app transaction / ed
     EXEC_APP_EDPLUS  = 3, // exec app transaction / ed++
     SPAWN_APP_ED.    = 4, // spawn app / ed
-    SPWAN_APP_EDPLUS = 5, // spawn app / ed++
+    SPAWN_APP_EDPLUS = 5, // spawn app / ed++
     // future types to be added here
 };
 ```
@@ -114,7 +114,7 @@ struct TransactionAuthenticationMessage {
 
 - `Type` - Transaction type data item as defined in this spec.
 
-- `TransactionData` - The transaction data item. e.g  one of `SimpleCoinTx`, `CallAppTx` or `SpwanAppTx` as defined in this spec.
+- `TransactionData` - The transaction data item. e.g  one of `SimpleCoinTx`, `CallAppTx` or `SpawnAppTx` as defined in this spec.
 
 ----
 
@@ -135,7 +135,7 @@ struct SignedTransaction {
 
 - `Signature` is a digital signature, using the specified signature scheme, of a `TransactionAuthenticationMessage` constructed from the transaction. An ED25519 or an ED25519++ signature is 64 bytes.
 
-- `TransactionData` - The transaction data item, i.e., one of `SimpleCoinTx`, `CallAppTx` or `SpwanAppTx` as defined in this spec.
+- `TransactionData` - The transaction data item, i.e., one of `SimpleCoinTx`, `CallAppTx` or `SpawnAppTx` as defined in this spec.
 
 - `PubKey` - when ED25519 is used (and not ED25519++), the public ed key of the transaction signer. In ED25519++ the public key is extracted from the signed message and the signature.
 
