@@ -108,6 +108,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [x] New main screens and ui cleanup.
 - [x] Use Spacemesh grpc API.
 - [x] User-defined PoST data size and GPU-based setup.
+- [x] Wallet-only Mode.
 
 #### SMRepl
 - [x] Compatibility with Smapp wallet files.
@@ -135,7 +136,6 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [ ] Vaults and multi-sig transactions.
 - [ ] Support new transaction format and signature scheme.
 - [ ] Sign transactions with Ledger hardware device. <meter value="0.2"/>
-- [ ] Wallet-only Mode. <meter value="0.8"/>
 
 #### SMRepl
 - [ ] Vaults and multi-sig transactions.
