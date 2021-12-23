@@ -94,35 +94,33 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 
 ----
 
-# Current and future milestones
-
-## Milestone 6 - Spacemesh 0.2 Public Testnet - Q4 2021
+## Milestone 6 - TweedleDum - Spacemesh 0.2 Public Testnet - Q4 2021
 
 ### Focus: Functionality and Spacemesh App 0.2
 
-#### Full Node
-- [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
-- [ ] Self healing protocol. <meter value="0.7"/>
-
 #### Platform Projects
-- [ ] Testnet rewards drop program. <meter value="0.8"/>
+- [x] Testnet rewards drop program. <meter value="0.8"/>
 
 #### Spacemesh App 0.2
 - [x] Dark mode.
 - [x] Dashboard screen.
 - [x] Use discovery service for configuration.
 - [x] New main screens and ui cleanup.
-- [ ] Use Spacemesh grpc API. <meter value="0.8"/>
-- [ ] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [x] Use Spacemesh grpc API. <meter value="0.8"/>
+- [x] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
 
 #### SMRepl
-- [ ] Full compatibility with Spacemesh App wallet files
+- [x] Compatibility with Smapp wallet files
 
 ----
 
 ## Milestone 7 - Spacemesh 0.3 Public Testnet - Q1 2022
 
 ![](resources/sm_basics_infograph_2@2x.png)
+
+#### Full Node
+- [ ] Smeshers rewards protocol including Hare and ATX rewards. <meter value="0.6"/>
+- [ ] Self healing protocol. <meter value="0.7"/>
 
 ### Focus: SECURITY
 - [ ] Perform comprehensive security audits and execute a bug bounty program for Spacemesh protocol, full nodes and testnet.
