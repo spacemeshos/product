@@ -77,15 +77,15 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: Spacemesh 0.2 consensus protocol
 
 #### Full Node
-- [x] Spacemesh grpc API
+- [x] Spacemesh grpc API.
 - [x] Spacemesh protocol update - Sync, Tortoise and Hare protocols.
 - [x] User-defined PoST data size and GPU-based PoST setup.
-- [x] Supported macOS, Windows 10 and Linux platform
+- [x] Supported macOS, Windows 10 and Linux platform.
 
 #### Smrepl
-- [x] Spacemesh grpc API client
+- [x] Spacemesh grpc API client.
 - [x] User-defined PoST data size and GPU-based PoST setup.
-- [x] Supported macOS, Windows 10 and Linux platform
+- [x] Supported macOS, Windows 10 and Linux platform.
 
 #### Web Services
 - [x] Dashboard and Explorer web apps.
@@ -99,18 +99,18 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 ### Focus: Functionality and Spacemesh App 0.2
 
 #### Platform Projects
-- [x] Testnet rewards drop program. <meter value="0.8"/>
+- [x] Testnet rewards drop program.
 
 #### Spacemesh App 0.2
 - [x] Dark mode.
 - [x] Dashboard screen.
 - [x] Use discovery service for configuration.
 - [x] New main screens and ui cleanup.
-- [x] Use Spacemesh grpc API. <meter value="0.8"/>
-- [x] User-defined PoST data size and GPU-based setup. <meter value="0.8"/>
+- [x] Use Spacemesh grpc API.
+- [x] User-defined PoST data size and GPU-based setup.
 
 #### SMRepl
-- [x] Compatibility with Smapp wallet files
+- [x] Compatibility with Smapp wallet files.
 
 ----
 
