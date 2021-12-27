@@ -108,7 +108,7 @@ The main goal of this release is to provide an MVP of a permissionless and trust
 - [x] New main screens and ui cleanup.
 - [x] Use Spacemesh grpc API.
 - [x] User-defined PoST data size and GPU-based setup.
-- [x] Wallet-only Mode.
+- [x] Wallet-only mode.
 
 #### SMRepl
 - [x] Compatibility with Smapp wallet files.
