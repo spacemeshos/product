@@ -1,6 +1,5 @@
 
 **Platform**
-- [Roadmap](roadmap.md)
 - [Overview](platform.md)
 - [Coin](spacemesh_coin.md)
 - [Glossary](sm0.1_names.md)
