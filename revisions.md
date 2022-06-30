@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">This site is currently undergoing maintenance.</h1>
+<h1 style="text-align: center;">This site is currently undergoing maintenance.</h1>
 
 ## Additional Resources
 
