@@ -1,5 +1,9 @@
 # Spacemesh Project Product Plan and Roadmap
 
+> **Warning**
+> This is not up to date, we're working on the new and updated roadmap.
+
+
 ## TL;DR
 ![](resources/sm_basics_infograph_1@2x.png)
 
